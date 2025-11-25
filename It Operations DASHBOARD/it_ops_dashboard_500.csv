@@ -1,0 +1,501 @@
+TicketID,CreatedDate,Priority,Category,Subcategory,AffectedSystem,Location,AssignedTo,Status,ChangeRequest,KB_Article,ResolvedDate,ResolutionTimeHours,SLA_Breach,Impact,Customer,DowntimeMinutes,RootCause,Comments,Cost(USD),Week_Start_Date,Month,Year
+TKT0001,2025-10-16 03:01:47,Medium,Database,Performance,Payments,Pune,Team-DBA,Resolved,Yes,KB-0028,2025-10-16 12:02:22,9.01,No,Medium,External,5,Code Bug,,339.52,2025-10-13,2025-10,2025
+TKT0002,2025-10-27 22:34:26,High,Hardware,Power,Auth-Service,Bengaluru,Karan L.,Resolved,No,KB-0098,2025-10-28 06:27:14,7.88,No,Low,Internal,0,Expired Cert,,705.26,2025-10-27,2025-10,2025
+TKT0003,2024-12-18 19:16:51,Critical,Security,Malware,Payments,Kolkata,Priya S.,In Progress,No,KB-0080,,,Yes,High,Partner,4,Code Bug,,1120.98,2024-12-16,2024-12,2024
+TKT0004,2024-03-12 01:42:14,Low,Network,Router,Payments,Kolkata,Saurabh D.,Resolved,No,KB-0021,2024-03-13 10:16:43,32.57,No,Low,Partner,0,Human Error,,0.0,2024-03-11,2024-03,2024
+TKT0005,2025-09-15 20:10:34,Medium,Database,Backup,Search,Delhi,Team-NetOps,Resolved,No,KB-0099,2025-09-16 14:20:47,18.17,No,Low,Internal,0,Expired Cert,,0.0,2025-09-15,2025-09,2025
+TKT0006,2025-02-14 08:04:13,Low,Hardware,CPU,Email,Hyderabad,Isha T.,Resolved,No,KB-0059,2025-02-15 19:08:41,35.07,No,Low,External,1,Unknown,,0.0,2025-02-10,2025-02,2025
+TKT0007,2025-07-05 08:47:37,Medium,Hardware,Power,Email,Hyderabad,Amit M.,Resolved,Yes,KB-0007,2025-07-05 22:39:23,13.86,No,Low,Internal,1,Hardware Failure,,0.0,2025-06-30,2025-07,2025
+TKT0008,2025-09-02 02:24:24,Medium,Security,Malware,API-Gateway,Mumbai,Priya S.,In Progress,No,KB-0035,,,Yes,High,Partner,5,Human Error,,1187.85,2025-09-01,2025-09,2025
+TKT0009,2024-10-27 13:10:29,Critical,Cloud,IAM,API-Gateway,Bengaluru,Team-NetOps,Closed,No,KB-0039,2024-10-27 16:51:48,3.69,No,Medium,Internal,3,Capacity,,85.27,2024-10-21,2024-10,2024
+TKT0010,2025-01-17 05:34:49,Low,Network,Firewall,Analytics,Mumbai,Priya S.,Closed,No,KB-0040,2025-01-19 20:08:55,62.57,No,Low,External,0,Human Error,,394.67,2025-01-13,2025-01,2025
+TKT0011,2024-03-28 23:31:52,High,Storage,Snapshot,Data-Warehouse,Bengaluru,Isha T.,Closed,No,KB-0068,2024-03-29 04:13:45,4.7,No,Medium,Internal,8,Unknown,,0.0,2024-03-25,2024-03,2024
+TKT0012,2024-07-24 22:19:25,Low,Cloud,Autoscale,Analytics,Remote,Priya S.,Resolved,Yes,KB-0003,2024-07-25 16:33:26,18.23,No,Low,Internal,1,Config Change,,0.0,2024-07-22,2024-07,2024
+TKT0013,2024-03-13 22:40:03,High,Network,Firewall,Payments,Hyderabad,Saurabh D.,In Progress,No,KB-0017,,,Yes,Medium,External,4,Power Outage,,491.06,2024-03-11,2024-03,2024
+TKT0014,2024-09-05 15:51:26,High,Network,WAN,Email,Kolkata,Karan L.,Resolved,No,KB-0087,2024-09-06 00:12:48,8.36,Yes,Medium,Internal,3,Hardware Failure,,643.87,2024-09-02,2024-09,2024
+TKT0015,2024-12-13 03:15:12,High,Security,Vulnerability,Search,Bengaluru,Saurabh D.,Resolved,No,KB-0010,2024-12-13 15:58:47,12.73,Yes,High,External,3,Human Error,,1589.86,2024-12-09,2024-12,2024
+TKT0016,2024-02-21 20:34:53,Critical,Network,Router,Data-Warehouse,Kolkata,Isha T.,Resolved,No,KB-0008,2024-02-21 23:49:44,3.25,No,Low,Partner,2,Third-party,,0.0,2024-02-19,2024-02,2024
+TKT0017,2025-04-10 09:27:44,Low,Storage,Snapshot,Analytics,Bengaluru,Neha P.,Resolved,No,KB-0075,2025-04-13 09:24:42,71.95,No,Low,Partner,2,Config Change,,1886.15,2025-04-07,2025-04,2025
+TKT0018,2024-02-21 18:30:32,Low,Hardware,Disk,Auth-Service,Pune,Amit M.,Resolved,Yes,KB-0031,2024-02-23 02:38:20,32.13,No,High,External,1,Code Bug,,539.8,2024-02-19,2024-02,2024
+TKT0019,2025-08-15 19:02:39,High,Cloud,IAM,Email,Delhi,Neha P.,In Progress,No,KB-0034,,,Yes,Low,External,0,Third-party,,0.0,2025-08-11,2025-08,2025
+TKT0020,2025-04-13 10:59:48,Low,Network,WAN,Payments,Pune,Team-NetOps,Resolved,No,KB-0045,2025-04-15 03:55:04,40.92,No,High,Partner,5,Third-party,,1521.25,2025-04-07,2025-04,2025
+TKT0021,2024-06-10 14:53:34,Medium,Hardware,CPU,Auth-Service,Delhi,Priya S.,Closed,No,KB-0015,2024-06-10 21:27:42,6.57,No,Medium,Internal,8,Third-party,,0.0,2024-06-10,2024-06,2024
+TKT0022,2024-10-15 19:13:45,Medium,Cloud,IAM,API-Gateway,Remote,Saurabh D.,Closed,No,KB-0012,2024-10-16 00:11:45,4.97,No,High,Internal,3,Config Change,,836.17,2024-10-14,2024-10,2024
+TKT0023,2024-12-07 04:40:16,High,Security,Malware,Search,Mumbai,Priya S.,Resolved,No,KB-0020,2024-12-07 09:14:46,4.58,No,High,External,3,Unknown,,919.36,2024-12-02,2024-12,2024
+TKT0024,2024-05-31 13:08:02,Medium,Storage,SAN,Email,Hyderabad,Neha P.,In Progress,No,KB-0072,,,Yes,High,Partner,7,Capacity,,1202.03,2024-05-27,2024-05,2024
+TKT0025,2024-08-30 05:51:51,High,Security,Vulnerability,Data-Warehouse,Chennai,Karan L.,Open,No,KB-0032,,,Yes,Low,External,0,Human Error,,251.17,2024-08-26,2024-08,2024
+TKT0026,2025-01-26 01:54:30,High,Storage,NAS,Email,Delhi,Neha P.,Resolved,No,KB-0052,2025-01-26 06:22:43,4.47,No,High,Partner,3,Expired Cert,,783.7,2025-01-20,2025-01,2025
+TKT0027,2025-10-18 16:25:43,Low,Hardware,Power,Auth-Service,Pune,Saurabh D.,Resolved,No,KB-0034,2025-10-25 10:43:11,162.29,Yes,Low,Partner,2,Hardware Failure,,771.41,2025-10-13,2025-10,2025
+TKT0028,2025-09-12 16:07:24,Low,Database,Backup,Auth-Service,Kolkata,Ravi K.,Resolved,No,KB-0088,2025-09-13 07:45:07,15.63,No,Medium,External,5,Code Bug,,575.97,2025-09-08,2025-09,2025
+TKT0029,2025-01-07 13:04:42,Low,Hardware,Power,Payments,Delhi,Team-NetOps,Resolved,No,KB-0052,2025-01-11 20:58:05,103.89,Yes,Medium,Internal,2,Hardware Failure,,1053.3,2025-01-06,2025-01,2025
+TKT0030,2025-01-23 21:47:57,High,Hardware,Power,Search,Mumbai,Saurabh D.,Resolved,No,KB-0075,2025-01-23 22:17:57,0.5,No,Low,Partner,1,Power Outage,,636.79,2025-01-20,2025-01,2025
+TKT0031,2024-08-06 16:30:50,Low,Storage,Snapshot,Data-Warehouse,Pune,Saurabh D.,Resolved,No,KB-0043,2024-08-09 04:11:40,59.68,No,Critical,Internal,4,Third-party,,608.37,2024-08-05,2024-08,2024
+TKT0032,2024-08-18 06:09:01,Critical,Security,Malware,Payments,Remote,Karan L.,Open,No,KB-0092,,,Yes,Medium,Partner,8,Hardware Failure,,38.97,2024-08-12,2024-08,2024
+TKT0033,2024-09-06 04:41:44,Critical,Storage,SAN,Search,Hyderabad,Amit M.,Open,No,KB-0060,,,Yes,Low,Internal,3,Human Error,,849.7,2024-09-02,2024-09,2024
+TKT0034,2025-04-12 04:51:29,Medium,Hardware,CPU,Email,Remote,Team-DBA,Open,No,KB-0055,,,Yes,High,External,5,Power Outage,,566.43,2025-04-07,2025-04,2025
+TKT0035,2024-06-11 23:55:30,Medium,Storage,SAN,API-Gateway,Remote,Neha P.,Resolved,Yes,KB-0037,2024-06-13 19:51:32,43.93,Yes,Low,External,1,Human Error,,346.54,2024-06-10,2024-06,2024
+TKT0036,2024-05-21 04:14:24,Medium,Cloud,Provisioning,Payments,Kolkata,Karan L.,Resolved,No,KB-0008,2024-05-21 04:44:24,0.5,No,Medium,External,5,Config Change,,0.0,2024-05-20,2024-05,2024
+TKT0037,2025-08-12 12:30:00,Low,Application,Bug,Search,Hyderabad,Isha T.,Resolved,No,KB-0004,2025-08-13 04:05:58,15.6,No,Medium,Partner,6,Capacity,,0.0,2025-08-11,2025-08,2025
+TKT0038,2025-04-23 04:39:34,Critical,Security,Malware,Auth-Service,Pune,Karan L.,Resolved,No,KB-0007,2025-04-23 05:33:16,0.9,No,Low,Partner,2,Expired Cert,,0.0,2025-04-21,2025-04,2025
+TKT0039,2024-12-11 12:17:48,Low,Security,Access,Payments,Remote,Ravi K.,In Progress,Yes,KB-0045,,,Yes,Low,Internal,2,Config Change,,67.67,2024-12-09,2024-12,2024
+TKT0040,2024-02-01 07:12:53,Critical,Database,Performance,Data-Warehouse,Remote,Priya S.,In Progress,No,KB-0090,,,Yes,Low,Partner,0,Capacity,,1560.08,2024-01-29,2024-02,2024
+TKT0041,2025-09-12 19:47:45,High,Storage,SAN,API-Gateway,Pune,Team-DBA,Resolved,No,KB-0087,2025-09-13 03:59:56,8.2,Yes,Low,External,0,Code Bug,,220.99,2025-09-08,2025-09,2025
+TKT0042,2024-03-18 18:44:53,Medium,Network,Firewall,Payments,Mumbai,Pooja R.,Resolved,No,KB-0009,2024-03-18 22:29:26,3.74,No,Low,Partner,3,Power Outage,,131.36,2024-03-18,2024-03,2024
+TKT0043,2024-04-18 13:23:40,Low,Security,Malware,Data-Warehouse,Kolkata,Amit M.,In Progress,No,KB-0035,,,Yes,Medium,External,2,Power Outage,,0.0,2024-04-15,2024-04,2024
+TKT0044,2025-04-21 13:52:46,Medium,Application,Deployment,Payments,Delhi,Isha T.,Resolved,No,KB-0079,2025-04-21 23:12:58,9.34,No,Low,Partner,1,Expired Cert,,588.52,2025-04-21,2025-04,2025
+TKT0045,2024-07-05 15:13:22,Low,Application,Bug,API-Gateway,Mumbai,Team-NetOps,Closed,Yes,KB-0093,2024-07-06 01:55:12,10.7,No,Medium,Internal,7,Power Outage,,728.71,2024-07-01,2024-07,2024
+TKT0046,2025-10-23 22:31:28,Low,Network,Firewall,Web-Frontend,Kolkata,Neha P.,Resolved,No,KB-0061,2025-10-27 04:17:11,77.76,Yes,Low,External,2,Unknown,,225.68,2025-10-20,2025-10,2025
+TKT0047,2024-12-04 11:44:29,Medium,Application,Deployment,Payments,Hyderabad,Pooja R.,Resolved,No,KB-0098,2024-12-04 18:24:52,6.67,No,Low,External,4,Power Outage,,918.68,2024-12-02,2024-12,2024
+TKT0048,2024-10-10 23:37:48,Medium,Application,Deployment,Web-Frontend,Delhi,Neha P.,Resolved,No,KB-0091,2024-10-11 19:47:04,20.15,No,Low,Internal,3,Unknown,,203.65,2024-10-07,2024-10,2024
+TKT0049,2024-10-26 22:08:40,Low,Security,Vulnerability,Auth-Service,Delhi,Isha T.,Resolved,No,KB-0007,2024-10-28 01:16:13,27.13,No,High,Internal,2,Human Error,,2157.33,2024-10-21,2024-10,2024
+TKT0050,2025-02-14 15:04:36,Medium,Network,Router,Data-Warehouse,Delhi,Priya S.,Reopened,Yes,KB-0098,,,Yes,Medium,External,2,Code Bug,,0.0,2025-02-10,2025-02,2025
+TKT0051,2025-06-19 12:28:58,Medium,Storage,Snapshot,Search,Delhi,Team-DBA,In Progress,No,KB-0095,,,Yes,Low,Internal,0,Code Bug,,0.0,2025-06-16,2025-06,2025
+TKT0052,2024-09-27 21:05:10,High,Hardware,Disk,Data-Warehouse,Mumbai,Karan L.,Resolved,No,KB-0038,2024-09-28 09:15:42,12.18,Yes,Medium,External,4,Power Outage,,744.48,2024-09-23,2024-09,2024
+TKT0053,2024-03-13 21:14:59,Medium,Storage,Snapshot,Web-Frontend,Kolkata,Priya S.,Resolved,No,KB-0035,2024-03-13 22:16:06,1.02,No,Low,Internal,1,Third-party,,881.72,2024-03-11,2024-03,2024
+TKT0054,2025-09-01 23:52:36,Low,Security,Vulnerability,Analytics,Delhi,Karan L.,Closed,No,KB-0064,2025-09-10 22:21:12,214.48,Yes,Medium,Partner,5,Expired Cert,,614.38,2025-09-01,2025-09,2025
+TKT0055,2025-09-10 08:01:05,High,Cloud,IAM,Auth-Service,Delhi,Team-DBA,Resolved,No,KB-0061,2025-09-10 08:31:05,0.5,No,Medium,Partner,5,Capacity,,358.88,2025-09-08,2025-09,2025
+TKT0056,2025-08-22 13:40:52,Medium,Network,WAN,Email,Kolkata,Pooja R.,Resolved,Yes,KB-0021,2025-08-23 13:45:18,24.07,Yes,Medium,Partner,7,Hardware Failure,,0.0,2025-08-18,2025-08,2025
+TKT0057,2025-07-17 01:29:05,Medium,Application,Deployment,Search,Mumbai,Team-NetOps,Resolved,Yes,KB-0067,2025-07-17 09:55:58,8.45,No,High,External,2,Power Outage,,1221.91,2025-07-14,2025-07,2025
+TKT0058,2024-02-22 06:17:35,High,Application,Bug,Analytics,Pune,Ravi K.,Reopened,No,KB-0031,,,Yes,Medium,Partner,4,Unknown,,587.32,2024-02-19,2024-02,2024
+TKT0059,2024-01-15 17:26:05,High,Storage,SAN,Analytics,Pune,Amit M.,Resolved,No,KB-0066,2024-01-15 21:04:32,3.64,No,Medium,Partner,4,Power Outage,,229.25,2024-01-15,2024-01,2024
+TKT0060,2024-09-06 14:35:09,Medium,Hardware,CPU,Data-Warehouse,Pune,Saurabh D.,Open,No,KB-0044,,,Yes,High,External,3,Third-party,,2174.0,2024-09-02,2024-09,2024
+TKT0061,2024-01-03 09:46:19,Low,Hardware,CPU,Analytics,Bengaluru,Isha T.,Resolved,No,KB-0071,2024-01-05 21:00:26,59.24,No,Low,Partner,0,Code Bug,,523.58,2024-01-01,2024-01,2024
+TKT0062,2024-09-01 18:24:14,Low,Security,Vulnerability,Email,Remote,Karan L.,Resolved,No,KB-0084,2024-09-03 19:45:16,49.35,No,Medium,Internal,8,Capacity,,263.05,2024-08-26,2024-09,2024
+TKT0063,2025-05-29 18:21:55,High,Storage,NAS,Payments,Remote,Ravi K.,In Progress,No,KB-0084,,,Yes,Critical,Internal,2,Power Outage,,1140.5,2025-05-26,2025-05,2025
+TKT0064,2024-09-28 10:39:44,Medium,Network,Firewall,Search,Chennai,Isha T.,Open,Yes,KB-0009,,,Yes,Low,External,0,Third-party,,0.0,2024-09-23,2024-09,2024
+TKT0065,2024-08-20 23:05:27,Low,Storage,Snapshot,Payments,Remote,Amit M.,In Progress,No,KB-0006,,,Yes,Low,Internal,0,Third-party,,0.0,2024-08-19,2024-08,2024
+TKT0066,2025-01-02 11:27:09,High,Security,Malware,Data-Warehouse,Bengaluru,Amit M.,Resolved,No,KB-0080,2025-01-02 12:15:26,0.8,No,Medium,External,10,Capacity,,624.8,2024-12-30,2025-01,2025
+TKT0067,2024-08-25 14:40:16,Medium,Cloud,Provisioning,Analytics,Delhi,Team-NetOps,Resolved,No,KB-0045,2024-08-25 23:36:13,8.93,No,Low,Partner,1,Third-party,,976.43,2024-08-19,2024-08,2024
+TKT0068,2025-04-12 09:12:24,Low,Network,Router,Search,Chennai,Team-DBA,Resolved,No,KB-0003,2025-04-15 18:06:48,80.91,Yes,Medium,Partner,6,Config Change,,0.0,2025-04-07,2025-04,2025
+TKT0069,2025-08-02 21:49:47,Low,Hardware,CPU,Analytics,Delhi,Neha P.,In Progress,No,KB-0082,,,Yes,Low,Partner,0,Capacity,,362.08,2025-07-28,2025-08,2025
+TKT0070,2025-10-05 03:57:40,Medium,Application,Bug,Auth-Service,Chennai,Amit M.,Resolved,No,KB-0096,2025-10-07 13:42:49,57.75,Yes,Low,External,1,Expired Cert,,134.93,2025-09-29,2025-10,2025
+TKT0071,2025-06-27 16:58:17,Low,Application,Bug,API-Gateway,Chennai,Priya S.,Resolved,Yes,KB-0097,2025-06-29 03:14:39,34.27,No,High,External,6,Hardware Failure,,650.43,2025-06-23,2025-06,2025
+TKT0072,2025-07-24 11:05:50,Medium,Application,Upgrade,Payments,Remote,Pooja R.,In Progress,No,KB-0075,,,Yes,Low,External,1,Expired Cert,,195.59,2025-07-21,2025-07,2025
+TKT0073,2024-04-20 21:14:30,Critical,Hardware,Power,Web-Frontend,Pune,Isha T.,Closed,No,KB-0053,2024-04-21 04:14:19,7.0,Yes,Low,Internal,0,Third-party,,506.92,2024-04-15,2024-04,2024
+TKT0074,2025-05-19 03:06:15,Low,Database,Backup,Analytics,Chennai,Team-NetOps,Resolved,No,KB-0020,2025-05-19 09:14:41,6.14,No,Medium,Partner,2,Hardware Failure,,878.94,2025-05-19,2025-05,2025
+TKT0075,2024-10-13 01:44:23,High,Security,Vulnerability,Email,Pune,Pooja R.,Resolved,No,KB-0046,2024-10-13 12:46:51,11.04,Yes,Low,Internal,1,Power Outage,,0.0,2024-10-07,2024-10,2024
+TKT0076,2024-04-03 21:13:41,Medium,Network,Switch,Email,Hyderabad,Amit M.,Open,No,KB-0098,,,Yes,Medium,External,8,Code Bug,,0.0,2024-04-01,2024-04,2024
+TKT0077,2024-08-26 10:49:09,Low,Hardware,Disk,API-Gateway,Bengaluru,Amit M.,Resolved,No,KB-0015,2024-09-01 03:13:46,136.41,Yes,Low,Internal,0,Expired Cert,,48.84,2024-08-26,2024-08,2024
+TKT0078,2024-08-31 18:20:01,High,Network,Router,Search,Pune,Priya S.,Resolved,No,KB-0066,2024-08-31 22:22:50,4.05,No,Medium,Internal,1,Config Change,,197.72,2024-08-26,2024-08,2024
+TKT0079,2025-06-17 09:29:41,Low,Network,WAN,Search,Kolkata,Priya S.,Resolved,No,KB-0010,2025-06-17 16:41:46,7.2,No,Low,Internal,2,Human Error,,145.62,2025-06-16,2025-06,2025
+TKT0080,2024-05-09 08:39:40,Medium,Cloud,Autoscale,Search,Delhi,Isha T.,Resolved,No,KB-0090,2024-05-09 15:07:16,6.46,No,Medium,External,3,Code Bug,,400.86,2024-05-06,2024-05,2024
+TKT0081,2025-03-16 14:56:14,Medium,Storage,NAS,Search,Kolkata,Priya S.,Resolved,No,KB-0033,2025-03-19 10:11:08,67.25,Yes,Low,Partner,0,Human Error,,234.83,2025-03-10,2025-03,2025
+TKT0082,2024-04-03 02:05:27,High,Cloud,Autoscale,Data-Warehouse,Mumbai,Team-DBA,Closed,No,KB-0086,2024-04-04 09:48:52,31.72,Yes,Low,External,0,Hardware Failure,,691.75,2024-04-01,2024-04,2024
+TKT0083,2024-02-22 09:38:19,Medium,Hardware,CPU,Web-Frontend,Bengaluru,Isha T.,Resolved,Yes,KB-0072,2024-02-23 01:08:06,15.5,No,High,External,8,Code Bug,,944.53,2024-02-19,2024-02,2024
+TKT0084,2025-03-15 17:49:52,Medium,Cloud,IAM,Auth-Service,Delhi,Ravi K.,Resolved,No,KB-0040,2025-03-16 12:24:55,18.58,No,Low,Internal,0,Capacity,,688.15,2025-03-10,2025-03,2025
+TKT0085,2025-08-02 21:25:04,High,Cloud,Provisioning,Payments,Hyderabad,Karan L.,Resolved,No,KB-0048,2025-08-02 22:45:05,1.33,No,Low,External,1,Human Error,,0.0,2025-07-28,2025-08,2025
+TKT0086,2024-02-23 04:10:48,Medium,Cloud,Provisioning,API-Gateway,Remote,Karan L.,Resolved,No,KB-0035,2024-02-26 02:32:50,70.37,Yes,Medium,Partner,10,Hardware Failure,,275.2,2024-02-19,2024-02,2024
+TKT0087,2024-04-23 09:43:43,Medium,Hardware,CPU,API-Gateway,Mumbai,Neha P.,Resolved,No,KB-0001,2024-04-24 03:58:34,18.25,No,High,Internal,4,Third-party,,1589.72,2024-04-22,2024-04,2024
+TKT0088,2024-10-23 10:07:00,Medium,Security,Vulnerability,Data-Warehouse,Kolkata,Team-NetOps,In Progress,No,KB-0086,,,Yes,High,Internal,8,Hardware Failure,,765.41,2024-10-21,2024-10,2024
+TKT0089,2024-02-13 13:01:29,Low,Storage,NAS,Search,Kolkata,Karan L.,Resolved,No,KB-0042,2024-02-14 07:25:17,18.4,No,High,Partner,9,Expired Cert,,466.19,2024-02-12,2024-02,2024
+TKT0090,2024-03-31 13:54:06,High,Hardware,Power,Payments,Kolkata,Saurabh D.,In Progress,No,KB-0100,,,Yes,Low,External,2,Human Error,,128.81,2024-03-25,2024-03,2024
+TKT0091,2025-06-27 16:12:57,Low,Application,Upgrade,Data-Warehouse,Hyderabad,Priya S.,Resolved,No,KB-0078,2025-06-30 08:22:20,64.16,No,High,Internal,6,Capacity,,1084.99,2025-06-23,2025-06,2025
+TKT0092,2025-10-05 15:29:48,Medium,Hardware,Power,Email,Chennai,Amit M.,Resolved,No,KB-0081,2025-10-06 07:18:01,15.8,No,Low,Internal,1,Expired Cert,,776.62,2025-09-29,2025-10,2025
+TKT0093,2025-06-03 02:19:29,Medium,Network,Firewall,API-Gateway,Pune,Priya S.,In Progress,No,KB-0060,,,Yes,Medium,External,1,Config Change,,522.69,2025-06-02,2025-06,2025
+TKT0094,2025-04-05 18:41:12,Medium,Security,Malware,Data-Warehouse,Mumbai,Isha T.,Resolved,No,KB-0044,2025-04-06 18:03:57,23.38,No,Low,External,0,Capacity,,884.32,2025-03-31,2025-04,2025
+TKT0095,2024-02-10 07:45:28,Low,Hardware,CPU,Data-Warehouse,Chennai,Pooja R.,Closed,No,KB-0100,2024-02-10 16:12:09,8.44,No,Medium,External,1,Expired Cert,,0.0,2024-02-05,2024-02,2024
+TKT0096,2024-03-08 10:06:35,Medium,Application,Bug,Data-Warehouse,Chennai,Priya S.,In Progress,No,KB-0045,,,Yes,Low,External,2,Hardware Failure,,922.17,2024-03-04,2024-03,2024
+TKT0097,2024-05-12 19:45:05,Medium,Security,Malware,Email,Bengaluru,Team-NetOps,Resolved,No,KB-0066,2024-05-13 09:36:16,13.85,No,Low,Internal,1,Code Bug,,690.77,2024-05-06,2024-05,2024
+TKT0098,2024-12-15 15:12:14,Low,Database,Performance,API-Gateway,Pune,Team-NetOps,Open,No,KB-0068,,,Yes,Low,Partner,1,Capacity,,365.35,2024-12-09,2024-12,2024
+TKT0099,2025-09-03 12:09:10,High,Cloud,IAM,Data-Warehouse,Remote,Ravi K.,Resolved,No,KB-0031,2025-09-04 04:52:02,16.71,Yes,Medium,External,6,Power Outage,,138.54,2025-09-01,2025-09,2025
+TKT0100,2024-08-27 17:15:19,Low,Storage,NAS,Web-Frontend,Chennai,Team-DBA,Reopened,No,KB-0037,,,Yes,High,External,2,Unknown,,962.35,2024-08-26,2024-08,2024
+TKT0101,2025-03-04 05:52:12,Low,Database,Backup,Auth-Service,Remote,Pooja R.,In Progress,Yes,KB-0067,,,Yes,High,Partner,3,Human Error,,968.66,2025-03-03,2025-03,2025
+TKT0102,2024-06-13 08:28:57,Medium,Storage,NAS,Payments,Hyderabad,Isha T.,Open,No,KB-0054,,,Yes,Low,External,1,Expired Cert,,677.57,2024-06-10,2024-06,2024
+TKT0103,2024-08-29 12:05:23,High,Application,Deployment,Email,Bengaluru,Amit M.,Resolved,No,KB-0061,2024-08-29 13:27:23,1.37,No,Low,External,0,Power Outage,,0.0,2024-08-26,2024-08,2024
+TKT0104,2025-04-04 19:00:57,High,Application,Deployment,Data-Warehouse,Kolkata,Priya S.,Open,No,KB-0016,,,Yes,Low,Partner,0,Power Outage,,0.0,2025-03-31,2025-04,2025
+TKT0105,2024-03-05 03:53:57,Medium,Hardware,Disk,Web-Frontend,Bengaluru,Saurabh D.,Resolved,No,KB-0031,2024-03-05 05:40:57,1.78,No,Low,External,0,Human Error,,0.0,2024-03-04,2024-03,2024
+TKT0106,2025-06-20 11:04:33,Medium,Storage,Snapshot,Auth-Service,Kolkata,Isha T.,Resolved,No,KB-0048,2025-06-20 19:46:23,8.7,No,Low,Internal,1,Expired Cert,,104.23,2025-06-16,2025-06,2025
+TKT0107,2024-09-03 23:42:40,High,Hardware,CPU,Email,Bengaluru,Ravi K.,Resolved,No,KB-0083,2024-09-04 00:12:40,0.5,No,High,Partner,5,Power Outage,,1425.68,2024-09-02,2024-09,2024
+TKT0108,2025-10-08 05:51:08,High,Storage,NAS,Auth-Service,Delhi,Neha P.,Resolved,No,KB-0006,2025-10-08 14:40:48,8.83,Yes,Low,Partner,0,Unknown,,0.0,2025-10-06,2025-10,2025
+TKT0109,2025-04-29 08:02:48,Medium,Application,Bug,Auth-Service,Chennai,Saurabh D.,Resolved,No,KB-0052,2025-04-29 12:33:24,4.51,No,High,Partner,6,Expired Cert,,1425.7,2025-04-28,2025-04,2025
+TKT0110,2024-07-10 15:44:31,Medium,Storage,Snapshot,API-Gateway,Pune,Karan L.,Resolved,No,KB-0024,2024-07-12 11:03:09,43.31,Yes,Low,Internal,1,Expired Cert,,0.0,2024-07-08,2024-07,2024
+TKT0111,2024-10-29 09:28:38,Medium,Database,Replication,Analytics,Chennai,Isha T.,Resolved,No,KB-0046,2024-10-29 11:39:13,2.18,No,Medium,External,4,Config Change,,0.0,2024-10-28,2024-10,2024
+TKT0112,2024-03-17 21:40:25,Medium,Storage,Snapshot,Data-Warehouse,Mumbai,Amit M.,Open,No,KB-0057,,,Yes,Low,Internal,0,Code Bug,,0.0,2024-03-11,2024-03,2024
+TKT0113,2025-10-22 11:23:24,Low,Network,Router,Analytics,Chennai,Pooja R.,Resolved,Yes,KB-0018,2025-10-27 18:48:20,127.42,Yes,Low,External,2,Third-party,,0.0,2025-10-20,2025-10,2025
+TKT0114,2024-09-12 03:01:47,High,Hardware,Power,Payments,Delhi,Saurabh D.,In Progress,No,KB-0079,,,Yes,Low,Partner,1,Code Bug,,198.35,2024-09-09,2024-09,2024
+TKT0115,2024-05-05 04:54:04,Medium,Cloud,Autoscale,Payments,Chennai,Pooja R.,In Progress,No,KB-0038,,,Yes,High,Internal,4,Capacity,,1463.09,2024-04-29,2024-05,2024
+TKT0116,2025-01-05 16:14:07,Low,Storage,SAN,Web-Frontend,Remote,Ravi K.,Resolved,No,KB-0060,2025-01-06 17:35:28,25.36,No,Medium,External,4,Human Error,,1154.71,2024-12-30,2025-01,2025
+TKT0117,2024-03-08 09:25:45,Medium,Hardware,Power,Search,Pune,Amit M.,Reopened,No,KB-0058,,,Yes,Medium,External,3,Expired Cert,,224.26,2024-03-04,2024-03,2024
+TKT0118,2024-05-11 17:40:37,High,Database,Backup,Auth-Service,Pune,Team-NetOps,Resolved,No,KB-0042,2024-05-11 21:03:29,3.38,No,Low,External,1,Third-party,,0.0,2024-05-06,2024-05,2024
+TKT0119,2024-03-21 08:12:40,Low,Application,Deployment,API-Gateway,Pune,Team-NetOps,In Progress,No,KB-0075,,,Yes,Low,External,2,Expired Cert,,0.0,2024-03-18,2024-03,2024
+TKT0120,2025-07-31 01:52:55,Critical,Network,Firewall,Web-Frontend,Kolkata,Team-DBA,In Progress,No,KB-0081,,,Yes,Medium,External,7,Third-party,,577.7,2025-07-28,2025-07,2025
+TKT0121,2025-05-09 07:51:51,Medium,Application,Bug,Payments,Mumbai,Amit M.,Resolved,No,KB-0027,2025-05-09 15:22:22,7.51,No,Low,External,1,Expired Cert,,0.0,2025-05-05,2025-05,2025
+TKT0122,2024-12-19 12:08:48,Medium,Hardware,Disk,Email,Hyderabad,Isha T.,Resolved,No,KB-0019,2024-12-20 06:15:21,18.11,No,Low,Partner,0,Hardware Failure,,46.64,2024-12-16,2024-12,2024
+TKT0123,2024-09-11 05:52:20,Low,Cloud,Autoscale,Web-Frontend,Bengaluru,Isha T.,Reopened,No,KB-0040,,,Yes,Medium,Internal,4,Hardware Failure,,0.0,2024-09-09,2024-09,2024
+TKT0124,2025-06-01 14:15:13,Medium,Network,Switch,API-Gateway,Remote,Team-DBA,Open,No,KB-0061,,,Yes,Low,Internal,0,Human Error,,7.72,2025-05-26,2025-06,2025
+TKT0125,2025-03-17 04:56:16,Medium,Storage,NAS,Email,Mumbai,Karan L.,Resolved,No,KB-0047,2025-03-20 21:16:51,88.34,Yes,Low,External,0,Power Outage,,0.0,2025-03-17,2025-03,2025
+TKT0126,2025-07-17 08:52:39,Medium,Network,Router,Payments,Kolkata,Pooja R.,Open,No,KB-0047,,,Yes,High,Internal,9,Unknown,,1380.13,2025-07-14,2025-07,2025
+TKT0127,2025-02-15 16:02:02,Critical,Cloud,Autoscale,Analytics,Remote,Amit M.,In Progress,No,KB-0042,,,Yes,High,Partner,4,Capacity,,1583.89,2025-02-10,2025-02,2025
+TKT0128,2025-02-06 19:47:53,Medium,Application,Upgrade,Analytics,Delhi,Isha T.,Open,No,KB-0087,,,Yes,Low,Partner,0,Third-party,,327.21,2025-02-03,2025-02,2025
+TKT0129,2025-10-06 00:38:30,Medium,Cloud,IAM,Web-Frontend,Mumbai,Team-DBA,Resolved,No,KB-0093,2025-10-07 07:05:37,30.45,Yes,High,Internal,2,Code Bug,,1271.74,2025-10-06,2025-10,2025
+TKT0130,2024-02-02 18:44:07,High,Security,Access,Search,Bengaluru,Karan L.,In Progress,No,KB-0100,,,Yes,Medium,Partner,7,Config Change,,717.46,2024-01-29,2024-02,2024
+TKT0131,2024-05-21 16:13:35,Medium,Cloud,Autoscale,Search,Chennai,Amit M.,Resolved,No,KB-0070,2024-05-21 23:06:44,6.89,No,High,External,8,Third-party,,1082.6,2024-05-20,2024-05,2024
+TKT0132,2025-09-16 15:12:15,Medium,Application,Deployment,API-Gateway,Delhi,Neha P.,In Progress,No,KB-0062,,,Yes,Low,External,0,Third-party,,484.47,2025-09-15,2025-09,2025
+TKT0133,2024-10-21 03:36:43,Medium,Security,Access,Data-Warehouse,Delhi,Ravi K.,Resolved,No,KB-0045,2024-10-21 06:29:29,2.88,No,Medium,External,7,Power Outage,,954.89,2024-10-21,2024-10,2024
+TKT0134,2024-08-07 06:52:34,Medium,Hardware,CPU,API-Gateway,Bengaluru,Priya S.,In Progress,No,KB-0032,,,Yes,Low,External,1,Code Bug,,401.02,2024-08-05,2024-08,2024
+TKT0135,2025-10-15 07:03:06,Medium,Cloud,Autoscale,Payments,Bengaluru,Ravi K.,Closed,No,KB-0021,2025-10-16 16:06:37,33.06,Yes,High,Partner,3,Power Outage,,777.85,2025-10-13,2025-10,2025
+TKT0136,2025-10-28 06:48:18,Medium,Cloud,Provisioning,Payments,Hyderabad,Team-NetOps,In Progress,No,KB-0005,,,Yes,High,Internal,7,Hardware Failure,,1188.65,2025-10-27,2025-10,2025
+TKT0137,2024-06-29 01:53:25,Low,Database,Replication,API-Gateway,Mumbai,Ravi K.,Resolved,No,KB-0043,2024-06-29 13:26:00,11.54,No,Critical,External,7,Unknown,,898.58,2024-06-24,2024-06,2024
+TKT0138,2025-05-20 04:54:32,Medium,Database,Performance,Email,Bengaluru,Isha T.,In Progress,No,KB-0002,,,Yes,Medium,Partner,9,Code Bug,,223.46,2025-05-19,2025-05,2025
+TKT0139,2024-06-28 19:54:40,Low,Storage,NAS,Email,Pune,Karan L.,In Progress,No,KB-0018,,,Yes,Medium,Internal,7,Config Change,,1469.35,2024-06-24,2024-06,2024
+TKT0140,2024-09-24 12:15:28,Low,Application,Bug,Auth-Service,Delhi,Pooja R.,In Progress,Yes,KB-0016,,,Yes,Medium,Internal,3,Hardware Failure,,461.98,2024-09-23,2024-09,2024
+TKT0141,2025-05-29 22:49:19,Medium,Cloud,Autoscale,Email,Hyderabad,Neha P.,Closed,No,KB-0059,2025-05-29 23:19:19,0.5,No,Medium,Partner,6,Unknown,,0.0,2025-05-26,2025-05,2025
+TKT0142,2025-04-27 17:51:42,Low,Storage,SAN,Payments,Remote,Team-NetOps,In Progress,Yes,KB-0073,,,Yes,Low,External,1,Unknown,,69.63,2025-04-21,2025-04,2025
+TKT0143,2024-07-26 18:34:09,High,Storage,Snapshot,Analytics,Pune,Neha P.,In Progress,No,KB-0066,,,Yes,Medium,Internal,6,Power Outage,,65.56,2024-07-22,2024-07,2024
+TKT0144,2024-05-15 16:26:29,Medium,Hardware,Power,API-Gateway,Mumbai,Karan L.,Resolved,Yes,KB-0028,2024-05-15 18:09:15,1.71,No,Low,Partner,2,Human Error,,0.0,2024-05-13,2024-05,2024
+TKT0145,2025-07-08 01:59:57,High,Security,Vulnerability,API-Gateway,Kolkata,Amit M.,Open,No,KB-0094,,,Yes,Medium,Partner,4,Expired Cert,,1484.96,2025-07-07,2025-07,2025
+TKT0146,2025-01-26 14:55:58,Low,Security,Vulnerability,Data-Warehouse,Chennai,Priya S.,Resolved,No,KB-0068,2025-01-26 18:50:51,3.91,No,Critical,Internal,6,Config Change,,446.45,2025-01-20,2025-01,2025
+TKT0147,2024-11-01 14:43:46,Medium,Hardware,Power,Web-Frontend,Hyderabad,Isha T.,Resolved,No,KB-0093,2024-11-01 18:35:05,3.86,No,Low,External,2,Hardware Failure,,616.61,2024-10-28,2024-11,2024
+TKT0148,2025-09-21 00:15:13,High,Hardware,Disk,Analytics,Mumbai,Neha P.,In Progress,No,KB-0030,,,Yes,Medium,Internal,2,Capacity,,0.0,2025-09-15,2025-09,2025
+TKT0149,2025-05-30 09:14:52,Low,Hardware,Power,Email,Hyderabad,Saurabh D.,Open,No,KB-0067,,,Yes,Low,Partner,2,Third-party,,0.0,2025-05-26,2025-05,2025
+TKT0150,2024-03-03 17:37:56,Medium,Database,Replication,Search,Remote,Ravi K.,Reopened,No,KB-0086,,,Yes,Low,External,1,Expired Cert,,0.0,2024-02-26,2024-03,2024
+TKT0151,2025-03-02 13:09:19,Medium,Storage,Snapshot,Analytics,Hyderabad,Neha P.,Resolved,No,KB-0060,2025-03-02 15:15:57,2.11,No,Medium,Partner,4,Unknown,,606.93,2025-02-24,2025-03,2025
+TKT0152,2025-06-26 04:24:15,Medium,Application,Upgrade,Payments,Remote,Pooja R.,Resolved,No,KB-0025,2025-06-27 17:34:20,37.17,Yes,Low,External,1,Config Change,,0.0,2025-06-23,2025-06,2025
+TKT0153,2024-03-15 06:51:48,Medium,Cloud,IAM,Web-Frontend,Remote,Neha P.,Open,No,KB-0002,,,Yes,Low,Internal,1,Human Error,,496.55,2024-03-11,2024-03,2024
+TKT0154,2025-05-05 07:44:38,Medium,Security,Vulnerability,Email,Delhi,Karan L.,Resolved,No,KB-0040,2025-05-05 08:14:38,0.5,No,Medium,Partner,2,Power Outage,,45.23,2025-05-05,2025-05,2025
+TKT0155,2024-04-10 23:30:48,Low,Database,Backup,Email,Kolkata,Ravi K.,In Progress,No,KB-0019,,,Yes,Low,External,0,Hardware Failure,,0.0,2024-04-08,2024-04,2024
+TKT0156,2024-10-29 04:12:21,High,Hardware,Disk,Analytics,Chennai,Saurabh D.,Open,No,KB-0093,,,Yes,Medium,Partner,6,Power Outage,,1082.34,2024-10-28,2024-10,2024
+TKT0157,2024-06-21 23:50:22,High,Cloud,IAM,Analytics,Bengaluru,Team-NetOps,Reopened,No,KB-0068,,,Yes,Low,Internal,1,Config Change,,0.0,2024-06-17,2024-06,2024
+TKT0158,2024-01-07 13:08:53,Medium,Network,Router,Auth-Service,Hyderabad,Team-NetOps,Resolved,Yes,KB-0082,2024-01-07 19:50:42,6.7,No,Medium,Partner,8,Power Outage,,1048.23,2024-01-01,2024-01,2024
+TKT0159,2024-01-17 00:34:35,Medium,Network,Firewall,API-Gateway,Mumbai,Team-NetOps,Open,No,KB-0023,,,Yes,Low,Internal,0,Unknown,,1277.62,2024-01-15,2024-01,2024
+TKT0160,2024-06-01 07:12:39,Medium,Storage,NAS,API-Gateway,Kolkata,Priya S.,Resolved,No,KB-0073,2024-06-01 12:56:14,5.73,No,Medium,Partner,5,Human Error,,536.13,2024-05-27,2024-06,2024
+TKT0161,2025-10-31 20:48:02,High,Security,Access,Analytics,Mumbai,Ravi K.,In Progress,Yes,KB-0056,,,Yes,Medium,Partner,2,Human Error,,0.0,2025-10-27,2025-10,2025
+TKT0162,2025-06-24 01:14:13,Low,Cloud,IAM,Analytics,Delhi,Ravi K.,Closed,No,KB-0036,2025-06-25 23:46:05,46.53,No,Medium,Internal,3,Capacity,,475.93,2025-06-23,2025-06,2025
+TKT0163,2024-11-18 00:13:37,High,Storage,Snapshot,Search,Pune,Saurabh D.,Resolved,No,KB-0050,2024-11-18 01:10:08,0.94,No,Medium,Partner,8,Capacity,,0.0,2024-11-18,2024-11,2024
+TKT0164,2024-03-21 16:47:22,High,Security,Vulnerability,Payments,Chennai,Team-DBA,Open,No,KB-0051,,,Yes,Critical,Partner,3,Config Change,,1013.05,2024-03-18,2024-03,2024
+TKT0165,2025-10-11 08:50:28,Medium,Application,Upgrade,Search,Kolkata,Amit M.,In Progress,No,KB-0011,,,Yes,High,Partner,5,Code Bug,,525.3,2025-10-06,2025-10,2025
+TKT0166,2024-03-16 02:17:09,Medium,Storage,Snapshot,Data-Warehouse,Kolkata,Pooja R.,Resolved,Yes,KB-0040,2024-03-16 23:12:26,20.92,No,High,Internal,3,Capacity,,2316.19,2024-03-11,2024-03,2024
+TKT0167,2024-03-30 05:27:28,Medium,Hardware,Power,Payments,Mumbai,Priya S.,Resolved,Yes,KB-0077,2024-03-30 11:17:52,5.84,No,High,Internal,4,Third-party,,823.91,2024-03-25,2024-03,2024
+TKT0168,2025-02-27 12:49:05,Medium,Hardware,Disk,Data-Warehouse,Kolkata,Amit M.,Resolved,No,KB-0064,2025-02-27 14:19:03,1.5,No,Low,Partner,1,Hardware Failure,,321.26,2025-02-24,2025-02,2025
+TKT0169,2024-11-02 15:50:04,Medium,Database,Replication,Analytics,Hyderabad,Isha T.,Resolved,No,KB-0051,2024-11-03 14:13:20,22.39,No,Medium,Partner,7,Power Outage,,0.0,2024-10-28,2024-11,2024
+TKT0170,2024-12-08 13:52:52,Low,Hardware,Disk,API-Gateway,Chennai,Team-DBA,Closed,No,KB-0041,2024-12-10 10:50:51,44.97,No,Low,Partner,3,Third-party,,86.88,2024-12-02,2024-12,2024
+TKT0171,2025-10-10 15:36:50,High,Security,Access,Search,Chennai,Priya S.,Closed,No,KB-0070,2025-10-10 23:09:23,7.54,No,High,Internal,6,Power Outage,,1214.81,2025-10-06,2025-10,2025
+TKT0172,2024-08-02 14:51:18,Low,Network,WAN,Analytics,Bengaluru,Saurabh D.,Resolved,No,KB-0092,2024-08-03 02:19:34,11.47,No,Low,Partner,2,Power Outage,,303.84,2024-07-29,2024-08,2024
+TKT0173,2025-08-19 12:34:32,Low,Storage,Snapshot,Search,Mumbai,Pooja R.,In Progress,No,KB-0077,,,Yes,Medium,Internal,10,Human Error,,0.0,2025-08-18,2025-08,2025
+TKT0174,2024-09-11 21:42:22,High,Hardware,Disk,Search,Chennai,Karan L.,Resolved,Yes,KB-0029,2024-09-11 22:31:42,0.82,No,Medium,External,4,Code Bug,,450.52,2024-09-09,2024-09,2024
+TKT0175,2025-04-01 11:25:29,Low,Hardware,CPU,Data-Warehouse,Chennai,Ravi K.,Resolved,No,KB-0011,2025-04-02 09:14:28,21.82,No,High,Internal,7,Expired Cert,,1041.14,2025-03-31,2025-04,2025
+TKT0176,2024-11-15 10:29:50,High,Security,Access,Analytics,Pune,Isha T.,In Progress,No,KB-0009,,,Yes,Low,External,3,Human Error,,732.74,2024-11-11,2024-11,2024
+TKT0177,2024-01-24 10:41:06,Medium,Database,Replication,Web-Frontend,Bengaluru,Team-NetOps,Resolved,No,KB-0060,2024-01-25 14:40:10,27.98,Yes,Medium,Internal,9,Capacity,,49.82,2024-01-22,2024-01,2024
+TKT0178,2025-10-17 21:27:25,Critical,Hardware,Disk,Analytics,Kolkata,Karan L.,Resolved,No,KB-0036,2025-10-17 22:32:25,1.08,No,High,Internal,2,Human Error,,597.61,2025-10-13,2025-10,2025
+TKT0179,2025-07-03 05:23:20,High,Network,Firewall,Analytics,Chennai,Team-DBA,Resolved,No,KB-0015,2025-07-03 05:53:20,0.5,No,High,External,7,Capacity,,1492.16,2025-06-30,2025-07,2025
+TKT0180,2024-10-31 19:37:05,Medium,Application,Deployment,Web-Frontend,Delhi,Priya S.,Resolved,No,KB-0066,2024-11-03 03:12:46,55.59,Yes,Medium,External,6,Hardware Failure,,93.01,2024-10-28,2024-10,2024
+TKT0181,2025-03-09 05:31:40,Medium,Cloud,Provisioning,Data-Warehouse,Remote,Saurabh D.,Resolved,No,KB-0058,2025-03-09 23:29:44,17.97,No,High,Internal,3,Power Outage,,1277.69,2025-03-03,2025-03,2025
+TKT0182,2024-05-19 06:52:24,Low,Hardware,CPU,Analytics,Kolkata,Isha T.,Resolved,No,KB-0063,2024-05-20 07:41:51,24.82,No,Medium,Internal,6,Third-party,,0.0,2024-05-13,2024-05,2024
+TKT0183,2024-02-03 08:14:34,Medium,Storage,NAS,Analytics,Pune,Team-DBA,Resolved,No,KB-0047,2024-02-04 11:30:10,27.26,Yes,High,External,4,Power Outage,,2178.69,2024-01-29,2024-02,2024
+TKT0184,2025-07-13 06:27:06,Medium,Cloud,Provisioning,API-Gateway,Mumbai,Isha T.,Resolved,No,KB-0012,2025-07-13 23:06:41,16.66,No,Critical,Internal,3,Code Bug,,1468.92,2025-07-07,2025-07,2025
+TKT0185,2025-08-25 22:22:55,Medium,Cloud,Autoscale,Data-Warehouse,Bengaluru,Neha P.,Open,No,KB-0073,,,Yes,Low,Partner,5,Unknown,,111.53,2025-08-25,2025-08,2025
+TKT0186,2024-06-21 10:45:18,Medium,Application,Upgrade,Payments,Bengaluru,Karan L.,Closed,No,KB-0084,2024-06-21 19:42:29,8.95,No,High,Internal,4,Capacity,,600.85,2024-06-17,2024-06,2024
+TKT0187,2024-11-25 07:48:53,Medium,Security,Vulnerability,API-Gateway,Kolkata,Karan L.,Resolved,No,KB-0099,2024-11-26 05:53:18,22.07,No,Medium,Partner,6,Expired Cert,,540.95,2024-11-25,2024-11,2024
+TKT0188,2025-04-10 15:20:37,Critical,Storage,Snapshot,Payments,Remote,Pooja R.,Open,No,KB-0051,,,Yes,Low,Partner,0,Code Bug,,1123.35,2025-04-07,2025-04,2025
+TKT0189,2025-05-21 08:20:53,Medium,Hardware,CPU,Data-Warehouse,Remote,Pooja R.,Open,No,KB-0006,,,Yes,Low,Partner,4,Config Change,,610.24,2025-05-19,2025-05,2025
+TKT0190,2024-05-07 05:28:29,Critical,Security,Vulnerability,Data-Warehouse,Delhi,Amit M.,Open,No,KB-0012,,,Yes,Medium,Partner,7,Human Error,,453.64,2024-05-06,2024-05,2024
+TKT0191,2025-01-15 21:57:41,High,Security,Malware,API-Gateway,Hyderabad,Karan L.,In Progress,No,KB-0001,,,Yes,Low,Internal,1,Capacity,,803.25,2025-01-13,2025-01,2025
+TKT0192,2025-08-30 07:33:43,Medium,Network,Firewall,Payments,Kolkata,Amit M.,Resolved,No,KB-0012,2025-08-30 10:55:36,3.36,No,Low,Partner,2,Expired Cert,,0.0,2025-08-25,2025-08,2025
+TKT0193,2024-11-02 04:24:49,Low,Storage,SAN,Data-Warehouse,Pune,Team-NetOps,In Progress,No,KB-0022,,,Yes,Medium,External,0,Code Bug,,608.88,2024-10-28,2024-11,2024
+TKT0194,2025-10-05 23:09:58,Medium,Cloud,Autoscale,Web-Frontend,Pune,Priya S.,Resolved,No,KB-0094,2025-10-09 03:27:03,76.28,Yes,Critical,Partner,5,Capacity,,255.3,2025-09-29,2025-10,2025
+TKT0195,2024-09-10 08:41:05,High,Hardware,CPU,API-Gateway,Mumbai,Saurabh D.,Resolved,No,KB-0025,2024-09-10 17:50:44,9.16,Yes,Low,Internal,2,Code Bug,,503.95,2024-09-09,2024-09,2024
+TKT0196,2025-05-21 12:07:15,Medium,Hardware,Disk,Auth-Service,Chennai,Pooja R.,Resolved,No,KB-0073,2025-05-21 14:11:50,2.08,No,Medium,Internal,5,Power Outage,,293.3,2025-05-19,2025-05,2025
+TKT0197,2024-03-15 00:37:04,Critical,Database,Performance,Auth-Service,Kolkata,Team-NetOps,Resolved,No,KB-0099,2024-03-15 03:24:37,2.79,No,Medium,Internal,6,Unknown,,383.55,2024-03-11,2024-03,2024
+TKT0198,2025-07-04 19:09:17,High,Network,Router,Data-Warehouse,Chennai,Karan L.,In Progress,No,KB-0084,,,Yes,Medium,Internal,1,Third-party,,0.0,2025-06-30,2025-07,2025
+TKT0199,2025-03-23 23:54:15,High,Network,WAN,Payments,Remote,Team-DBA,In Progress,No,KB-0095,,,Yes,Medium,Internal,7,Human Error,,0.0,2025-03-17,2025-03,2025
+TKT0200,2024-01-13 22:08:44,Critical,Security,Access,API-Gateway,Bengaluru,Pooja R.,Resolved,No,KB-0035,2024-01-14 03:12:49,5.07,Yes,Low,Internal,1,Expired Cert,,111.13,2024-01-08,2024-01,2024
+TKT0201,2025-03-15 08:33:04,Medium,Hardware,CPU,Payments,Remote,Isha T.,Resolved,Yes,KB-0073,2025-03-15 10:12:06,1.65,No,Low,Internal,2,Human Error,,525.1,2025-03-10,2025-03,2025
+TKT0202,2024-08-21 23:32:00,Critical,Storage,SAN,Web-Frontend,Mumbai,Isha T.,Resolved,No,KB-0023,2024-08-22 01:16:29,1.74,No,High,External,6,Hardware Failure,,950.41,2024-08-19,2024-08,2024
+TKT0203,2024-08-17 10:15:26,Low,Application,Bug,Payments,Chennai,Priya S.,Resolved,No,KB-0023,2024-08-18 00:03:41,13.8,No,Medium,Internal,3,Hardware Failure,,452.75,2024-08-12,2024-08,2024
+TKT0204,2024-03-11 14:55:18,Low,Application,Bug,Payments,Remote,Ravi K.,Resolved,No,,2024-03-12 02:44:30,11.82,No,Medium,Partner,7,Expired Cert,,185.54,2024-03-11,2024-03,2024
+TKT0205,2025-08-28 15:49:49,High,Hardware,Disk,Data-Warehouse,Mumbai,Karan L.,Resolved,No,KB-0082,2025-08-29 08:03:47,16.23,Yes,High,Partner,4,Config Change,,661.8,2025-08-25,2025-08,2025
+TKT0206,2025-01-20 23:46:19,High,Hardware,Disk,Search,Remote,Ravi K.,Reopened,No,KB-0036,,,Yes,Low,Internal,0,Unknown,,1100.47,2025-01-20,2025-01,2025
+TKT0207,2025-02-26 22:57:23,Medium,Cloud,Provisioning,Payments,Bengaluru,Karan L.,Resolved,No,KB-0056,2025-02-27 11:56:41,12.99,No,Low,Partner,0,Third-party,,0.0,2025-02-24,2025-02,2025
+TKT0208,2024-11-18 12:44:53,Medium,Application,Bug,API-Gateway,Hyderabad,Priya S.,Closed,No,KB-0099,2024-11-19 19:24:58,30.67,Yes,Low,Internal,0,Power Outage,,482.35,2024-11-18,2024-11,2024
+TKT0209,2025-04-22 10:26:07,Medium,Storage,SAN,Analytics,Delhi,Isha T.,Resolved,Yes,KB-0021,2025-04-22 22:05:48,11.66,No,Low,External,0,Config Change,,113.48,2025-04-21,2025-04,2025
+TKT0210,2024-08-08 10:09:05,Medium,Application,Bug,Auth-Service,Delhi,Saurabh D.,Open,No,KB-0052,,,Yes,High,External,6,Unknown,,655.92,2024-08-05,2024-08,2024
+TKT0211,2024-09-12 03:29:06,Low,Database,Performance,Auth-Service,Mumbai,Neha P.,Resolved,No,KB-0048,2024-09-13 17:12:26,37.72,No,High,Internal,3,Third-party,,2201.01,2024-09-09,2024-09,2024
+TKT0212,2024-03-17 00:04:12,Low,Security,Vulnerability,Payments,Chennai,Priya S.,Resolved,No,KB-0022,2024-03-19 21:53:38,69.82,No,Medium,External,1,Hardware Failure,,188.7,2024-03-11,2024-03,2024
+TKT0213,2025-05-23 00:24:43,Medium,Application,Deployment,Data-Warehouse,Delhi,Saurabh D.,Resolved,No,KB-0079,2025-05-23 07:59:59,7.59,No,Low,Partner,1,Power Outage,,65.41,2025-05-19,2025-05,2025
+TKT0214,2025-02-25 17:30:03,High,Security,Vulnerability,Search,Hyderabad,Team-NetOps,Resolved,No,KB-0070,2025-02-25 18:01:28,0.52,No,Critical,External,5,Expired Cert,,956.93,2025-02-24,2025-02,2025
+TKT0215,2025-05-06 17:50:31,Medium,Hardware,CPU,Email,Kolkata,Saurabh D.,Resolved,No,KB-0029,2025-05-08 15:35:38,45.75,Yes,Low,Partner,0,Unknown,,899.68,2025-05-05,2025-05,2025
+TKT0216,2025-01-01 18:14:10,High,Cloud,Provisioning,API-Gateway,Mumbai,Neha P.,In Progress,No,KB-0050,,,Yes,Low,Internal,0,Capacity,,662.32,2024-12-30,2025-01,2025
+TKT0217,2024-08-30 18:20:51,Medium,Application,Upgrade,Auth-Service,Chennai,Team-DBA,In Progress,No,KB-0025,,,Yes,High,Partner,7,Unknown,,1057.27,2024-08-26,2024-08,2024
+TKT0218,2024-11-12 05:31:02,High,Database,Replication,Web-Frontend,Mumbai,Team-NetOps,Resolved,No,KB-0079,2024-11-12 16:23:47,10.88,Yes,Low,External,1,Capacity,,675.07,2024-11-11,2024-11,2024
+TKT0219,2024-11-27 01:01:09,Medium,Database,Performance,Email,Pune,Pooja R.,In Progress,No,KB-0076,,,Yes,Low,Partner,2,Expired Cert,,0.0,2024-11-25,2024-11,2024
+TKT0220,2024-05-19 05:46:27,Low,Security,Malware,Email,Bengaluru,Team-NetOps,In Progress,No,,,,Yes,Low,External,2,Capacity,,0.0,2024-05-13,2024-05,2024
+TKT0221,2025-01-22 09:46:44,Medium,Database,Replication,Auth-Service,Kolkata,Team-DBA,Resolved,No,KB-0079,2025-01-23 01:20:25,15.56,No,Medium,Partner,7,Capacity,,745.52,2025-01-20,2025-01,2025
+TKT0222,2024-12-05 23:04:15,Medium,Application,Deployment,Payments,Chennai,Isha T.,Resolved,No,KB-0089,2024-12-07 00:00:35,24.94,Yes,Low,Internal,1,Config Change,,144.63,2024-12-02,2024-12,2024
+TKT0223,2024-02-19 12:28:46,Medium,Database,Backup,Analytics,Kolkata,Pooja R.,Resolved,Yes,KB-0062,2024-02-19 20:37:50,8.15,No,Medium,External,5,Code Bug,,147.3,2024-02-19,2024-02,2024
+TKT0224,2024-06-15 14:04:51,Low,Application,Deployment,Email,Delhi,Priya S.,Resolved,No,KB-0049,2024-06-20 13:08:04,119.05,Yes,Low,Internal,2,Expired Cert,,1090.41,2024-06-10,2024-06,2024
+TKT0225,2025-08-31 19:57:30,Medium,Security,Malware,Data-Warehouse,Kolkata,Amit M.,Resolved,No,KB-0025,2025-09-01 13:11:14,17.23,No,Medium,External,6,Unknown,,361.9,2025-08-25,2025-08,2025
+TKT0226,2024-09-28 21:18:19,High,Network,WAN,Analytics,Bengaluru,Ravi K.,Resolved,No,KB-0038,2024-09-29 01:38:35,4.34,No,Medium,Partner,6,Code Bug,,54.26,2024-09-23,2024-09,2024
+TKT0227,2024-04-09 00:13:10,Medium,Network,WAN,Payments,Delhi,Karan L.,Resolved,No,KB-0034,2024-04-09 09:44:38,9.52,No,Medium,Internal,5,Expired Cert,,176.54,2024-04-08,2024-04,2024
+TKT0228,2025-01-25 11:11:28,Critical,Security,Access,API-Gateway,Hyderabad,Saurabh D.,In Progress,No,KB-0090,,,Yes,Medium,Internal,2,Expired Cert,,438.52,2025-01-20,2025-01,2025
+TKT0229,2025-07-08 13:48:37,High,Network,WAN,Search,Remote,Team-DBA,Open,No,KB-0011,,,Yes,Low,External,1,Config Change,,70.37,2025-07-07,2025-07,2025
+TKT0230,2025-05-29 18:57:33,Low,Cloud,IAM,Data-Warehouse,Pune,Isha T.,Resolved,No,KB-0028,2025-05-30 11:25:51,16.47,No,Low,Partner,2,Human Error,,816.84,2025-05-26,2025-05,2025
+TKT0231,2025-03-21 06:52:40,High,Hardware,Power,Email,Pune,Priya S.,Resolved,No,KB-0042,2025-03-21 08:03:07,1.17,No,Medium,Internal,5,Unknown,,715.14,2025-03-17,2025-03,2025
+TKT0232,2025-03-05 03:26:09,High,Hardware,CPU,Payments,Pune,Team-DBA,Open,No,KB-0069,,,Yes,High,Partner,2,Third-party,,1119.39,2025-03-03,2025-03,2025
+TKT0233,2025-01-27 20:31:36,Medium,Network,Router,API-Gateway,Kolkata,Amit M.,In Progress,No,KB-0052,,,Yes,Low,Partner,0,Code Bug,,563.81,2025-01-27,2025-01,2025
+TKT0234,2024-02-20 23:30:58,Medium,Application,Deployment,Email,Delhi,Saurabh D.,Resolved,No,KB-0090,2024-02-21 00:17:12,0.77,No,Critical,Internal,5,Capacity,,1025.97,2024-02-19,2024-02,2024
+TKT0235,2024-11-03 23:28:49,Low,Application,Upgrade,Search,Pune,Neha P.,Resolved,No,KB-0053,2024-11-04 08:43:45,9.25,No,High,Partner,2,Config Change,,1069.67,2024-10-28,2024-11,2024
+TKT0236,2025-06-11 05:04:19,Medium,Security,Vulnerability,Auth-Service,Bengaluru,Neha P.,Open,No,KB-0008,,,Yes,Low,Partner,2,Config Change,,426.27,2025-06-09,2025-06,2025
+TKT0237,2025-01-04 22:12:17,Medium,Security,Malware,Search,Pune,Ravi K.,Resolved,No,KB-0058,2025-01-05 11:05:22,12.88,No,High,External,2,Unknown,,1554.09,2024-12-30,2025-01,2025
+TKT0238,2024-12-24 11:10:53,Low,Cloud,IAM,Payments,Delhi,Ravi K.,Resolved,No,KB-0074,2024-12-25 00:10:05,12.99,No,Low,Internal,2,Code Bug,,0.0,2024-12-23,2024-12,2024
+TKT0239,2024-07-30 08:41:26,Medium,Storage,Snapshot,Auth-Service,Remote,Amit M.,In Progress,No,KB-0002,,,Yes,Low,External,1,Third-party,,104.66,2024-07-29,2024-07,2024
+TKT0240,2025-10-20 08:27:57,Medium,Application,Bug,API-Gateway,Hyderabad,Isha T.,Resolved,No,KB-0080,2025-10-21 07:06:57,22.65,No,Low,External,3,Expired Cert,,308.72,2025-10-20,2025-10,2025
+TKT0241,2025-07-28 20:38:38,Medium,Cloud,Provisioning,Analytics,Pune,Pooja R.,Reopened,No,KB-0036,,,Yes,Low,External,2,Third-party,,752.76,2025-07-28,2025-07,2025
+TKT0242,2024-07-11 04:33:48,High,Network,WAN,Email,Bengaluru,Ravi K.,In Progress,No,KB-0034,,,Yes,High,Partner,4,Hardware Failure,,1593.52,2024-07-08,2024-07,2024
+TKT0243,2024-02-06 18:45:36,Low,Application,Upgrade,Web-Frontend,Remote,Pooja R.,Resolved,No,KB-0085,2024-02-09 08:32:08,61.78,No,Low,Internal,1,Power Outage,,167.93,2024-02-05,2024-02,2024
+TKT0244,2024-05-11 23:16:46,Low,Storage,SAN,Email,Pune,Neha P.,Resolved,No,KB-0040,2024-05-16 21:07:51,117.85,Yes,High,Partner,10,Third-party,,1164.38,2024-05-06,2024-05,2024
+TKT0245,2025-08-22 09:29:54,High,Network,Switch,Analytics,Hyderabad,Team-NetOps,Resolved,No,KB-0068,2025-08-22 20:23:47,10.9,Yes,Low,Internal,0,Capacity,,113.46,2025-08-18,2025-08,2025
+TKT0246,2024-07-24 10:26:36,Low,Security,Vulnerability,Email,Bengaluru,Priya S.,Resolved,No,KB-0023,2024-07-25 09:02:50,22.6,No,Low,Partner,0,Third-party,,207.79,2024-07-22,2024-07,2024
+TKT0247,2024-08-02 05:36:48,High,Storage,SAN,Data-Warehouse,Kolkata,Karan L.,Resolved,No,KB-0050,2024-08-03 17:07:40,35.51,Yes,Medium,Internal,5,Expired Cert,,284.85,2024-07-29,2024-08,2024
+TKT0248,2025-06-27 06:01:43,Critical,Cloud,Provisioning,Web-Frontend,Chennai,Saurabh D.,Resolved,No,KB-0076,2025-06-27 09:33:32,3.53,No,Low,Internal,1,Third-party,,0.0,2025-06-23,2025-06,2025
+TKT0249,2024-10-24 14:46:33,Medium,Application,Bug,Data-Warehouse,Chennai,Isha T.,Resolved,No,KB-0052,2024-10-29 04:50:08,110.06,Yes,Medium,Internal,3,Code Bug,,0.0,2024-10-21,2024-10,2024
+TKT0250,2024-01-23 18:32:10,High,Cloud,IAM,Auth-Service,Kolkata,Saurabh D.,Open,No,KB-0077,,,Yes,Critical,External,8,Human Error,,233.6,2024-01-22,2024-01,2024
+TKT0251,2025-10-31 00:03:44,High,Security,Access,Payments,Delhi,Isha T.,In Progress,No,KB-0088,,,Yes,Medium,Partner,1,Hardware Failure,,579.46,2025-10-27,2025-10,2025
+TKT0252,2024-04-13 21:33:17,Medium,Cloud,Provisioning,Search,Pune,Team-NetOps,In Progress,Yes,KB-0015,,,Yes,High,Partner,4,Code Bug,,1140.6,2024-04-08,2024-04,2024
+TKT0253,2025-09-15 06:49:16,Low,Database,Backup,Search,Delhi,Amit M.,Resolved,No,KB-0027,2025-09-15 12:58:51,6.16,No,Medium,Internal,5,Config Change,,659.16,2025-09-15,2025-09,2025
+TKT0254,2024-01-14 21:05:58,High,Hardware,CPU,Analytics,Bengaluru,Priya S.,Open,Yes,KB-0093,,,Yes,Low,Partner,1,Code Bug,,0.0,2024-01-08,2024-01,2024
+TKT0255,2025-04-12 09:16:29,High,Storage,SAN,Auth-Service,Delhi,Pooja R.,Open,No,KB-0095,,,Yes,Low,Internal,1,Config Change,,475.03,2025-04-07,2025-04,2025
+TKT0256,2024-05-21 21:41:10,Medium,Security,Malware,API-Gateway,Pune,Pooja R.,Open,No,KB-0052,,,Yes,Medium,Partner,4,Third-party,,0.0,2024-05-20,2024-05,2024
+TKT0257,2025-01-29 22:54:30,Low,Cloud,Provisioning,Payments,Bengaluru,Ravi K.,Reopened,No,KB-0014,,,Yes,Medium,External,5,Power Outage,,435.98,2025-01-27,2025-01,2025
+TKT0258,2025-08-05 21:28:11,Medium,Storage,NAS,Auth-Service,Bengaluru,Isha T.,Closed,Yes,KB-0053,2025-08-06 15:08:24,17.67,No,Low,External,2,Expired Cert,,269.61,2025-08-04,2025-08,2025
+TKT0259,2024-01-13 22:55:43,Medium,Cloud,IAM,Web-Frontend,Chennai,Team-NetOps,Resolved,No,KB-0013,2024-01-14 03:30:15,4.58,No,Medium,Partner,7,Expired Cert,,52.53,2024-01-08,2024-01,2024
+TKT0260,2025-10-18 12:09:53,Low,Hardware,Disk,Auth-Service,Bengaluru,Team-NetOps,Open,No,KB-0022,,,Yes,Low,Partner,1,Expired Cert,,823.87,2025-10-13,2025-10,2025
+TKT0261,2024-09-03 10:17:03,Medium,Hardware,CPU,Search,Kolkata,Neha P.,Resolved,No,KB-0074,2024-09-04 05:03:27,18.77,No,High,Partner,5,Expired Cert,,1612.29,2024-09-02,2024-09,2024
+TKT0262,2024-05-01 15:47:41,Critical,Security,Access,Auth-Service,Mumbai,Priya S.,Open,No,KB-0082,,,Yes,Low,External,1,Unknown,,1011.7,2024-04-29,2024-05,2024
+TKT0263,2024-07-30 20:42:29,Low,Application,Deployment,Web-Frontend,Remote,Pooja R.,In Progress,No,KB-0061,,,Yes,Medium,Partner,6,Power Outage,,1038.85,2024-07-29,2024-07,2024
+TKT0264,2024-04-26 03:48:42,High,Application,Bug,API-Gateway,Chennai,Priya S.,Resolved,No,KB-0018,2024-04-26 11:21:27,7.55,No,Medium,Partner,4,Human Error,,0.0,2024-04-22,2024-04,2024
+TKT0265,2024-09-17 19:12:12,High,Storage,NAS,Web-Frontend,Remote,Neha P.,In Progress,Yes,KB-0054,,,Yes,Low,External,0,Human Error,,0.0,2024-09-16,2024-09,2024
+TKT0266,2025-04-06 14:42:37,Low,Database,Backup,Auth-Service,Mumbai,Team-NetOps,Closed,No,KB-0062,2025-04-07 15:58:04,25.26,No,High,Internal,2,Capacity,,644.35,2025-03-31,2025-04,2025
+TKT0267,2024-05-11 03:24:42,Medium,Application,Upgrade,Search,Kolkata,Team-DBA,Closed,No,KB-0036,2024-05-12 10:20:49,30.94,Yes,Low,Partner,0,Power Outage,,715.53,2024-05-06,2024-05,2024
+TKT0268,2024-05-16 04:26:38,Medium,Cloud,IAM,API-Gateway,Chennai,Team-NetOps,In Progress,No,KB-0080,,,Yes,Medium,External,8,Expired Cert,,254.27,2024-05-13,2024-05,2024
+TKT0269,2024-05-15 22:41:11,Medium,Cloud,IAM,Email,Pune,Pooja R.,In Progress,No,KB-0086,,,Yes,Medium,External,4,Unknown,,0.0,2024-05-13,2024-05,2024
+TKT0270,2024-10-19 13:51:00,Medium,Network,WAN,Data-Warehouse,Mumbai,Ravi K.,Resolved,No,KB-0021,2024-10-20 04:35:09,14.74,No,Medium,Internal,5,Config Change,,514.71,2024-10-14,2024-10,2024
+TKT0271,2024-10-29 06:48:34,Critical,Storage,NAS,Payments,Hyderabad,Team-NetOps,Resolved,No,KB-0090,2024-10-29 15:11:33,8.38,Yes,Medium,Partner,6,Hardware Failure,,1359.66,2024-10-28,2024-10,2024
+TKT0272,2025-03-02 21:20:35,High,Cloud,Autoscale,Web-Frontend,Remote,Neha P.,Closed,No,KB-0083,2025-03-02 21:56:25,0.6,No,Medium,External,5,Code Bug,,396.66,2025-02-24,2025-03,2025
+TKT0273,2024-07-17 09:28:11,Low,Network,Router,Data-Warehouse,Pune,Karan L.,Resolved,No,KB-0034,2024-07-18 06:16:19,20.8,No,Medium,Partner,4,Config Change,,0.0,2024-07-15,2024-07,2024
+TKT0274,2024-12-04 14:45:59,High,Database,Backup,Auth-Service,Delhi,Isha T.,Open,No,KB-0010,,,Yes,High,Partner,9,Unknown,,199.49,2024-12-02,2024-12,2024
+TKT0275,2024-08-13 05:33:04,Low,Database,Backup,Search,Pune,Pooja R.,Resolved,No,KB-0043,2024-08-17 07:30:47,97.96,Yes,Low,External,1,Unknown,,333.7,2024-08-12,2024-08,2024
+TKT0276,2025-05-01 17:52:48,Low,Network,Switch,Email,Remote,Neha P.,Closed,No,KB-0080,2025-05-05 11:46:53,89.9,Yes,Low,Partner,0,Hardware Failure,,360.85,2025-04-28,2025-05,2025
+TKT0277,2024-04-26 12:16:34,Medium,Network,Firewall,Analytics,Remote,Ravi K.,Resolved,No,KB-0042,2024-04-26 13:53:46,1.62,No,High,Internal,7,Unknown,,2232.44,2024-04-22,2024-04,2024
+TKT0278,2025-06-30 00:40:04,High,Cloud,Provisioning,Search,Pune,Neha P.,Resolved,No,KB-0095,2025-06-30 09:55:51,9.26,Yes,Medium,Internal,3,Capacity,,49.93,2025-06-30,2025-06,2025
+TKT0279,2024-01-25 14:45:21,Critical,Network,Switch,Data-Warehouse,Delhi,Team-NetOps,Resolved,No,KB-0034,2024-01-25 16:13:18,1.47,No,Medium,Partner,1,Hardware Failure,,453.88,2024-01-22,2024-01,2024
+TKT0280,2024-11-19 00:24:43,High,Network,Switch,Auth-Service,Pune,Pooja R.,Closed,Yes,,2024-11-19 04:02:15,3.63,No,Medium,Partner,4,Power Outage,,226.99,2024-11-18,2024-11,2024
+TKT0281,2025-01-25 12:52:42,Critical,Database,Replication,Web-Frontend,Bengaluru,Karan L.,Open,No,KB-0038,,,Yes,Critical,Internal,4,Third-party,,893.28,2025-01-20,2025-01,2025
+TKT0282,2025-10-25 11:00:35,Low,Database,Performance,Auth-Service,Mumbai,Team-DBA,In Progress,No,KB-0011,,,Yes,Low,External,0,Expired Cert,,945.36,2025-10-20,2025-10,2025
+TKT0283,2024-08-04 13:57:41,Low,Database,Performance,Data-Warehouse,Hyderabad,Team-DBA,Open,No,KB-0024,,,Yes,Medium,External,5,Config Change,,16.39,2024-07-29,2024-08,2024
+TKT0284,2025-07-16 14:41:35,High,Cloud,Provisioning,API-Gateway,Pune,Neha P.,In Progress,No,KB-0043,,,Yes,Low,External,0,Code Bug,,0.0,2025-07-14,2025-07,2025
+TKT0285,2024-04-12 09:39:04,Low,Application,Bug,Analytics,Chennai,Team-DBA,In Progress,No,KB-0020,,,Yes,Medium,Partner,6,Expired Cert,,449.76,2024-04-08,2024-04,2024
+TKT0286,2025-03-14 05:00:20,High,Database,Replication,Search,Delhi,Pooja R.,Resolved,No,KB-0062,2025-03-14 08:33:33,3.55,No,Low,Partner,0,Power Outage,,1344.34,2025-03-10,2025-03,2025
+TKT0287,2025-07-18 03:11:41,Medium,Storage,NAS,Data-Warehouse,Hyderabad,Saurabh D.,In Progress,No,KB-0094,,,Yes,Low,Internal,2,Unknown,,0.0,2025-07-14,2025-07,2025
+TKT0288,2025-10-08 00:52:37,Medium,Storage,Snapshot,Web-Frontend,Mumbai,Team-NetOps,Resolved,No,KB-0070,2025-10-09 10:37:20,33.75,Yes,High,Partner,2,Hardware Failure,,99.01,2025-10-06,2025-10,2025
+TKT0289,2024-08-16 18:46:54,Medium,Security,Malware,Payments,Kolkata,Pooja R.,Resolved,No,KB-0079,2024-08-17 05:06:48,10.33,No,High,Internal,2,Power Outage,,726.88,2024-08-12,2024-08,2024
+TKT0290,2024-06-12 05:36:36,Medium,Database,Replication,Analytics,Chennai,Ravi K.,Resolved,No,KB-0009,2024-06-12 20:19:28,14.71,No,Low,External,0,Code Bug,,395.9,2024-06-10,2024-06,2024
+TKT0291,2025-06-14 11:24:30,Low,Network,Switch,Email,Pune,Team-NetOps,In Progress,No,KB-0095,,,Yes,Low,External,0,Capacity,,0.0,2025-06-09,2025-06,2025
+TKT0292,2025-01-20 20:24:23,Medium,Storage,SAN,API-Gateway,Kolkata,Neha P.,Resolved,No,KB-0045,2025-01-21 11:39:03,15.24,No,Medium,External,4,Config Change,,184.53,2025-01-20,2025-01,2025
+TKT0293,2025-05-28 04:28:10,High,Hardware,CPU,API-Gateway,Hyderabad,Amit M.,Resolved,No,KB-0092,2025-05-28 06:58:54,2.51,No,Medium,Partner,9,Expired Cert,,0.0,2025-05-26,2025-05,2025
+TKT0294,2024-04-26 15:43:30,Medium,Hardware,Disk,Search,Mumbai,Neha P.,Resolved,No,KB-0021,2024-04-26 21:22:06,5.64,No,Medium,External,5,Capacity,,1113.0,2024-04-22,2024-04,2024
+TKT0295,2024-02-27 05:16:59,High,Security,Malware,Auth-Service,Delhi,Priya S.,Resolved,No,KB-0061,2024-02-27 19:42:52,14.43,Yes,Low,Partner,2,Capacity,,0.0,2024-02-26,2024-02,2024
+TKT0296,2025-08-19 05:39:42,Medium,Database,Replication,Email,Remote,Team-DBA,In Progress,No,KB-0050,,,Yes,Low,Internal,2,Code Bug,,231.34,2025-08-18,2025-08,2025
+TKT0297,2025-06-19 16:43:26,Low,Hardware,Disk,Data-Warehouse,Remote,Team-DBA,In Progress,No,KB-0069,,,Yes,Medium,Internal,1,Human Error,,17.34,2025-06-16,2025-06,2025
+TKT0298,2025-05-08 21:08:57,Medium,Storage,SAN,Search,Kolkata,Pooja R.,Open,No,KB-0055,,,Yes,Low,Partner,0,Hardware Failure,,292.34,2025-05-05,2025-05,2025
+TKT0299,2024-12-24 18:51:47,Low,Storage,Snapshot,Payments,Kolkata,Amit M.,Resolved,No,KB-0011,2024-12-24 19:33:53,0.7,No,High,Partner,7,Third-party,,1592.85,2024-12-23,2024-12,2024
+TKT0300,2024-07-12 00:45:47,Low,Hardware,CPU,Payments,Mumbai,Karan L.,In Progress,No,KB-0041,,,Yes,Medium,Internal,1,Capacity,,559.48,2024-07-08,2024-07,2024
+TKT0301,2025-03-12 20:37:16,Medium,Hardware,Power,Email,Delhi,Karan L.,Open,No,,,,Yes,Medium,Internal,5,Expired Cert,,38.66,2025-03-10,2025-03,2025
+TKT0302,2025-07-26 17:30:16,Low,Hardware,Power,Search,Bengaluru,Priya S.,In Progress,No,KB-0090,,,Yes,High,Internal,5,Code Bug,,874.58,2025-07-21,2025-07,2025
+TKT0303,2025-06-04 12:50:21,Low,Hardware,CPU,Auth-Service,Bengaluru,Karan L.,Closed,Yes,KB-0012,2025-06-08 09:10:25,92.33,Yes,Medium,External,7,Hardware Failure,,478.41,2025-06-02,2025-06,2025
+TKT0304,2024-03-31 02:16:14,Medium,Hardware,Disk,Search,Kolkata,Team-DBA,In Progress,No,KB-0077,,,Yes,Low,Internal,0,Power Outage,,94.81,2024-03-25,2024-03,2024
+TKT0305,2025-03-25 00:12:54,Medium,Storage,Snapshot,API-Gateway,Hyderabad,Ravi K.,Open,No,KB-0090,,,Yes,Low,Internal,1,Config Change,,1228.1,2025-03-24,2025-03,2025
+TKT0306,2025-01-03 07:41:00,Low,Network,Firewall,Search,Chennai,Karan L.,Resolved,No,KB-0002,2025-01-10 04:46:01,165.08,Yes,Low,Internal,0,Unknown,,0.0,2024-12-30,2025-01,2025
+TKT0307,2024-10-18 23:53:35,Low,Application,Bug,API-Gateway,Hyderabad,Team-DBA,Closed,No,KB-0052,2024-10-19 07:21:16,7.46,No,Low,Partner,0,Unknown,,353.7,2024-10-14,2024-10,2024
+TKT0308,2024-04-19 17:04:32,Medium,Network,Firewall,API-Gateway,Remote,Karan L.,In Progress,No,KB-0097,,,Yes,Low,Partner,0,Power Outage,,607.87,2024-04-15,2024-04,2024
+TKT0309,2025-08-23 00:30:07,Medium,Security,Malware,Web-Frontend,Hyderabad,Pooja R.,Resolved,No,KB-0069,2025-09-09 14:57:27,422.46,Yes,Low,Internal,3,Hardware Failure,,75.65,2025-08-18,2025-08,2025
+TKT0310,2024-12-16 02:35:59,High,Application,Bug,Web-Frontend,Delhi,Amit M.,Closed,No,KB-0025,2024-12-16 14:24:31,11.81,Yes,Low,External,3,Code Bug,,1003.67,2024-12-16,2024-12,2024
+TKT0311,2024-09-28 06:14:12,Low,Storage,Snapshot,Email,Bengaluru,Priya S.,Resolved,Yes,KB-0085,2024-09-30 03:35:51,45.36,No,Low,External,2,Config Change,,152.81,2024-09-23,2024-09,2024
+TKT0312,2025-05-08 11:39:20,Medium,Hardware,Power,Analytics,Bengaluru,Team-NetOps,Resolved,No,KB-0074,2025-05-09 12:30:39,24.86,Yes,Medium,Partner,8,Power Outage,,157.05,2025-05-05,2025-05,2025
+TKT0313,2025-07-07 01:32:22,Medium,Cloud,Provisioning,Analytics,Pune,Team-NetOps,Resolved,No,KB-0002,2025-07-07 17:31:21,15.98,No,Low,Internal,3,Expired Cert,,130.77,2025-07-07,2025-07,2025
+TKT0314,2025-01-05 19:55:16,High,Application,Deployment,API-Gateway,Remote,Team-DBA,Resolved,No,KB-0055,2025-01-05 20:25:16,0.5,No,Medium,Partner,5,Expired Cert,,0.0,2024-12-30,2025-01,2025
+TKT0315,2025-02-14 08:28:11,Medium,Hardware,CPU,Web-Frontend,Pune,Saurabh D.,Open,No,KB-0049,,,Yes,Low,External,0,Capacity,,1034.95,2025-02-10,2025-02,2025
+TKT0316,2025-04-29 00:11:26,Medium,Storage,Snapshot,Email,Remote,Saurabh D.,Resolved,No,KB-0007,2025-04-29 18:33:59,18.38,No,Medium,Internal,4,Code Bug,,397.34,2025-04-28,2025-04,2025
+TKT0317,2024-09-17 15:53:40,High,Cloud,Autoscale,API-Gateway,Chennai,Pooja R.,In Progress,No,KB-0033,,,Yes,Low,Partner,1,Human Error,,0.0,2024-09-16,2024-09,2024
+TKT0318,2024-12-25 21:38:12,Medium,Cloud,IAM,Data-Warehouse,Delhi,Pooja R.,Resolved,No,KB-0100,2024-12-28 10:32:09,60.9,Yes,High,Partner,3,Third-party,,1324.14,2024-12-23,2024-12,2024
+TKT0319,2025-04-19 20:09:55,High,Storage,NAS,Search,Kolkata,Priya S.,Resolved,No,KB-0041,2025-04-20 09:33:31,13.39,Yes,Low,Partner,1,Hardware Failure,,1063.48,2025-04-14,2025-04,2025
+TKT0320,2024-10-04 14:49:55,Low,Cloud,IAM,Analytics,Kolkata,Amit M.,Resolved,Yes,KB-0094,2024-10-09 20:00:45,125.18,Yes,Low,External,1,Human Error,,0.18,2024-09-30,2024-10,2024
+TKT0321,2024-08-03 05:25:06,High,Security,Malware,Auth-Service,Mumbai,Karan L.,Resolved,No,KB-0014,2024-08-03 08:49:25,3.41,No,Low,External,1,Hardware Failure,,0.0,2024-07-29,2024-08,2024
+TKT0322,2024-11-12 07:15:47,Medium,Cloud,Provisioning,Data-Warehouse,Bengaluru,Ravi K.,Resolved,No,KB-0042,2024-11-13 13:36:54,30.35,Yes,Medium,External,4,Third-party,,831.29,2024-11-11,2024-11,2024
+TKT0323,2025-07-15 14:08:44,Medium,Hardware,CPU,Analytics,Kolkata,Team-NetOps,In Progress,No,KB-0045,,,Yes,Medium,Internal,8,Human Error,,757.95,2025-07-14,2025-07,2025
+TKT0324,2025-03-28 09:23:26,Medium,Application,Deployment,Auth-Service,Bengaluru,Pooja R.,Resolved,No,KB-0089,2025-03-29 09:00:17,23.61,No,High,Partner,5,Third-party,,675.37,2025-03-24,2025-03,2025
+TKT0325,2024-01-10 13:51:18,Medium,Storage,SAN,Email,Hyderabad,Karan L.,Open,No,KB-0032,,,Yes,Low,External,0,Hardware Failure,,440.03,2024-01-08,2024-01,2024
+TKT0326,2025-01-22 07:16:05,Medium,Database,Replication,API-Gateway,Delhi,Team-NetOps,Open,No,KB-0009,,,Yes,Low,Partner,4,Human Error,,0.0,2025-01-20,2025-01,2025
+TKT0327,2025-10-14 14:39:28,Medium,Hardware,Power,Web-Frontend,Chennai,Ravi K.,Resolved,No,KB-0003,2025-10-15 10:04:14,19.41,No,Low,Partner,1,Capacity,,773.7,2025-10-13,2025-10,2025
+TKT0328,2025-03-24 23:00:14,High,Network,WAN,Web-Frontend,Chennai,Karan L.,Resolved,No,KB-0048,2025-03-25 02:06:10,3.1,No,High,Partner,5,Human Error,,847.89,2025-03-24,2025-03,2025
+TKT0329,2024-05-29 01:17:49,Medium,Hardware,Power,Data-Warehouse,Hyderabad,Saurabh D.,Open,No,KB-0016,,,Yes,Critical,External,2,Code Bug,,52.02,2024-05-27,2024-05,2024
+TKT0330,2025-01-29 14:15:47,Low,Database,Backup,Payments,Hyderabad,Isha T.,Resolved,No,KB-0042,2025-02-05 08:58:16,162.71,Yes,Medium,External,6,Unknown,,285.15,2025-01-27,2025-01,2025
+TKT0331,2025-06-17 03:16:30,Medium,Database,Backup,Auth-Service,Hyderabad,Priya S.,Resolved,No,KB-0002,2025-06-17 15:56:25,12.67,No,Low,Internal,0,Hardware Failure,,302.84,2025-06-16,2025-06,2025
+TKT0332,2024-09-05 00:02:37,Low,Security,Malware,Data-Warehouse,Chennai,Priya S.,Resolved,No,KB-0088,2024-09-06 15:33:45,39.52,No,High,External,5,Config Change,,810.77,2024-09-02,2024-09,2024
+TKT0333,2024-03-02 11:41:09,Medium,Storage,SAN,Data-Warehouse,Remote,Neha P.,Resolved,No,KB-0083,2024-03-03 14:24:30,26.72,Yes,High,Partner,3,Code Bug,,511.81,2024-02-26,2024-03,2024
+TKT0334,2024-01-22 22:24:22,Medium,Application,Deployment,Analytics,Remote,Team-NetOps,Resolved,No,KB-0025,2024-01-23 03:51:08,5.45,No,Medium,Partner,6,Power Outage,,0.0,2024-01-22,2024-01,2024
+TKT0335,2024-10-08 19:58:55,Medium,Network,Router,Analytics,Delhi,Saurabh D.,Resolved,No,KB-0100,2024-10-09 08:49:08,12.84,No,Low,Internal,0,Config Change,,250.82,2024-10-07,2024-10,2024
+TKT0336,2025-09-26 11:49:39,High,Cloud,Provisioning,Search,Hyderabad,Team-NetOps,In Progress,No,KB-0020,,,Yes,Medium,Partner,3,Hardware Failure,,0.0,2025-09-22,2025-09,2025
+TKT0337,2025-10-18 10:07:06,Medium,Network,Switch,Data-Warehouse,Bengaluru,Ravi K.,Resolved,No,KB-0013,2025-11-02 05:54:01,355.78,Yes,Medium,External,5,Third-party,,597.13,2025-10-13,2025-10,2025
+TKT0338,2024-02-20 11:14:38,Medium,Network,Router,Analytics,Pune,Isha T.,Open,Yes,KB-0072,,,Yes,Medium,Partner,6,Expired Cert,,0.0,2024-02-19,2024-02,2024
+TKT0339,2024-02-29 19:17:33,Critical,Network,Firewall,Payments,Hyderabad,Team-NetOps,Resolved,No,KB-0069,2024-02-29 19:49:02,0.52,No,Low,External,0,Code Bug,,516.48,2024-02-26,2024-02,2024
+TKT0340,2025-08-06 20:11:35,Medium,Security,Malware,Payments,Chennai,Isha T.,In Progress,No,KB-0014,,,Yes,Low,Internal,1,Unknown,,0.0,2025-08-04,2025-08,2025
+TKT0341,2025-02-15 16:21:42,High,Hardware,Power,Email,Chennai,Team-NetOps,Reopened,No,KB-0048,,,Yes,Medium,External,3,Hardware Failure,,389.74,2025-02-10,2025-02,2025
+TKT0342,2024-11-27 19:15:36,Medium,Security,Malware,API-Gateway,Chennai,Isha T.,Resolved,No,KB-0093,2024-11-28 18:10:39,22.92,No,Medium,External,7,Capacity,,1105.75,2024-11-25,2024-11,2024
+TKT0343,2024-11-05 00:19:14,High,Application,Deployment,API-Gateway,Bengaluru,Priya S.,Resolved,No,KB-0018,2024-11-05 07:03:26,6.74,No,High,Internal,4,Code Bug,,677.02,2024-11-04,2024-11,2024
+TKT0344,2024-09-19 09:05:36,Medium,Database,Replication,Payments,Chennai,Isha T.,Resolved,No,KB-0089,2024-09-19 12:32:55,3.46,No,High,Internal,7,Third-party,,600.4,2024-09-16,2024-09,2024
+TKT0345,2024-02-08 23:51:36,Medium,Storage,SAN,Email,Chennai,Karan L.,Resolved,No,KB-0099,2024-02-09 11:22:54,11.52,No,Medium,External,3,Config Change,,641.55,2024-02-05,2024-02,2024
+TKT0346,2025-10-11 20:24:03,Medium,Network,Firewall,Data-Warehouse,Chennai,Team-NetOps,In Progress,No,KB-0087,,,Yes,Medium,Partner,5,Power Outage,,161.08,2025-10-06,2025-10,2025
+TKT0347,2025-09-01 18:32:05,High,Application,Bug,Data-Warehouse,Bengaluru,Pooja R.,Resolved,No,KB-0007,2025-09-02 04:05:55,9.56,Yes,Low,Partner,1,Unknown,,0.0,2025-09-01,2025-09,2025
+TKT0348,2025-03-20 22:08:48,High,Hardware,Disk,Analytics,Kolkata,Team-DBA,Resolved,No,KB-0095,2025-03-21 08:13:20,10.08,Yes,Low,Partner,1,Hardware Failure,,300.33,2025-03-17,2025-03,2025
+TKT0349,2024-11-27 21:59:36,High,Cloud,Autoscale,Search,Chennai,Pooja R.,Resolved,No,KB-0084,2024-12-03 21:16:09,143.28,Yes,Low,Partner,1,Power Outage,,0.0,2024-11-25,2024-11,2024
+TKT0350,2025-09-30 04:28:02,Low,Database,Performance,Email,Bengaluru,Priya S.,Resolved,Yes,KB-0080,2025-10-03 01:02:02,68.57,No,High,Partner,7,Config Change,,1058.86,2025-09-29,2025-09,2025
+TKT0351,2024-12-17 22:51:07,Medium,Security,Vulnerability,Email,Hyderabad,Team-NetOps,Resolved,No,KB-0097,2024-12-18 02:45:40,3.91,No,Medium,External,5,Capacity,,295.76,2024-12-16,2024-12,2024
+TKT0352,2024-01-19 12:37:57,Medium,Network,Firewall,Data-Warehouse,Mumbai,Saurabh D.,Resolved,No,KB-0035,2024-01-20 02:08:30,13.51,No,Medium,Internal,8,Human Error,,320.62,2024-01-15,2024-01,2024
+TKT0353,2025-02-01 21:17:42,Low,Cloud,Autoscale,Payments,Mumbai,Saurabh D.,Open,No,KB-0030,,,Yes,Critical,External,2,Human Error,,1289.82,2025-01-27,2025-02,2025
+TKT0354,2024-11-19 15:55:38,Medium,Database,Performance,Analytics,Mumbai,Ravi K.,Resolved,No,KB-0043,2024-11-19 17:30:56,1.59,No,Medium,Internal,7,Expired Cert,,362.9,2024-11-18,2024-11,2024
+TKT0355,2024-12-26 11:40:19,High,Hardware,Power,Auth-Service,Delhi,Karan L.,Open,No,KB-0004,,,Yes,High,Partner,6,Code Bug,,1420.31,2024-12-23,2024-12,2024
+TKT0356,2024-06-04 10:57:25,Medium,Network,WAN,Web-Frontend,Kolkata,Neha P.,In Progress,No,KB-0040,,,Yes,High,Partner,2,Power Outage,,1273.37,2024-06-03,2024-06,2024
+TKT0357,2025-07-09 04:13:41,High,Hardware,CPU,Web-Frontend,Bengaluru,Saurabh D.,In Progress,No,KB-0018,,,Yes,Medium,Internal,7,Capacity,,218.98,2025-07-07,2025-07,2025
+TKT0358,2024-11-21 02:35:34,Low,Network,Router,Email,Bengaluru,Ravi K.,Open,No,KB-0053,,,Yes,Critical,Partner,4,Power Outage,,1067.77,2024-11-18,2024-11,2024
+TKT0359,2025-10-14 23:17:09,Low,Network,Router,Data-Warehouse,Mumbai,Team-DBA,In Progress,No,KB-0079,,,Yes,Low,Internal,0,Code Bug,,0.0,2025-10-13,2025-10,2025
+TKT0360,2024-01-27 11:05:44,Low,Database,Replication,Analytics,Chennai,Amit M.,Open,No,KB-0018,,,Yes,Low,Internal,1,Config Change,,462.13,2024-01-22,2024-01,2024
+TKT0361,2025-02-22 00:59:17,Low,Database,Replication,Web-Frontend,Hyderabad,Priya S.,Resolved,No,KB-0057,2025-02-24 12:17:53,59.31,No,Medium,Partner,4,Power Outage,,714.34,2025-02-17,2025-02,2025
+TKT0362,2024-09-09 13:25:49,Critical,Cloud,Autoscale,Email,Kolkata,Team-DBA,Closed,No,KB-0069,2024-09-09 22:20:38,8.91,Yes,High,Internal,8,Unknown,,341.63,2024-09-09,2024-09,2024
+TKT0363,2024-04-21 14:29:52,Low,Database,Replication,Search,Mumbai,Team-NetOps,Resolved,No,KB-0007,2024-04-23 00:37:32,34.13,No,Medium,Partner,6,Third-party,,89.07,2024-04-15,2024-04,2024
+TKT0364,2025-04-17 05:27:18,Medium,Network,Router,Analytics,Remote,Priya S.,In Progress,Yes,KB-0100,,,Yes,Medium,External,5,Unknown,,410.84,2025-04-14,2025-04,2025
+TKT0365,2024-05-18 12:26:20,Medium,Database,Backup,Web-Frontend,Remote,Priya S.,Resolved,No,KB-0092,2024-05-21 03:38:24,63.2,Yes,Medium,Internal,5,Human Error,,383.64,2024-05-13,2024-05,2024
+TKT0366,2024-04-26 22:28:40,Medium,Hardware,CPU,Search,Bengaluru,Karan L.,In Progress,Yes,KB-0022,,,Yes,High,External,2,Capacity,,1919.09,2024-04-22,2024-04,2024
+TKT0367,2024-06-15 04:11:49,Medium,Security,Access,API-Gateway,Remote,Saurabh D.,In Progress,Yes,KB-0017,,,Yes,Critical,Internal,5,Third-party,,1214.16,2024-06-10,2024-06,2024
+TKT0368,2024-01-13 14:31:54,Medium,Storage,SAN,Analytics,Hyderabad,Neha P.,In Progress,No,KB-0053,,,Yes,Medium,External,4,Config Change,,649.57,2024-01-08,2024-01,2024
+TKT0369,2024-09-07 17:17:39,Medium,Storage,SAN,Auth-Service,Bengaluru,Amit M.,Resolved,No,KB-0019,2024-09-08 23:40:54,30.39,Yes,Medium,External,5,Third-party,,373.77,2024-09-02,2024-09,2024
+TKT0370,2024-12-05 02:03:06,Medium,Database,Performance,API-Gateway,Bengaluru,Isha T.,In Progress,No,KB-0005,,,Yes,Low,Partner,0,Expired Cert,,781.75,2024-12-02,2024-12,2024
+TKT0371,2025-01-12 12:52:04,Low,Storage,Snapshot,Payments,Delhi,Isha T.,Resolved,No,KB-0036,2025-01-12 18:32:41,5.68,No,Medium,Internal,9,Code Bug,,642.9,2025-01-06,2025-01,2025
+TKT0372,2025-09-18 01:06:36,Medium,Cloud,IAM,Payments,Remote,Team-DBA,Closed,No,KB-0037,2025-09-18 12:21:31,11.25,No,High,Partner,6,Unknown,,1115.0,2025-09-15,2025-09,2025
+TKT0373,2025-08-11 19:22:59,High,Hardware,Power,Analytics,Remote,Amit M.,Open,No,KB-0038,,,Yes,Critical,Internal,8,Human Error,,628.76,2025-08-11,2025-08,2025
+TKT0374,2024-01-25 14:40:50,High,Storage,SAN,Search,Kolkata,Ravi K.,Resolved,No,KB-0082,2024-01-25 18:46:26,4.09,No,Medium,External,1,Third-party,,0.0,2024-01-22,2024-01,2024
+TKT0375,2024-09-17 02:19:19,Medium,Application,Deployment,Payments,Chennai,Pooja R.,Resolved,No,KB-0004,2024-09-17 08:32:40,6.22,No,Low,Partner,1,Power Outage,,0.0,2024-09-16,2024-09,2024
+TKT0376,2025-04-30 01:41:08,Medium,Cloud,Autoscale,Email,Remote,Karan L.,Closed,Yes,KB-0067,2025-04-30 19:48:10,18.12,No,Medium,Partner,3,Unknown,,158.45,2025-04-28,2025-04,2025
+TKT0377,2025-07-02 00:13:36,Medium,Storage,NAS,Payments,Bengaluru,Saurabh D.,Open,No,KB-0049,,,Yes,Medium,Internal,1,Hardware Failure,,742.24,2025-06-30,2025-07,2025
+TKT0378,2024-07-10 19:07:55,Low,Application,Upgrade,Email,Mumbai,Saurabh D.,Resolved,No,KB-0031,2024-07-12 20:01:10,48.89,No,High,Partner,4,Code Bug,,711.23,2024-07-08,2024-07,2024
+TKT0379,2025-06-21 09:11:07,Medium,Network,Router,Payments,Remote,Team-NetOps,Resolved,No,KB-0065,2025-06-22 03:36:54,18.43,No,Low,Partner,0,Unknown,,251.77,2025-06-16,2025-06,2025
+TKT0380,2024-11-13 10:09:49,Low,Storage,Snapshot,Data-Warehouse,Hyderabad,Ravi K.,Resolved,No,KB-0067,2024-11-18 09:34:56,119.42,Yes,Low,Internal,1,Human Error,,0.0,2024-11-11,2024-11,2024
+TKT0381,2024-12-07 14:56:02,High,Storage,Snapshot,API-Gateway,Mumbai,Team-DBA,Open,No,KB-0027,,,Yes,Low,Internal,1,Third-party,,0.0,2024-12-02,2024-12,2024
+TKT0382,2024-10-10 17:20:49,Medium,Network,Firewall,Data-Warehouse,Bengaluru,Saurabh D.,Resolved,No,KB-0072,2024-10-11 03:51:58,10.52,No,Low,Partner,2,Unknown,,0.0,2024-10-07,2024-10,2024
+TKT0383,2024-11-22 08:09:45,Low,Hardware,Disk,Data-Warehouse,Pune,Saurabh D.,In Progress,No,KB-0057,,,Yes,Low,Internal,1,Power Outage,,0.0,2024-11-18,2024-11,2024
+TKT0384,2024-02-21 03:24:03,High,Security,Vulnerability,Analytics,Chennai,Saurabh D.,Resolved,No,KB-0098,2024-02-21 05:18:26,1.91,No,Medium,Partner,3,Capacity,,273.4,2024-02-19,2024-02,2024
+TKT0385,2024-04-05 22:29:06,Medium,Cloud,IAM,Analytics,Remote,Neha P.,Closed,No,KB-0079,2024-04-06 07:46:57,9.3,No,Low,Internal,1,Expired Cert,,94.43,2024-04-01,2024-04,2024
+TKT0386,2024-11-28 14:31:01,High,Network,Firewall,Analytics,Remote,Amit M.,Resolved,No,KB-0074,2024-11-28 23:25:10,8.9,Yes,Low,External,0,Human Error,,0.0,2024-11-25,2024-11,2024
+TKT0387,2024-11-29 17:41:04,Low,Hardware,Power,Search,Kolkata,Neha P.,In Progress,No,KB-0062,,,Yes,Low,Partner,0,Code Bug,,455.96,2024-11-25,2024-11,2024
+TKT0388,2025-08-28 13:50:27,Medium,Application,Upgrade,Web-Frontend,Bengaluru,Priya S.,In Progress,No,KB-0063,,,Yes,Low,External,2,Power Outage,,115.85,2025-08-25,2025-08,2025
+TKT0389,2024-11-29 17:06:52,Medium,Application,Bug,Payments,Pune,Team-DBA,Open,No,KB-0064,,,Yes,Medium,Internal,1,Human Error,,554.11,2024-11-25,2024-11,2024
+TKT0390,2024-08-10 04:56:37,Low,Cloud,Provisioning,Data-Warehouse,Bengaluru,Isha T.,Resolved,No,KB-0074,2024-08-12 11:33:41,54.62,No,Low,Partner,2,Third-party,,316.61,2024-08-05,2024-08,2024
+TKT0391,2025-08-06 21:19:58,Low,Security,Malware,Email,Pune,Team-DBA,Resolved,No,KB-0052,2025-08-12 11:23:32,134.06,Yes,High,Internal,2,Expired Cert,,983.39,2025-08-04,2025-08,2025
+TKT0392,2025-07-16 01:00:45,Medium,Application,Deployment,API-Gateway,Mumbai,Neha P.,Resolved,No,KB-0081,2025-07-16 07:43:30,6.71,No,Low,Partner,1,Hardware Failure,,95.94,2025-07-14,2025-07,2025
+TKT0393,2025-07-12 06:42:11,Medium,Database,Replication,Search,Chennai,Karan L.,Resolved,No,KB-0086,2025-07-12 07:33:42,0.86,No,Low,External,0,Config Change,,0.0,2025-07-07,2025-07,2025
+TKT0394,2024-05-27 23:56:31,Medium,Database,Performance,Data-Warehouse,Kolkata,Isha T.,Open,No,KB-0055,,,Yes,Medium,Partner,8,Unknown,,566.32,2024-05-27,2024-05,2024
+TKT0395,2025-03-10 17:52:28,Medium,Database,Performance,Search,Mumbai,Team-DBA,Resolved,No,KB-0092,2025-03-11 05:13:41,11.35,No,Medium,External,9,Expired Cert,,0.0,2025-03-10,2025-03,2025
+TKT0396,2024-02-04 01:36:30,Medium,Network,WAN,Payments,Bengaluru,Team-NetOps,Reopened,No,KB-0100,,,Yes,Low,External,0,Human Error,,941.01,2024-01-29,2024-02,2024
+TKT0397,2025-06-19 19:05:15,Medium,Cloud,IAM,Payments,Delhi,Team-DBA,Resolved,No,KB-0100,2025-06-28 08:29:14,205.4,Yes,Medium,Partner,4,Expired Cert,,855.15,2025-06-16,2025-06,2025
+TKT0398,2025-03-07 11:51:18,Medium,Network,Firewall,API-Gateway,Mumbai,Isha T.,In Progress,No,KB-0085,,,Yes,Critical,External,3,Config Change,,1697.84,2025-03-03,2025-03,2025
+TKT0399,2024-10-20 15:05:08,Medium,Storage,NAS,API-Gateway,Bengaluru,Team-DBA,Resolved,No,KB-0002,2024-10-21 12:47:26,21.71,No,Medium,External,6,Capacity,,0.0,2024-10-14,2024-10,2024
+TKT0400,2025-04-02 11:51:11,Medium,Cloud,Provisioning,Analytics,Bengaluru,Team-NetOps,Open,No,KB-0011,,,Yes,Critical,External,4,Capacity,,992.77,2025-03-31,2025-04,2025
+TKT0401,2025-05-22 13:49:24,High,Security,Malware,Data-Warehouse,Hyderabad,Team-DBA,In Progress,No,KB-0083,,,Yes,Low,Internal,1,Config Change,,0.0,2025-05-19,2025-05,2025
+TKT0402,2024-06-20 14:25:30,Medium,Cloud,IAM,Web-Frontend,Kolkata,Karan L.,Resolved,No,KB-0056,2024-07-25 14:42:41,840.29,Yes,Low,Partner,0,Unknown,,22.51,2024-06-17,2024-06,2024
+TKT0403,2024-02-12 03:58:34,Medium,Storage,NAS,API-Gateway,Chennai,Saurabh D.,Resolved,Yes,KB-0084,2024-02-14 15:54:47,59.94,Yes,Medium,External,8,Code Bug,,464.48,2024-02-12,2024-02,2024
+TKT0404,2025-08-25 06:33:21,Medium,Database,Backup,Auth-Service,Mumbai,Priya S.,Resolved,Yes,KB-0014,2025-08-25 09:46:12,3.21,No,Low,External,1,Third-party,,0.0,2025-08-25,2025-08,2025
+TKT0405,2024-09-14 06:02:01,Medium,Network,Router,Payments,Pune,Priya S.,Open,No,KB-0085,,,Yes,High,External,5,Capacity,,915.93,2024-09-09,2024-09,2024
+TKT0406,2024-04-23 22:11:16,Medium,Cloud,Provisioning,Analytics,Delhi,Karan L.,In Progress,No,KB-0099,,,Yes,Low,Internal,0,Human Error,,0.0,2024-04-22,2024-04,2024
+TKT0407,2024-10-10 01:24:24,Medium,Network,Firewall,API-Gateway,Bengaluru,Isha T.,Resolved,No,KB-0026,2024-10-12 18:33:59,65.16,Yes,Low,Partner,1,Human Error,,0.0,2024-10-07,2024-10,2024
+TKT0408,2024-05-27 17:49:27,High,Cloud,Provisioning,Analytics,Delhi,Priya S.,Resolved,Yes,KB-0094,2024-05-27 21:34:52,3.76,No,Medium,Partner,8,Capacity,,319.62,2024-05-27,2024-05,2024
+TKT0409,2025-10-30 20:00:59,Critical,Security,Access,Data-Warehouse,Chennai,Karan L.,In Progress,No,KB-0099,,,Yes,Medium,Partner,3,Hardware Failure,,326.87,2025-10-27,2025-10,2025
+TKT0410,2024-03-12 17:14:00,Medium,Cloud,Autoscale,Payments,Chennai,Pooja R.,In Progress,No,KB-0081,,,Yes,Critical,External,4,Human Error,,1233.85,2024-03-11,2024-03,2024
+TKT0411,2025-01-09 17:54:21,High,Security,Access,Web-Frontend,Bengaluru,Team-NetOps,Resolved,No,KB-0025,2025-01-10 04:01:24,10.12,Yes,Low,Internal,0,Expired Cert,,137.69,2025-01-06,2025-01,2025
+TKT0412,2025-05-13 02:56:40,Medium,Database,Performance,Auth-Service,Hyderabad,Ravi K.,In Progress,No,KB-0063,,,Yes,Low,External,3,Third-party,,0.0,2025-05-12,2025-05,2025
+TKT0413,2025-05-26 17:53:51,Medium,Network,Switch,Email,Mumbai,Pooja R.,Open,Yes,KB-0016,,,Yes,Low,External,1,Unknown,,519.89,2025-05-26,2025-05,2025
+TKT0414,2025-04-14 21:55:55,Medium,Cloud,IAM,Web-Frontend,Pune,Ravi K.,In Progress,No,KB-0003,,,Yes,Medium,External,11,Config Change,,0.0,2025-04-14,2025-04,2025
+TKT0415,2024-09-05 22:41:08,Critical,Cloud,Provisioning,API-Gateway,Pune,Isha T.,In Progress,No,KB-0009,,,Yes,High,Internal,5,Human Error,,932.37,2024-09-02,2024-09,2024
+TKT0416,2025-05-24 19:51:39,High,Storage,SAN,Search,Chennai,Karan L.,Resolved,No,KB-0074,2025-05-25 00:25:54,4.57,No,Low,Internal,2,Config Change,,701.78,2025-05-19,2025-05,2025
+TKT0417,2025-08-30 05:21:04,High,Database,Backup,Data-Warehouse,Chennai,Team-NetOps,Resolved,No,KB-0075,2025-08-31 14:31:20,33.17,Yes,High,External,5,Hardware Failure,,686.64,2025-08-25,2025-08,2025
+TKT0418,2024-06-10 00:56:31,High,Network,Router,Payments,Delhi,Karan L.,In Progress,No,KB-0061,,,Yes,Medium,Internal,2,Capacity,,631.2,2024-06-10,2024-06,2024
+TKT0419,2025-10-17 08:33:28,Medium,Database,Replication,Auth-Service,Bengaluru,Isha T.,In Progress,Yes,,,,Yes,Low,Partner,3,Config Change,,457.52,2025-10-13,2025-10,2025
+TKT0420,2025-07-25 07:12:07,Low,Network,Firewall,Web-Frontend,Remote,Neha P.,Resolved,No,KB-0020,2025-07-25 16:04:50,8.88,No,Critical,Partner,7,Power Outage,,1357.83,2025-07-21,2025-07,2025
+TKT0421,2024-06-29 05:42:59,Critical,Cloud,Autoscale,API-Gateway,Hyderabad,Karan L.,Resolved,No,KB-0098,2024-06-29 06:12:59,0.5,No,Low,Internal,1,Unknown,,104.48,2024-06-24,2024-06,2024
+TKT0422,2024-06-29 05:50:01,Medium,Network,Switch,Web-Frontend,Remote,Team-DBA,In Progress,No,KB-0096,,,Yes,Medium,Partner,3,Code Bug,,0.0,2024-06-24,2024-06,2024
+TKT0423,2024-04-22 10:14:06,High,Security,Vulnerability,Search,Hyderabad,Priya S.,Resolved,No,KB-0056,2024-04-23 06:05:54,19.86,Yes,High,Partner,3,Capacity,,1329.62,2024-04-22,2024-04,2024
+TKT0424,2025-01-31 11:08:29,Medium,Cloud,Autoscale,API-Gateway,Hyderabad,Pooja R.,Resolved,No,KB-0008,2025-01-31 12:07:50,0.99,No,Low,Partner,0,Power Outage,,668.79,2025-01-27,2025-01,2025
+TKT0425,2025-03-04 05:48:21,High,Application,Upgrade,Data-Warehouse,Bengaluru,Team-DBA,Reopened,No,KB-0012,,,Yes,Medium,External,4,Power Outage,,122.54,2025-03-03,2025-03,2025
+TKT0426,2024-08-09 18:30:53,Medium,Network,WAN,Web-Frontend,Hyderabad,Pooja R.,Resolved,No,KB-0076,2024-08-11 15:56:06,45.42,Yes,High,Internal,6,Hardware Failure,,1350.37,2024-08-05,2024-08,2024
+TKT0427,2024-02-15 01:30:46,Low,Network,WAN,Search,Remote,Priya S.,Resolved,No,KB-0072,2024-02-17 13:37:28,60.11,No,Medium,Partner,6,Code Bug,,0.0,2024-02-12,2024-02,2024
+TKT0428,2024-05-15 11:18:15,Medium,Network,Switch,Analytics,Delhi,Amit M.,In Progress,No,KB-0096,,,Yes,Medium,Partner,7,Power Outage,,591.09,2024-05-13,2024-05,2024
+TKT0429,2024-05-21 22:25:11,Low,Application,Upgrade,Analytics,Mumbai,Priya S.,Resolved,No,KB-0068,2024-06-20 14:14:41,711.83,Yes,High,External,3,Unknown,,588.79,2024-05-20,2024-05,2024
+TKT0430,2025-08-12 06:50:43,High,Application,Upgrade,Auth-Service,Chennai,Ravi K.,Resolved,No,KB-0080,2025-08-12 14:50:43,8.0,No,Low,External,1,Human Error,,760.52,2025-08-11,2025-08,2025
+TKT0431,2025-07-28 22:49:13,High,Application,Deployment,Payments,Remote,Team-DBA,Open,No,KB-0097,,,Yes,Medium,Internal,4,Expired Cert,,612.55,2025-07-28,2025-07,2025
+TKT0432,2024-12-27 08:32:43,Medium,Network,Switch,Email,Chennai,Isha T.,Resolved,No,KB-0016,2024-12-27 15:50:41,7.3,No,Medium,External,4,Third-party,,0.0,2024-12-23,2024-12,2024
+TKT0433,2025-04-07 19:23:51,Medium,Cloud,Provisioning,Web-Frontend,Remote,Priya S.,Resolved,No,KB-0037,2025-04-09 01:15:52,29.87,Yes,Low,Internal,2,Third-party,,395.23,2025-04-07,2025-04,2025
+TKT0434,2024-04-24 22:09:31,High,Database,Replication,Auth-Service,Delhi,Karan L.,Closed,No,KB-0017,2024-04-24 22:45:25,0.6,No,Medium,External,5,Config Change,,148.39,2024-04-22,2024-04,2024
+TKT0435,2024-10-25 06:04:01,Low,Database,Replication,Email,Kolkata,Team-DBA,Resolved,No,KB-0042,2024-10-25 16:35:18,10.52,No,Medium,External,8,Unknown,,0.0,2024-10-21,2024-10,2024
+TKT0436,2025-03-31 14:19:36,High,Storage,NAS,Data-Warehouse,Delhi,Neha P.,Resolved,No,KB-0099,2025-03-31 17:11:00,2.86,No,Low,Partner,2,Power Outage,,269.89,2025-03-31,2025-03,2025
+TKT0437,2024-06-19 19:59:10,Medium,Application,Deployment,Data-Warehouse,Bengaluru,Amit M.,Resolved,Yes,KB-0041,2024-06-20 07:44:06,11.75,No,Medium,Partner,3,Capacity,,0.0,2024-06-17,2024-06,2024
+TKT0438,2024-07-29 17:45:02,Medium,Application,Deployment,Email,Remote,Team-NetOps,Reopened,No,KB-0016,,,Yes,High,Partner,7,Power Outage,,1726.23,2024-07-29,2024-07,2024
+TKT0439,2024-05-28 14:59:20,High,Cloud,IAM,Email,Delhi,Isha T.,Open,No,KB-0097,,,Yes,Critical,External,5,Capacity,,405.29,2024-05-27,2024-05,2024
+TKT0440,2025-08-01 23:58:59,Medium,Cloud,Provisioning,Analytics,Mumbai,Amit M.,In Progress,Yes,KB-0004,,,Yes,Medium,Internal,5,Power Outage,,1021.34,2025-07-28,2025-08,2025
+TKT0441,2024-12-31 02:20:03,Medium,Database,Replication,Web-Frontend,Delhi,Neha P.,Resolved,No,KB-0058,2024-12-31 04:36:15,2.27,No,Critical,External,3,Hardware Failure,,237.34,2024-12-30,2024-12,2024
+TKT0442,2024-07-18 15:20:38,Medium,Network,Firewall,Search,Bengaluru,Karan L.,Resolved,No,KB-0037,2024-07-18 15:50:38,0.5,No,Low,Partner,0,Unknown,,0.0,2024-07-15,2024-07,2024
+TKT0443,2024-03-30 06:46:56,Medium,Security,Access,API-Gateway,Bengaluru,Karan L.,In Progress,No,KB-0076,,,Yes,Medium,Internal,5,Code Bug,,469.03,2024-03-25,2024-03,2024
+TKT0444,2024-11-06 15:55:33,Low,Network,WAN,Payments,Mumbai,Karan L.,In Progress,No,KB-0023,,,Yes,Medium,External,7,Capacity,,179.16,2024-11-04,2024-11,2024
+TKT0445,2024-07-23 05:53:24,Medium,Security,Vulnerability,API-Gateway,Delhi,Isha T.,In Progress,No,KB-0004,,,Yes,High,Internal,3,Third-party,,1490.43,2024-07-22,2024-07,2024
+TKT0446,2024-11-03 20:53:40,Medium,Cloud,IAM,API-Gateway,Kolkata,Amit M.,Resolved,No,KB-0032,2024-11-11 11:02:05,182.14,Yes,Medium,Internal,2,Expired Cert,,0.0,2024-10-28,2024-11,2024
+TKT0447,2025-08-18 15:36:27,Low,Cloud,IAM,Analytics,Pune,Pooja R.,Resolved,No,KB-0034,2025-08-19 12:08:08,20.53,No,Low,Partner,3,Power Outage,,286.67,2025-08-18,2025-08,2025
+TKT0448,2024-05-18 11:10:03,Medium,Security,Malware,Email,Mumbai,Saurabh D.,Resolved,No,KB-0010,2024-05-19 16:16:17,29.1,Yes,High,Internal,3,Human Error,,1121.98,2024-05-13,2024-05,2024
+TKT0449,2025-09-05 05:34:20,Low,Storage,Snapshot,API-Gateway,Delhi,Pooja R.,Resolved,No,KB-0019,2025-09-13 22:29:26,208.92,Yes,Low,Partner,0,Hardware Failure,,1035.74,2025-09-01,2025-09,2025
+TKT0450,2024-12-14 05:06:13,High,Database,Performance,Payments,Kolkata,Isha T.,Closed,Yes,KB-0017,2024-12-14 09:12:46,4.11,No,Medium,Partner,7,Expired Cert,,146.22,2024-12-09,2024-12,2024
+TKT0451,2024-05-22 14:56:38,Medium,Application,Deployment,API-Gateway,Mumbai,Priya S.,Resolved,No,KB-0019,2024-05-22 23:41:01,8.74,No,Low,Internal,0,Capacity,,12.4,2024-05-20,2024-05,2024
+TKT0452,2024-03-21 13:44:48,Low,Network,Switch,Analytics,Kolkata,Ravi K.,Resolved,Yes,KB-0085,2024-03-23 21:50:47,56.1,No,Low,Internal,2,Third-party,,41.14,2024-03-18,2024-03,2024
+TKT0453,2024-02-14 02:19:42,Critical,Network,Switch,Web-Frontend,Hyderabad,Amit M.,In Progress,Yes,KB-0019,,,Yes,High,Partner,7,Expired Cert,,1493.67,2024-02-12,2024-02,2024
+TKT0454,2024-12-26 05:54:32,Low,Hardware,Disk,Payments,Pune,Team-DBA,Open,No,KB-0092,,,Yes,Low,Partner,1,Capacity,,162.02,2024-12-23,2024-12,2024
+TKT0455,2025-07-04 00:46:06,Low,Hardware,CPU,Analytics,Chennai,Team-DBA,Resolved,No,KB-0014,2025-07-04 09:56:49,9.18,No,Low,Partner,0,Hardware Failure,,0.0,2025-06-30,2025-07,2025
+TKT0456,2024-08-07 16:14:26,High,Application,Deployment,Analytics,Pune,Team-NetOps,Resolved,No,KB-0091,2024-08-07 17:09:48,0.92,No,Medium,Internal,5,Expired Cert,,1244.77,2024-08-05,2024-08,2024
+TKT0457,2025-05-20 03:24:18,Medium,Cloud,Autoscale,Analytics,Hyderabad,Team-NetOps,Resolved,No,KB-0055,2025-05-20 09:34:17,6.17,No,Low,Partner,2,Expired Cert,,0.0,2025-05-19,2025-05,2025
+TKT0458,2024-07-02 00:43:31,Medium,Security,Access,Payments,Pune,Amit M.,Resolved,No,KB-0014,2024-07-02 04:12:17,3.48,No,High,Internal,2,Human Error,,958.48,2024-07-01,2024-07,2024
+TKT0459,2025-01-07 06:21:12,Medium,Security,Vulnerability,Web-Frontend,Kolkata,Isha T.,Resolved,No,KB-0075,2025-01-08 17:58:54,35.63,Yes,High,External,11,Hardware Failure,,2012.15,2025-01-06,2025-01,2025
+TKT0460,2024-12-30 15:42:38,Low,Security,Malware,API-Gateway,Bengaluru,Isha T.,Resolved,No,KB-0064,2024-12-30 20:04:54,4.37,No,High,Internal,10,Human Error,,318.41,2024-12-30,2024-12,2024
+TKT0461,2024-02-24 02:31:43,Critical,Database,Backup,Email,Bengaluru,Saurabh D.,In Progress,Yes,KB-0010,,,Yes,Medium,External,5,Power Outage,,942.06,2024-02-19,2024-02,2024
+TKT0462,2025-04-22 06:18:42,Medium,Hardware,Power,Email,Mumbai,Ravi K.,Reopened,No,KB-0016,,,Yes,Low,Partner,1,Hardware Failure,,377.81,2025-04-21,2025-04,2025
+TKT0463,2025-03-29 14:02:02,High,Cloud,Autoscale,Data-Warehouse,Remote,Karan L.,Resolved,No,KB-0063,2025-03-29 14:32:02,0.5,No,Medium,Partner,5,Unknown,,434.79,2025-03-24,2025-03,2025
+TKT0464,2025-07-06 18:30:30,Medium,Database,Replication,Auth-Service,Kolkata,Saurabh D.,Resolved,No,KB-0079,2025-07-06 20:26:00,1.93,No,High,Partner,2,Expired Cert,,1357.05,2025-06-30,2025-07,2025
+TKT0465,2024-03-03 00:37:02,High,Application,Bug,Auth-Service,Chennai,Karan L.,Resolved,No,KB-0046,2024-03-03 07:34:03,6.95,No,Low,Internal,0,Code Bug,,0.0,2024-02-26,2024-03,2024
+TKT0466,2024-08-28 20:19:37,High,Cloud,Provisioning,API-Gateway,Pune,Pooja R.,Resolved,No,KB-0005,2024-08-29 12:27:15,16.13,Yes,High,External,4,Unknown,,216.83,2024-08-26,2024-08,2024
+TKT0467,2025-03-07 08:01:44,Medium,Network,Firewall,Search,Kolkata,Pooja R.,In Progress,No,KB-0013,,,Yes,Medium,Internal,8,Expired Cert,,0.0,2025-03-03,2025-03,2025
+TKT0468,2025-05-23 16:51:48,Medium,Database,Replication,API-Gateway,Chennai,Karan L.,Resolved,No,,2025-05-23 20:56:49,4.08,No,High,Internal,4,Third-party,,1365.38,2025-05-19,2025-05,2025
+TKT0469,2024-09-28 01:19:36,Medium,Database,Replication,Payments,Pune,Team-DBA,Resolved,Yes,KB-0068,2024-09-28 02:01:51,0.7,No,Low,Internal,0,Third-party,,0.0,2024-09-23,2024-09,2024
+TKT0470,2025-05-31 09:27:42,Medium,Database,Backup,Search,Delhi,Team-DBA,Resolved,No,KB-0071,2025-06-02 19:09:24,57.7,Yes,Low,External,1,Unknown,,543.16,2025-05-26,2025-05,2025
+TKT0471,2024-07-10 18:31:13,Medium,Storage,Snapshot,Analytics,Delhi,Team-NetOps,Open,No,KB-0056,,,Yes,High,External,9,Config Change,,819.55,2024-07-08,2024-07,2024
+TKT0472,2025-06-18 06:23:29,High,Database,Replication,API-Gateway,Kolkata,Karan L.,Resolved,No,KB-0009,2025-06-18 07:51:25,1.47,No,High,Partner,4,Third-party,,0.0,2025-06-16,2025-06,2025
+TKT0473,2025-10-23 05:16:43,Medium,Security,Vulnerability,Payments,Bengaluru,Neha P.,Resolved,No,KB-0040,2025-10-23 06:41:45,1.42,No,Medium,Partner,6,Hardware Failure,,718.52,2025-10-20,2025-10,2025
+TKT0474,2025-10-24 01:12:10,Medium,Network,Firewall,API-Gateway,Bengaluru,Ravi K.,Closed,No,KB-0003,2025-10-24 21:36:58,20.41,No,High,Partner,5,Third-party,,1370.3,2025-10-20,2025-10,2025
+TKT0475,2024-03-06 13:57:23,Medium,Network,WAN,Data-Warehouse,Hyderabad,Priya S.,In Progress,No,KB-0016,,,Yes,Medium,External,2,Unknown,,545.12,2024-03-04,2024-03,2024
+TKT0476,2024-09-14 15:56:05,High,Network,Firewall,Email,Kolkata,Neha P.,Closed,No,KB-0014,2024-09-14 16:26:05,0.5,No,Critical,Partner,4,Hardware Failure,,0.0,2024-09-09,2024-09,2024
+TKT0477,2024-09-17 18:03:31,Medium,Cloud,Provisioning,Email,Kolkata,Isha T.,In Progress,No,,,,Yes,High,Partner,0,Power Outage,,1339.69,2024-09-16,2024-09,2024
+TKT0478,2025-01-11 09:01:41,Low,Hardware,Disk,Auth-Service,Hyderabad,Saurabh D.,In Progress,No,KB-0090,,,Yes,Low,External,2,Human Error,,0.0,2025-01-06,2025-01,2025
+TKT0479,2025-07-01 07:54:28,Medium,Security,Access,API-Gateway,Pune,Neha P.,Resolved,No,KB-0021,2025-07-01 14:50:11,6.93,No,Medium,External,9,Hardware Failure,,1069.45,2025-06-30,2025-07,2025
+TKT0480,2024-02-04 08:55:05,Low,Security,Access,Search,Chennai,Karan L.,Open,No,KB-0021,,,Yes,Medium,External,3,Human Error,,689.43,2024-01-29,2024-02,2024
+TKT0481,2024-12-26 13:38:46,Low,Cloud,Autoscale,Analytics,Mumbai,Ravi K.,In Progress,No,KB-0057,,,Yes,High,Internal,4,Config Change,,205.77,2024-12-23,2024-12,2024
+TKT0482,2025-02-14 06:40:19,Medium,Network,Switch,Data-Warehouse,Hyderabad,Team-NetOps,In Progress,No,KB-0084,,,Yes,High,External,5,Hardware Failure,,1396.47,2025-02-10,2025-02,2025
+TKT0483,2024-11-23 14:30:55,Medium,Application,Deployment,Email,Delhi,Neha P.,Resolved,No,KB-0051,2024-11-25 18:23:33,51.88,Yes,High,External,10,Code Bug,,350.44,2024-11-18,2024-11,2024
+TKT0484,2024-01-22 00:59:35,Medium,Cloud,Provisioning,Payments,Remote,Neha P.,Resolved,No,KB-0007,2024-01-25 02:44:17,73.75,Yes,Medium,Partner,8,Capacity,,0.0,2024-01-22,2024-01,2024
+TKT0485,2024-04-01 11:10:36,High,Cloud,IAM,Search,Remote,Isha T.,Resolved,No,KB-0025,2024-04-01 19:39:45,8.49,Yes,High,Partner,3,Third-party,,241.06,2024-04-01,2024-04,2024
+TKT0486,2025-05-21 12:08:27,Low,Hardware,Disk,API-Gateway,Hyderabad,Karan L.,Resolved,No,KB-0004,2025-05-24 10:25:57,70.29,No,Low,External,3,Power Outage,,21.49,2025-05-19,2025-05,2025
+TKT0487,2024-09-11 11:37:43,Medium,Network,Switch,Analytics,Bengaluru,Pooja R.,Reopened,No,KB-0028,,,Yes,Medium,External,7,Hardware Failure,,0.0,2024-09-09,2024-09,2024
+TKT0488,2025-09-03 08:04:06,Medium,Network,Firewall,Web-Frontend,Remote,Pooja R.,Reopened,No,KB-0077,,,Yes,Medium,Internal,8,Config Change,,0.0,2025-09-01,2025-09,2025
+TKT0489,2024-09-16 16:39:24,Medium,Security,Malware,Email,Bengaluru,Team-NetOps,Resolved,No,KB-0022,2024-09-17 14:10:41,21.52,No,High,Partner,3,Capacity,,1624.89,2024-09-16,2024-09,2024
+TKT0490,2024-04-01 10:45:33,Medium,Application,Deployment,Email,Mumbai,Amit M.,Resolved,No,KB-0036,2024-04-01 18:33:53,7.81,No,High,Partner,4,Third-party,,242.45,2024-04-01,2024-04,2024
+TKT0491,2025-09-19 08:33:20,Medium,Database,Backup,Analytics,Bengaluru,Team-NetOps,Open,No,KB-0057,,,Yes,Low,Internal,1,Config Change,,0.0,2025-09-15,2025-09,2025
+TKT0492,2024-08-23 05:02:30,Medium,Cloud,Autoscale,Search,Pune,Isha T.,Resolved,No,KB-0091,2024-08-23 14:01:57,8.99,No,Medium,Internal,7,Capacity,,118.34,2024-08-19,2024-08,2024
+TKT0493,2024-05-06 11:05:13,Low,Database,Performance,API-Gateway,Hyderabad,Team-DBA,Reopened,Yes,KB-0099,,,Yes,Medium,Partner,4,Human Error,,0.0,2024-05-06,2024-05,2024
+TKT0494,2024-09-09 15:43:06,Low,Network,Firewall,Payments,Kolkata,Pooja R.,In Progress,No,KB-0042,,,Yes,Low,Internal,1,Power Outage,,238.74,2024-09-09,2024-09,2024
+TKT0495,2025-05-06 14:40:17,Medium,Network,Firewall,Auth-Service,Remote,Pooja R.,Closed,No,KB-0073,2025-05-07 00:35:41,9.92,No,High,External,6,Third-party,,126.27,2025-05-05,2025-05,2025
+TKT0496,2024-11-26 01:47:04,Medium,Hardware,Power,Payments,Kolkata,Saurabh D.,Resolved,No,KB-0052,2024-11-26 08:17:30,6.51,No,High,Internal,4,Hardware Failure,,935.98,2024-11-25,2024-11,2024
+TKT0497,2025-02-16 09:41:48,Low,Database,Performance,API-Gateway,Remote,Karan L.,In Progress,No,KB-0088,,,Yes,Medium,Partner,5,Human Error,,794.96,2025-02-10,2025-02,2025
+TKT0498,2025-01-11 16:12:31,Medium,Security,Access,API-Gateway,Kolkata,Priya S.,Open,No,KB-0079,,,Yes,Low,External,1,Hardware Failure,,706.84,2025-01-06,2025-01,2025
+TKT0499,2024-04-05 01:32:21,Low,Cloud,Provisioning,Data-Warehouse,Remote,Team-NetOps,In Progress,No,KB-0038,,,Yes,Medium,Internal,5,Power Outage,,92.54,2024-04-01,2024-04,2024
+TKT0500,2024-11-03 04:08:43,Low,Storage,SAN,Search,Delhi,Team-DBA,Resolved,Yes,KB-0006,2024-11-05 07:09:47,51.02,No,Medium,Partner,3,Human Error,,338.4,2024-10-28,2024-11,2024
