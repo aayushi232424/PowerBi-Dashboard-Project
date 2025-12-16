@@ -1,0 +1,501 @@
+Order_ID,Product_ID,Seller_ID,Category,City,State,Order_Date,Quantity,Unit_Price,Discount,Final_Amount,Payment_Mode,Order_Status
+ORD100000,PRD2824,SEL427,Beauty,Kolkata,Delhi,2024-12-21,4,1480,339,5581,Credit Card,Delivered
+ORD100001,PRD1409,SEL653,Beauty,Kolkata,Delhi,2024-06-10,3,1624,59,4813,Net Banking,In Transit
+ORD100002,PRD5506,SEL182,Home & Kitchen,Jaipur,Rajasthan,2024-07-30,1,1068,265,803,COD,Cancelled
+ORD100003,PRD5012,SEL241,Home & Kitchen,Jaipur,Rajasthan,2024-05-16,5,836,474,3706,COD,Delivered
+ORD100004,PRD4657,SEL254,Electronics,Chennai,West Bengal,2024-11-18,5,1280,363,6037,COD,In Transit
+ORD100005,PRD3286,SEL336,Fashion,Bangalore,Rajasthan,2024-02-17,2,764,236,1292,Debit Card,Returned
+ORD100006,PRD2679,SEL492,Beauty,Kolkata,Karnataka,2024-07-31,4,2234,124,8812,Credit Card,Cancelled
+ORD100007,PRD9935,SEL810,Fashion,Chennai,Madhya Pradesh,2024-11-02,5,859,442,3853,Debit Card,Returned
+ORD100008,PRD2424,SEL256,Footwear,Jaipur,Karnataka,2024-01-02,3,1522,428,4138,Credit Card,In Transit
+ORD100009,PRD7912,SEL823,Home & Kitchen,Hyderabad,Telangana,2024-06-25,3,1845,233,5302,Net Banking,In Transit
+ORD100010,PRD1520,SEL319,Beauty,Indore,Madhya Pradesh,2024-04-29,4,478,162,1750,UPI,In Transit
+ORD100011,PRD1488,SEL165,Footwear,Pune,Maharashtra,2024-01-19,2,2357,494,4220,Credit Card,Delivered
+ORD100012,PRD2535,SEL524,Electronics,Indore,Karnataka,2024-09-26,4,362,369,1079,COD,In Transit
+ORD100013,PRD4582,SEL517,Fashion,Pune,West Bengal,2024-05-15,3,1928,332,5452,Credit Card,Returned
+ORD100014,PRD4811,SEL438,Fashion,Hyderabad,Tamil Nadu,2024-11-16,4,447,316,1472,UPI,Delivered
+ORD100015,PRD9279,SEL655,Electronics,Chennai,Delhi,2024-08-10,1,711,227,484,COD,Returned
+ORD100016,PRD1434,SEL577,Beauty,Bangalore,Telangana,2024-01-29,3,1768,191,5113,Net Banking,In Transit
+ORD100017,PRD4257,SEL525,Fashion,Indore,Telangana,2024-10-16,2,996,89,1903,Credit Card,Cancelled
+ORD100018,PRD9928,SEL163,Home & Kitchen,Delhi,Rajasthan,2024-04-28,4,1340,235,5125,Debit Card,Cancelled
+ORD100019,PRD7873,SEL311,Home & Kitchen,Indore,Tamil Nadu,2024-02-07,4,1715,300,6560,Credit Card,Returned
+ORD100020,PRD4611,SEL952,Electronics,Indore,Maharashtra,2024-04-11,4,2279,54,9062,Net Banking,Returned
+ORD100021,PRD8359,SEL530,Beauty,Chennai,Delhi,2024-12-24,3,389,500,667,Net Banking,Delivered
+ORD100022,PRD5557,SEL498,Electronics,Pune,Telangana,2024-11-06,4,1472,397,5491,UPI,Returned
+ORD100023,PRD1106,SEL888,Fashion,Chennai,Rajasthan,2024-12-13,2,697,462,932,COD,Returned
+ORD100024,PRD3615,SEL698,Beauty,Bangalore,Telangana,2024-03-08,1,1508,167,1341,UPI,Returned
+ORD100025,PRD7924,SEL812,Electronics,Chennai,Rajasthan,2024-09-28,5,1416,425,6655,Debit Card,Returned
+ORD100026,PRD6574,SEL120,Electronics,Indore,West Bengal,2024-02-28,4,608,72,2360,Debit Card,Delivered
+ORD100027,PRD5552,SEL977,Fashion,Jaipur,Maharashtra,2024-07-21,1,1383,274,1109,Debit Card,In Transit
+ORD100028,PRD3547,SEL883,Electronics,Jaipur,Delhi,2024-11-22,3,743,345,1884,Net Banking,Returned
+ORD100029,PRD4527,SEL689,Beauty,Chennai,Madhya Pradesh,2024-11-08,2,558,325,791,COD,Cancelled
+ORD100030,PRD6514,SEL489,Fashion,Mumbai,Telangana,2024-01-24,1,1546,252,1294,Net Banking,Cancelled
+ORD100031,PRD2674,SEL588,Footwear,Indore,Karnataka,2024-07-17,4,1819,343,6933,Credit Card,Delivered
+ORD100032,PRD2519,SEL106,Home & Kitchen,Delhi,Maharashtra,2024-09-07,5,1971,480,9375,UPI,In Transit
+ORD100033,PRD7224,SEL460,Home & Kitchen,Kolkata,Maharashtra,2024-08-15,2,1785,50,3520,COD,In Transit
+ORD100034,PRD2584,SEL405,Beauty,Mumbai,Telangana,2024-05-21,2,800,485,1115,Net Banking,Delivered
+ORD100035,PRD6881,SEL871,Footwear,Hyderabad,Maharashtra,2024-01-26,3,1297,64,3827,Net Banking,Cancelled
+ORD100036,PRD6635,SEL499,Electronics,Delhi,Tamil Nadu,2024-10-27,2,1254,168,2340,UPI,Cancelled
+ORD100037,PRD5333,SEL973,Fashion,Bangalore,Delhi,2024-10-03,3,1014,56,2986,Debit Card,Cancelled
+ORD100038,PRD1711,SEL955,Home & Kitchen,Delhi,Karnataka,2024-10-28,3,364,89,1003,Credit Card,Delivered
+ORD100039,PRD8527,SEL529,Home & Kitchen,Kolkata,Maharashtra,2024-02-02,4,2136,398,8146,Credit Card,Cancelled
+ORD100040,PRD9785,SEL651,Beauty,Delhi,Delhi,2024-11-10,1,2435,154,2281,Credit Card,In Transit
+ORD100041,PRD3045,SEL865,Beauty,Mumbai,Maharashtra,2024-08-06,1,2308,364,1944,Debit Card,Cancelled
+ORD100042,PRD7201,SEL852,Footwear,Kolkata,Maharashtra,2024-02-03,2,1426,319,2533,Credit Card,Returned
+ORD100043,PRD2291,SEL659,Fashion,Kolkata,Telangana,2024-08-20,5,2062,50,10260,Credit Card,In Transit
+ORD100044,PRD5803,SEL919,Beauty,Indore,Madhya Pradesh,2024-04-26,4,1688,423,6329,COD,Returned
+ORD100045,PRD6925,SEL717,Electronics,Jaipur,Maharashtra,2024-08-06,3,1344,191,3841,COD,Delivered
+ORD100046,PRD4150,SEL325,Home & Kitchen,Bangalore,West Bengal,2024-02-17,4,695,381,2399,COD,Returned
+ORD100047,PRD2139,SEL599,Beauty,Delhi,Tamil Nadu,2024-12-09,1,1982,181,1801,Net Banking,Returned
+ORD100048,PRD1750,SEL324,Electronics,Jaipur,Telangana,2024-06-29,1,2378,108,2270,COD,Returned
+ORD100049,PRD4733,SEL379,Home & Kitchen,Hyderabad,Madhya Pradesh,2024-10-11,3,770,390,1920,Net Banking,Delivered
+ORD100050,PRD5741,SEL546,Home & Kitchen,Chennai,Maharashtra,2024-11-07,3,418,92,1162,Debit Card,Delivered
+ORD100051,PRD2307,SEL597,Electronics,Delhi,Maharashtra,2024-04-02,2,1941,35,3847,Net Banking,Cancelled
+ORD100052,PRD4814,SEL129,Electronics,Pune,Tamil Nadu,2024-07-11,4,2158,174,8458,Debit Card,Delivered
+ORD100053,PRD2654,SEL498,Footwear,Delhi,Maharashtra,2024-01-27,2,944,386,1502,Debit Card,In Transit
+ORD100054,PRD7227,SEL444,Beauty,Indore,Tamil Nadu,2024-12-04,4,2289,310,8846,UPI,Delivered
+ORD100055,PRD5554,SEL784,Footwear,Jaipur,West Bengal,2024-06-25,4,754,145,2871,Debit Card,Delivered
+ORD100056,PRD8428,SEL795,Electronics,Chennai,Telangana,2024-04-22,4,524,3,2093,UPI,Returned
+ORD100057,PRD6977,SEL917,Beauty,Indore,Karnataka,2024-05-28,3,791,3,2370,UPI,In Transit
+ORD100058,PRD3664,SEL514,Home & Kitchen,Mumbai,Madhya Pradesh,2024-09-29,2,2349,286,4412,COD,In Transit
+ORD100059,PRD7065,SEL841,Home & Kitchen,Indore,Madhya Pradesh,2024-01-10,4,618,441,2031,Credit Card,Returned
+ORD100060,PRD6820,SEL269,Home & Kitchen,Bangalore,Rajasthan,2024-02-28,4,385,494,1046,Debit Card,Delivered
+ORD100061,PRD4432,SEL960,Footwear,Indore,West Bengal,2024-08-11,1,1296,223,1073,COD,In Transit
+ORD100062,PRD5374,SEL578,Electronics,Mumbai,West Bengal,2024-06-07,3,1207,170,3451,COD,Cancelled
+ORD100063,PRD2169,SEL230,Fashion,Bangalore,Tamil Nadu,2024-06-27,3,904,120,2592,UPI,Cancelled
+ORD100064,PRD3803,SEL737,Beauty,Jaipur,Rajasthan,2024-11-04,2,608,90,1126,Net Banking,Returned
+ORD100065,PRD9751,SEL646,Fashion,Jaipur,Rajasthan,2024-11-17,3,918,225,2529,Debit Card,Returned
+ORD100066,PRD5010,SEL127,Fashion,Chennai,Rajasthan,2024-10-29,1,1741,259,1482,Credit Card,Delivered
+ORD100067,PRD3677,SEL503,Fashion,Kolkata,Madhya Pradesh,2024-01-30,3,1475,39,4386,Credit Card,Delivered
+ORD100068,PRD8573,SEL706,Footwear,Jaipur,West Bengal,2024-08-18,5,1071,164,5191,UPI,Delivered
+ORD100069,PRD7216,SEL677,Fashion,Kolkata,Karnataka,2024-08-18,1,1706,365,1341,COD,Cancelled
+ORD100070,PRD5422,SEL778,Footwear,Bangalore,Maharashtra,2024-12-28,4,2099,268,8128,Debit Card,Returned
+ORD100071,PRD4598,SEL127,Footwear,Delhi,Maharashtra,2024-07-17,4,1685,347,6393,COD,Returned
+ORD100072,PRD6313,SEL185,Home & Kitchen,Bangalore,Maharashtra,2024-02-18,5,1883,145,9270,COD,Cancelled
+ORD100073,PRD1916,SEL758,Footwear,Mumbai,Tamil Nadu,2024-06-28,3,1905,66,5649,Net Banking,In Transit
+ORD100074,PRD4752,SEL538,Footwear,Mumbai,Madhya Pradesh,2024-11-25,3,823,343,2126,Net Banking,Returned
+ORD100075,PRD1525,SEL238,Electronics,Pune,Rajasthan,2024-01-10,3,1565,92,4603,UPI,Cancelled
+ORD100076,PRD6168,SEL987,Fashion,Kolkata,West Bengal,2024-03-11,2,616,151,1081,Net Banking,Delivered
+ORD100077,PRD7572,SEL572,Beauty,Bangalore,Karnataka,2024-12-04,3,836,305,2203,UPI,Cancelled
+ORD100078,PRD5386,SEL286,Electronics,Jaipur,Tamil Nadu,2024-08-12,1,1982,186,1796,Credit Card,Cancelled
+ORD100079,PRD2084,SEL151,Beauty,Hyderabad,Maharashtra,2024-09-30,2,1567,494,2640,Net Banking,In Transit
+ORD100080,PRD4456,SEL366,Footwear,Indore,Karnataka,2024-08-24,3,1864,257,5335,UPI,Cancelled
+ORD100081,PRD6155,SEL488,Home & Kitchen,Kolkata,Maharashtra,2024-05-08,1,2268,447,1821,Net Banking,Delivered
+ORD100082,PRD4483,SEL435,Beauty,Kolkata,Karnataka,2024-05-25,1,956,139,817,Credit Card,Delivered
+ORD100083,PRD9179,SEL316,Fashion,Indore,Delhi,2024-04-23,4,1731,476,6448,Credit Card,Returned
+ORD100084,PRD7482,SEL565,Electronics,Delhi,Maharashtra,2024-04-30,4,634,191,2345,COD,Returned
+ORD100085,PRD8517,SEL434,Beauty,Bangalore,Rajasthan,2024-03-15,2,456,146,766,Credit Card,Delivered
+ORD100086,PRD3340,SEL445,Electronics,Kolkata,West Bengal,2024-02-10,1,1348,110,1238,Credit Card,Delivered
+ORD100087,PRD5339,SEL879,Fashion,Hyderabad,Madhya Pradesh,2024-05-27,2,1533,62,3004,Net Banking,In Transit
+ORD100088,PRD3287,SEL488,Footwear,Delhi,West Bengal,2024-02-02,1,2347,305,2042,Net Banking,Cancelled
+ORD100089,PRD5040,SEL384,Footwear,Pune,Telangana,2024-03-14,3,2058,0,6174,Net Banking,In Transit
+ORD100090,PRD9830,SEL870,Home & Kitchen,Mumbai,West Bengal,2024-04-05,1,2444,499,1945,Net Banking,Delivered
+ORD100091,PRD5304,SEL951,Beauty,Pune,Tamil Nadu,2024-07-18,4,478,325,1587,COD,Returned
+ORD100092,PRD8019,SEL531,Fashion,Pune,Karnataka,2024-02-04,3,1287,375,3486,COD,Returned
+ORD100093,PRD7543,SEL358,Beauty,Jaipur,Karnataka,2024-10-06,3,1017,425,2626,UPI,Delivered
+ORD100094,PRD6930,SEL954,Fashion,Hyderabad,Delhi,2024-08-22,1,1501,103,1398,Debit Card,Returned
+ORD100095,PRD4593,SEL183,Fashion,Hyderabad,Tamil Nadu,2024-09-20,4,2239,129,8827,Debit Card,Delivered
+ORD100096,PRD3266,SEL581,Home & Kitchen,Indore,Madhya Pradesh,2024-12-01,3,1419,63,4194,Credit Card,In Transit
+ORD100097,PRD9348,SEL119,Beauty,Pune,West Bengal,2024-06-22,2,2332,354,4310,Debit Card,Delivered
+ORD100098,PRD9085,SEL867,Electronics,Kolkata,Tamil Nadu,2024-08-05,1,2063,308,1755,Debit Card,Delivered
+ORD100099,PRD2489,SEL652,Beauty,Indore,Karnataka,2024-02-10,3,1510,156,4374,Credit Card,Returned
+ORD100100,PRD1771,SEL153,Beauty,Chennai,Delhi,2024-08-16,1,1744,314,1430,COD,In Transit
+ORD100101,PRD2796,SEL458,Fashion,Bangalore,Rajasthan,2024-07-05,5,955,487,4288,COD,Cancelled
+ORD100102,PRD3504,SEL329,Beauty,Delhi,Karnataka,2024-02-04,2,1800,185,3415,Credit Card,Returned
+ORD100103,PRD3621,SEL765,Electronics,Kolkata,Maharashtra,2024-07-09,4,614,293,2163,Credit Card,Returned
+ORD100104,PRD7916,SEL170,Fashion,Delhi,Karnataka,2024-11-28,3,1322,491,3475,Credit Card,In Transit
+ORD100105,PRD2040,SEL899,Home & Kitchen,Jaipur,Telangana,2024-10-14,1,1372,396,976,Net Banking,Returned
+ORD100106,PRD7304,SEL767,Electronics,Mumbai,Rajasthan,2024-12-21,4,1119,62,4414,UPI,In Transit
+ORD100107,PRD7252,SEL141,Fashion,Kolkata,West Bengal,2024-02-14,3,1723,363,4806,Debit Card,Returned
+ORD100108,PRD8668,SEL872,Electronics,Mumbai,Telangana,2024-03-21,2,1780,260,3300,UPI,Cancelled
+ORD100109,PRD9669,SEL131,Footwear,Pune,Rajasthan,2024-09-09,1,1778,283,1495,Net Banking,Cancelled
+ORD100110,PRD5119,SEL353,Beauty,Jaipur,West Bengal,2024-11-09,1,569,158,411,Credit Card,In Transit
+ORD100111,PRD1188,SEL304,Home & Kitchen,Mumbai,Rajasthan,2024-10-21,1,813,497,316,Credit Card,Returned
+ORD100112,PRD2876,SEL959,Electronics,Indore,West Bengal,2024-03-06,5,1045,393,4832,COD,Delivered
+ORD100113,PRD9797,SEL120,Electronics,Pune,Telangana,2024-09-22,2,1545,84,3006,Debit Card,Returned
+ORD100114,PRD5371,SEL736,Footwear,Chennai,Karnataka,2024-02-10,3,1104,325,2987,Debit Card,Delivered
+ORD100115,PRD6573,SEL256,Footwear,Pune,Delhi,2024-09-14,2,931,87,1775,COD,Delivered
+ORD100116,PRD2827,SEL344,Electronics,Indore,Delhi,2024-01-24,5,1384,333,6587,Credit Card,Returned
+ORD100117,PRD5808,SEL229,Beauty,Chennai,Rajasthan,2024-11-24,3,2278,125,6709,COD,Delivered
+ORD100118,PRD8123,SEL584,Beauty,Hyderabad,Maharashtra,2024-03-21,4,2002,247,7761,Net Banking,Cancelled
+ORD100119,PRD3591,SEL785,Beauty,Bangalore,Maharashtra,2024-06-09,3,1714,499,4643,Net Banking,Delivered
+ORD100120,PRD8433,SEL217,Home & Kitchen,Jaipur,Telangana,2024-06-12,2,2210,62,4358,UPI,Delivered
+ORD100121,PRD1053,SEL677,Footwear,Indore,Telangana,2024-01-26,3,1873,442,5177,UPI,Returned
+ORD100122,PRD5315,SEL323,Electronics,Jaipur,West Bengal,2024-10-22,3,1077,390,2841,Credit Card,In Transit
+ORD100123,PRD9201,SEL576,Beauty,Kolkata,Rajasthan,2024-06-06,4,394,46,1530,UPI,Cancelled
+ORD100124,PRD3927,SEL816,Home & Kitchen,Jaipur,Rajasthan,2024-10-25,3,499,25,1472,Debit Card,Delivered
+ORD100125,PRD9317,SEL362,Home & Kitchen,Pune,Madhya Pradesh,2024-02-25,4,848,451,2941,Debit Card,Delivered
+ORD100126,PRD2743,SEL885,Footwear,Chennai,Maharashtra,2024-07-24,1,1097,185,912,Credit Card,In Transit
+ORD100127,PRD5889,SEL477,Fashion,Indore,Maharashtra,2024-10-08,3,786,65,2293,Debit Card,Returned
+ORD100128,PRD9317,SEL271,Footwear,Delhi,Delhi,2024-03-14,2,2385,205,4565,COD,Cancelled
+ORD100129,PRD4258,SEL720,Electronics,Kolkata,Karnataka,2024-06-19,4,2427,233,9475,Debit Card,Returned
+ORD100130,PRD3504,SEL721,Home & Kitchen,Kolkata,West Bengal,2024-03-24,4,1525,303,5797,Net Banking,In Transit
+ORD100131,PRD7126,SEL865,Fashion,Pune,Maharashtra,2024-12-28,5,1527,243,7392,COD,In Transit
+ORD100132,PRD3646,SEL835,Beauty,Chennai,Telangana,2024-10-25,3,409,305,922,COD,In Transit
+ORD100133,PRD9837,SEL217,Electronics,Delhi,Maharashtra,2024-03-28,5,1857,75,9210,UPI,Delivered
+ORD100134,PRD9689,SEL896,Beauty,Hyderabad,Madhya Pradesh,2024-08-13,3,2015,77,5968,Net Banking,In Transit
+ORD100135,PRD1009,SEL938,Footwear,Pune,Rajasthan,2024-02-01,2,2424,106,4742,Net Banking,In Transit
+ORD100136,PRD6310,SEL267,Footwear,Pune,West Bengal,2024-06-09,2,2182,467,3897,Debit Card,Returned
+ORD100137,PRD9005,SEL418,Electronics,Chennai,West Bengal,2024-11-08,4,1087,490,3858,Debit Card,Cancelled
+ORD100138,PRD1319,SEL210,Beauty,Pune,Rajasthan,2024-06-01,3,1149,353,3094,Debit Card,Returned
+ORD100139,PRD2832,SEL692,Beauty,Pune,Karnataka,2024-05-27,1,1855,458,1397,Debit Card,Delivered
+ORD100140,PRD6947,SEL126,Beauty,Chennai,Rajasthan,2024-05-27,1,1718,473,1245,UPI,Cancelled
+ORD100141,PRD6038,SEL419,Fashion,Hyderabad,Telangana,2024-10-02,3,1412,70,4166,COD,Cancelled
+ORD100142,PRD4923,SEL689,Beauty,Pune,Rajasthan,2024-11-22,2,515,51,979,COD,Cancelled
+ORD100143,PRD1949,SEL793,Beauty,Jaipur,Telangana,2024-01-03,5,946,208,4522,Debit Card,Returned
+ORD100144,PRD4946,SEL484,Footwear,Hyderabad,West Bengal,2024-05-26,1,666,333,333,COD,Cancelled
+ORD100145,PRD2290,SEL506,Beauty,Jaipur,Karnataka,2024-08-01,2,448,428,468,Debit Card,Delivered
+ORD100146,PRD2403,SEL832,Home & Kitchen,Chennai,Rajasthan,2024-01-05,3,739,475,1742,Net Banking,In Transit
+ORD100147,PRD8962,SEL303,Electronics,Mumbai,Maharashtra,2024-03-09,5,2217,139,10946,UPI,In Transit
+ORD100148,PRD2133,SEL177,Home & Kitchen,Chennai,Telangana,2024-11-27,3,1062,7,3179,UPI,In Transit
+ORD100149,PRD9727,SEL706,Beauty,Mumbai,Karnataka,2024-08-06,5,1643,44,8171,UPI,In Transit
+ORD100150,PRD3060,SEL807,Beauty,Hyderabad,Rajasthan,2024-06-14,2,327,133,521,Debit Card,Returned
+ORD100151,PRD3103,SEL950,Home & Kitchen,Hyderabad,Delhi,2024-06-03,5,346,133,1597,COD,In Transit
+ORD100152,PRD8787,SEL742,Footwear,Chennai,Maharashtra,2024-06-06,2,1960,351,3569,Debit Card,Returned
+ORD100153,PRD3705,SEL348,Electronics,Jaipur,Karnataka,2024-11-10,2,1197,490,1904,Credit Card,Returned
+ORD100154,PRD5342,SEL204,Footwear,Hyderabad,Telangana,2024-07-31,5,2228,387,10753,Net Banking,Delivered
+ORD100155,PRD9645,SEL813,Home & Kitchen,Mumbai,Maharashtra,2024-09-26,4,2463,360,9492,COD,Cancelled
+ORD100156,PRD7932,SEL891,Home & Kitchen,Kolkata,Rajasthan,2024-10-20,5,913,84,4481,COD,Cancelled
+ORD100157,PRD4470,SEL408,Footwear,Jaipur,Delhi,2024-10-25,4,672,460,2228,Credit Card,Cancelled
+ORD100158,PRD9835,SEL970,Fashion,Kolkata,Rajasthan,2024-09-19,4,2171,288,8396,Debit Card,Delivered
+ORD100159,PRD4295,SEL800,Electronics,Mumbai,Delhi,2024-07-21,3,312,381,555,Credit Card,Returned
+ORD100160,PRD6107,SEL714,Fashion,Jaipur,Delhi,2024-12-24,1,546,478,68,Debit Card,In Transit
+ORD100161,PRD7537,SEL924,Beauty,Jaipur,Madhya Pradesh,2024-04-02,2,2021,191,3851,Credit Card,Delivered
+ORD100162,PRD7118,SEL223,Home & Kitchen,Mumbai,Karnataka,2024-12-15,5,844,334,3886,Net Banking,In Transit
+ORD100163,PRD8177,SEL915,Fashion,Delhi,Tamil Nadu,2024-09-27,2,1212,427,1997,Credit Card,In Transit
+ORD100164,PRD9479,SEL679,Beauty,Pune,Karnataka,2024-09-29,4,1240,126,4834,Debit Card,Cancelled
+ORD100165,PRD8397,SEL901,Fashion,Hyderabad,Telangana,2024-02-27,1,2017,314,1703,COD,Delivered
+ORD100166,PRD2982,SEL142,Fashion,Hyderabad,Delhi,2024-10-31,1,2128,306,1822,Credit Card,In Transit
+ORD100167,PRD5061,SEL455,Fashion,Bangalore,West Bengal,2024-04-29,5,1189,386,5559,Debit Card,Cancelled
+ORD100168,PRD4681,SEL645,Home & Kitchen,Bangalore,West Bengal,2024-10-21,3,1613,121,4718,UPI,In Transit
+ORD100169,PRD2049,SEL538,Footwear,Bangalore,Madhya Pradesh,2024-06-02,3,549,285,1362,Net Banking,In Transit
+ORD100170,PRD6539,SEL777,Footwear,Pune,Madhya Pradesh,2024-01-25,3,1861,402,5181,Credit Card,Cancelled
+ORD100171,PRD1344,SEL479,Footwear,Jaipur,Telangana,2024-06-02,4,1053,386,3826,UPI,Returned
+ORD100172,PRD4770,SEL170,Fashion,Kolkata,Madhya Pradesh,2024-12-28,2,2196,468,3924,Credit Card,Cancelled
+ORD100173,PRD4608,SEL618,Home & Kitchen,Mumbai,Rajasthan,2024-07-17,2,1344,104,2584,Debit Card,Delivered
+ORD100174,PRD1117,SEL763,Beauty,Delhi,Maharashtra,2024-10-01,2,511,137,885,UPI,Cancelled
+ORD100175,PRD2163,SEL449,Fashion,Hyderabad,Telangana,2024-09-02,2,1663,155,3171,COD,In Transit
+ORD100176,PRD1964,SEL112,Electronics,Kolkata,Maharashtra,2024-05-04,5,1137,203,5482,Debit Card,In Transit
+ORD100177,PRD4750,SEL969,Home & Kitchen,Pune,West Bengal,2024-08-26,5,1771,157,8698,Credit Card,In Transit
+ORD100178,PRD2104,SEL530,Electronics,Pune,Maharashtra,2024-02-20,4,1611,468,5976,Credit Card,Delivered
+ORD100179,PRD1514,SEL942,Home & Kitchen,Kolkata,Madhya Pradesh,2024-10-15,2,897,8,1786,Debit Card,Cancelled
+ORD100180,PRD6413,SEL601,Footwear,Hyderabad,Rajasthan,2024-04-10,3,1242,194,3532,Net Banking,Returned
+ORD100181,PRD2160,SEL208,Electronics,Pune,Karnataka,2024-05-11,4,2309,235,9001,UPI,In Transit
+ORD100182,PRD9423,SEL543,Fashion,Mumbai,Delhi,2024-04-04,5,540,268,2432,COD,In Transit
+ORD100183,PRD4899,SEL470,Electronics,Delhi,Telangana,2024-03-11,2,578,362,794,Net Banking,In Transit
+ORD100184,PRD5562,SEL750,Beauty,Delhi,Delhi,2024-07-10,1,2279,337,1942,Net Banking,In Transit
+ORD100185,PRD8953,SEL948,Home & Kitchen,Kolkata,Tamil Nadu,2024-01-07,1,2468,369,2099,COD,In Transit
+ORD100186,PRD4510,SEL570,Electronics,Hyderabad,Telangana,2024-04-01,1,694,268,426,Net Banking,Returned
+ORD100187,PRD9834,SEL824,Home & Kitchen,Indore,Rajasthan,2024-06-30,3,1925,40,5735,Net Banking,Cancelled
+ORD100188,PRD3167,SEL256,Fashion,Delhi,Maharashtra,2024-12-22,2,1528,350,2706,Credit Card,In Transit
+ORD100189,PRD8744,SEL545,Fashion,Bangalore,Maharashtra,2024-07-12,5,2249,28,11217,Credit Card,In Transit
+ORD100190,PRD4981,SEL280,Footwear,Delhi,Telangana,2024-11-26,3,690,458,1612,UPI,In Transit
+ORD100191,PRD8749,SEL851,Home & Kitchen,Kolkata,Delhi,2024-05-18,1,604,350,254,UPI,Returned
+ORD100192,PRD7669,SEL634,Beauty,Mumbai,Tamil Nadu,2024-01-09,2,890,385,1395,UPI,Cancelled
+ORD100193,PRD4119,SEL766,Electronics,Mumbai,West Bengal,2024-10-17,4,1658,196,6436,Debit Card,Delivered
+ORD100194,PRD2545,SEL376,Fashion,Pune,Madhya Pradesh,2024-02-20,4,1250,429,4571,Debit Card,Delivered
+ORD100195,PRD2588,SEL730,Electronics,Pune,West Bengal,2024-11-20,3,2145,251,6184,Credit Card,In Transit
+ORD100196,PRD8062,SEL927,Footwear,Chennai,Telangana,2024-04-05,5,1856,43,9237,COD,Delivered
+ORD100197,PRD6804,SEL651,Electronics,Indore,Maharashtra,2024-05-17,2,1856,364,3348,Debit Card,Delivered
+ORD100198,PRD7939,SEL893,Home & Kitchen,Chennai,Maharashtra,2024-02-16,1,1562,227,1335,UPI,Delivered
+ORD100199,PRD7735,SEL595,Footwear,Kolkata,Madhya Pradesh,2024-04-05,4,2138,285,8267,COD,Delivered
+ORD100200,PRD8651,SEL576,Footwear,Pune,Madhya Pradesh,2024-02-15,3,681,305,1738,COD,Returned
+ORD100201,PRD1887,SEL546,Footwear,Hyderabad,West Bengal,2024-07-30,4,646,371,2213,UPI,In Transit
+ORD100202,PRD2612,SEL945,Home & Kitchen,Jaipur,Karnataka,2024-03-27,2,1401,154,2648,COD,Cancelled
+ORD100203,PRD1993,SEL848,Beauty,Mumbai,Maharashtra,2024-08-10,3,2024,153,5919,Debit Card,Cancelled
+ORD100204,PRD7596,SEL706,Fashion,Bangalore,Tamil Nadu,2024-11-16,4,1100,234,4166,COD,In Transit
+ORD100205,PRD6559,SEL374,Home & Kitchen,Jaipur,Maharashtra,2024-06-19,5,1856,411,8869,Credit Card,Cancelled
+ORD100206,PRD2790,SEL430,Home & Kitchen,Bangalore,Madhya Pradesh,2024-06-02,3,1122,245,3121,Debit Card,Returned
+ORD100207,PRD5073,SEL972,Beauty,Chennai,Madhya Pradesh,2024-12-21,4,1292,166,5002,Debit Card,Delivered
+ORD100208,PRD4139,SEL351,Footwear,Delhi,Rajasthan,2024-10-15,2,1036,349,1723,UPI,In Transit
+ORD100209,PRD4116,SEL950,Beauty,Bangalore,Tamil Nadu,2024-05-29,1,1975,344,1631,UPI,Returned
+ORD100210,PRD9786,SEL188,Beauty,Mumbai,Rajasthan,2024-12-03,2,2033,404,3662,Net Banking,In Transit
+ORD100211,PRD8350,SEL385,Beauty,Kolkata,Delhi,2024-10-25,4,2488,259,9693,Debit Card,Delivered
+ORD100212,PRD3296,SEL561,Footwear,Delhi,Madhya Pradesh,2024-02-25,2,1754,85,3423,Debit Card,In Transit
+ORD100213,PRD7912,SEL349,Electronics,Kolkata,West Bengal,2024-02-24,1,703,132,571,Net Banking,Cancelled
+ORD100214,PRD4006,SEL868,Footwear,Kolkata,Karnataka,2024-08-16,3,1902,237,5469,Debit Card,Delivered
+ORD100215,PRD5563,SEL575,Fashion,Mumbai,Karnataka,2024-09-04,1,1510,212,1298,Debit Card,Returned
+ORD100216,PRD8579,SEL683,Beauty,Pune,Rajasthan,2024-06-24,4,1147,266,4322,COD,In Transit
+ORD100217,PRD5092,SEL724,Home & Kitchen,Delhi,Maharashtra,2024-12-22,4,1606,34,6390,COD,Returned
+ORD100218,PRD2235,SEL784,Electronics,Kolkata,Karnataka,2024-11-27,1,973,476,497,Net Banking,Cancelled
+ORD100219,PRD8260,SEL488,Beauty,Hyderabad,Madhya Pradesh,2024-06-18,5,2046,490,9740,UPI,Cancelled
+ORD100220,PRD2604,SEL444,Footwear,Hyderabad,Rajasthan,2024-11-23,4,1920,14,7666,Net Banking,In Transit
+ORD100221,PRD1828,SEL129,Home & Kitchen,Mumbai,Maharashtra,2024-07-18,1,1179,105,1074,Net Banking,Cancelled
+ORD100222,PRD9856,SEL606,Fashion,Chennai,Rajasthan,2024-07-06,3,1107,234,3087,Net Banking,Returned
+ORD100223,PRD1241,SEL971,Fashion,Pune,Maharashtra,2024-11-01,4,1907,300,7328,Credit Card,Cancelled
+ORD100224,PRD2528,SEL432,Electronics,Pune,Maharashtra,2024-12-10,3,647,344,1597,UPI,Returned
+ORD100225,PRD4872,SEL286,Electronics,Kolkata,Madhya Pradesh,2024-02-29,2,1829,355,3303,Credit Card,Cancelled
+ORD100226,PRD3724,SEL599,Beauty,Kolkata,Karnataka,2024-10-21,4,2032,95,8033,Net Banking,Cancelled
+ORD100227,PRD7658,SEL317,Home & Kitchen,Jaipur,Delhi,2024-09-07,3,874,95,2527,Debit Card,Delivered
+ORD100228,PRD8956,SEL463,Beauty,Kolkata,West Bengal,2024-09-05,2,1099,417,1781,Credit Card,In Transit
+ORD100229,PRD8886,SEL916,Beauty,Jaipur,Karnataka,2024-12-16,4,2002,363,7645,COD,Delivered
+ORD100230,PRD4502,SEL364,Electronics,Kolkata,Tamil Nadu,2024-04-22,3,433,140,1159,UPI,In Transit
+ORD100231,PRD7570,SEL448,Footwear,Mumbai,Tamil Nadu,2024-10-16,4,2392,57,9511,Net Banking,Returned
+ORD100232,PRD1960,SEL386,Electronics,Indore,Maharashtra,2024-10-04,1,2107,279,1828,UPI,Returned
+ORD100233,PRD3697,SEL710,Fashion,Jaipur,Maharashtra,2024-01-17,4,1376,178,5326,UPI,Cancelled
+ORD100234,PRD7209,SEL818,Footwear,Bangalore,Telangana,2024-10-28,3,2053,84,6075,UPI,Delivered
+ORD100235,PRD1035,SEL382,Footwear,Kolkata,Karnataka,2024-10-18,3,2480,143,7297,Debit Card,Returned
+ORD100236,PRD7396,SEL669,Footwear,Mumbai,Karnataka,2024-05-28,5,1395,487,6488,Credit Card,Delivered
+ORD100237,PRD5345,SEL110,Electronics,Pune,Telangana,2024-05-21,2,843,127,1559,Credit Card,In Transit
+ORD100238,PRD8454,SEL629,Beauty,Indore,Rajasthan,2024-03-13,5,1400,321,6679,COD,Delivered
+ORD100239,PRD5673,SEL295,Home & Kitchen,Jaipur,Rajasthan,2024-07-25,5,1439,355,6840,Debit Card,Delivered
+ORD100240,PRD7930,SEL187,Fashion,Kolkata,Madhya Pradesh,2024-02-17,4,1767,435,6633,UPI,In Transit
+ORD100241,PRD8973,SEL347,Home & Kitchen,Pune,West Bengal,2024-04-18,4,1399,165,5431,Net Banking,Cancelled
+ORD100242,PRD3536,SEL837,Fashion,Delhi,Maharashtra,2024-10-16,4,1707,457,6371,Credit Card,Delivered
+ORD100243,PRD4111,SEL516,Fashion,Indore,Telangana,2024-03-04,2,2107,233,3981,UPI,Returned
+ORD100244,PRD5861,SEL600,Home & Kitchen,Chennai,Maharashtra,2024-03-22,3,682,335,1711,Debit Card,Cancelled
+ORD100245,PRD4566,SEL668,Electronics,Indore,Maharashtra,2024-01-27,4,1551,371,5833,COD,Delivered
+ORD100246,PRD1958,SEL876,Footwear,Hyderabad,West Bengal,2024-04-19,4,619,67,2409,Credit Card,Delivered
+ORD100247,PRD9883,SEL346,Beauty,Bangalore,Rajasthan,2024-01-05,3,793,440,1939,COD,Cancelled
+ORD100248,PRD1998,SEL807,Home & Kitchen,Pune,Tamil Nadu,2024-07-15,1,719,52,667,UPI,In Transit
+ORD100249,PRD6138,SEL587,Footwear,Delhi,Karnataka,2024-03-09,2,580,271,889,Credit Card,Returned
+ORD100250,PRD1936,SEL761,Beauty,Hyderabad,Maharashtra,2024-04-19,2,1986,315,3657,COD,Cancelled
+ORD100251,PRD1821,SEL828,Beauty,Pune,Karnataka,2024-03-04,5,1872,179,9181,UPI,Returned
+ORD100252,PRD8811,SEL602,Footwear,Chennai,Delhi,2024-11-26,1,1316,283,1033,Debit Card,Cancelled
+ORD100253,PRD9238,SEL558,Beauty,Chennai,Delhi,2024-09-22,5,2387,96,11839,UPI,In Transit
+ORD100254,PRD9701,SEL911,Footwear,Mumbai,West Bengal,2024-07-16,1,1287,255,1032,COD,Returned
+ORD100255,PRD3579,SEL117,Footwear,Indore,Maharashtra,2024-06-11,2,1884,440,3328,Net Banking,Cancelled
+ORD100256,PRD1931,SEL195,Fashion,Delhi,Tamil Nadu,2024-08-29,1,368,300,68,UPI,Delivered
+ORD100257,PRD9320,SEL401,Footwear,Indore,Madhya Pradesh,2024-01-31,4,2375,146,9354,Credit Card,Delivered
+ORD100258,PRD2312,SEL326,Fashion,Chennai,Maharashtra,2024-11-23,5,925,142,4483,Net Banking,Cancelled
+ORD100259,PRD4044,SEL514,Footwear,Mumbai,Tamil Nadu,2024-03-20,5,1638,200,7990,Credit Card,Cancelled
+ORD100260,PRD2122,SEL808,Beauty,Mumbai,Rajasthan,2024-01-30,2,653,473,833,Net Banking,Delivered
+ORD100261,PRD2113,SEL349,Electronics,Delhi,Karnataka,2024-06-07,2,789,6,1572,Credit Card,Returned
+ORD100262,PRD4853,SEL413,Home & Kitchen,Bangalore,Tamil Nadu,2024-09-24,5,1361,85,6720,COD,Delivered
+ORD100263,PRD7615,SEL779,Fashion,Chennai,Maharashtra,2024-06-20,4,1414,268,5388,Credit Card,In Transit
+ORD100264,PRD2964,SEL695,Footwear,Bangalore,Maharashtra,2024-09-18,3,527,255,1326,UPI,Returned
+ORD100265,PRD5033,SEL477,Footwear,Delhi,Delhi,2024-02-22,5,772,116,3744,COD,Cancelled
+ORD100266,PRD1651,SEL584,Electronics,Bangalore,Delhi,2024-01-24,4,1790,196,6964,Net Banking,In Transit
+ORD100267,PRD2343,SEL666,Home & Kitchen,Chennai,Maharashtra,2024-04-24,3,1316,213,3735,Net Banking,Returned
+ORD100268,PRD7868,SEL643,Electronics,Kolkata,Delhi,2024-03-02,5,515,91,2484,Credit Card,Delivered
+ORD100269,PRD9565,SEL452,Fashion,Kolkata,Rajasthan,2024-08-26,3,1572,167,4549,COD,Returned
+ORD100270,PRD6183,SEL535,Footwear,Hyderabad,Rajasthan,2024-04-12,3,1544,378,4254,Debit Card,In Transit
+ORD100271,PRD5272,SEL863,Fashion,Indore,Delhi,2024-04-10,5,1304,77,6443,UPI,Returned
+ORD100272,PRD4346,SEL663,Beauty,Chennai,Maharashtra,2024-11-21,1,1672,0,1672,UPI,Cancelled
+ORD100273,PRD6147,SEL438,Electronics,Chennai,Maharashtra,2024-08-02,4,545,497,1683,COD,Cancelled
+ORD100274,PRD4910,SEL460,Fashion,Mumbai,West Bengal,2024-09-23,4,1825,234,7066,UPI,In Transit
+ORD100275,PRD5351,SEL819,Electronics,Hyderabad,Tamil Nadu,2024-02-08,5,555,222,2553,Debit Card,Returned
+ORD100276,PRD7484,SEL564,Home & Kitchen,Hyderabad,Maharashtra,2024-07-20,3,1602,231,4575,UPI,Cancelled
+ORD100277,PRD3144,SEL377,Electronics,Jaipur,Rajasthan,2024-10-26,1,936,54,882,Debit Card,In Transit
+ORD100278,PRD5915,SEL413,Electronics,Jaipur,Tamil Nadu,2024-03-02,5,1767,493,8342,Credit Card,Returned
+ORD100279,PRD8491,SEL357,Home & Kitchen,Delhi,Telangana,2024-03-02,1,945,413,532,Debit Card,Cancelled
+ORD100280,PRD6180,SEL336,Footwear,Delhi,Tamil Nadu,2024-02-16,2,1757,202,3312,Debit Card,Cancelled
+ORD100281,PRD2188,SEL223,Footwear,Hyderabad,Maharashtra,2024-01-16,4,2152,284,8324,Credit Card,Delivered
+ORD100282,PRD1152,SEL838,Electronics,Bangalore,Telangana,2024-03-12,1,348,31,317,Credit Card,Returned
+ORD100283,PRD8508,SEL297,Fashion,Delhi,Maharashtra,2024-12-17,1,1360,469,891,UPI,In Transit
+ORD100284,PRD2638,SEL423,Fashion,Jaipur,Delhi,2024-03-06,1,1658,62,1596,UPI,In Transit
+ORD100285,PRD2200,SEL222,Beauty,Bangalore,Maharashtra,2024-07-21,4,420,195,1485,UPI,Cancelled
+ORD100286,PRD9808,SEL860,Electronics,Delhi,Telangana,2024-05-20,3,2126,452,5926,Debit Card,In Transit
+ORD100287,PRD4492,SEL648,Fashion,Chennai,Madhya Pradesh,2024-07-29,5,2262,31,11279,UPI,In Transit
+ORD100288,PRD9288,SEL880,Footwear,Delhi,Madhya Pradesh,2024-04-12,5,1320,322,6278,Debit Card,In Transit
+ORD100289,PRD5345,SEL806,Footwear,Kolkata,Maharashtra,2024-10-05,4,1709,467,6369,Credit Card,Returned
+ORD100290,PRD3170,SEL289,Electronics,Delhi,Tamil Nadu,2024-04-02,1,1606,305,1301,COD,In Transit
+ORD100291,PRD6718,SEL296,Electronics,Mumbai,Telangana,2024-09-28,3,1253,498,3261,UPI,Returned
+ORD100292,PRD2127,SEL321,Beauty,Pune,Karnataka,2024-09-30,1,1198,294,904,UPI,Cancelled
+ORD100293,PRD5002,SEL856,Footwear,Delhi,Maharashtra,2024-10-30,3,1769,467,4840,Net Banking,Cancelled
+ORD100294,PRD7054,SEL595,Home & Kitchen,Bangalore,Rajasthan,2024-10-15,2,2316,277,4355,COD,Delivered
+ORD100295,PRD5669,SEL383,Footwear,Jaipur,Delhi,2024-01-29,2,1196,10,2382,Debit Card,Cancelled
+ORD100296,PRD3584,SEL841,Home & Kitchen,Delhi,Delhi,2024-03-07,3,1026,470,2608,UPI,Cancelled
+ORD100297,PRD8179,SEL703,Fashion,Pune,Madhya Pradesh,2024-02-26,5,1794,491,8479,Net Banking,Delivered
+ORD100298,PRD9900,SEL878,Electronics,Indore,Rajasthan,2024-06-21,3,1621,69,4794,Debit Card,Cancelled
+ORD100299,PRD5956,SEL637,Footwear,Bangalore,Madhya Pradesh,2024-12-28,5,1761,114,8691,Debit Card,Returned
+ORD100300,PRD9666,SEL711,Footwear,Indore,Delhi,2024-03-06,2,307,485,129,UPI,Returned
+ORD100301,PRD1128,SEL389,Beauty,Bangalore,Maharashtra,2024-11-09,2,726,479,973,COD,Cancelled
+ORD100302,PRD5905,SEL202,Fashion,Pune,Rajasthan,2024-06-26,3,987,325,2636,COD,Returned
+ORD100303,PRD2697,SEL952,Home & Kitchen,Mumbai,Delhi,2024-04-17,2,577,179,975,COD,In Transit
+ORD100304,PRD3200,SEL298,Beauty,Jaipur,Madhya Pradesh,2024-08-12,4,981,452,3472,Debit Card,In Transit
+ORD100305,PRD5333,SEL403,Beauty,Mumbai,Delhi,2024-02-21,4,1223,83,4809,Debit Card,Delivered
+ORD100306,PRD2891,SEL332,Home & Kitchen,Bangalore,Madhya Pradesh,2024-06-12,3,728,37,2147,UPI,Delivered
+ORD100307,PRD2753,SEL469,Footwear,Jaipur,Delhi,2024-10-07,1,1684,304,1380,Credit Card,Cancelled
+ORD100308,PRD3546,SEL283,Fashion,Pune,Telangana,2024-11-06,4,943,27,3745,UPI,In Transit
+ORD100309,PRD5462,SEL409,Home & Kitchen,Chennai,Telangana,2024-12-22,5,1386,338,6592,COD,Delivered
+ORD100310,PRD5616,SEL114,Fashion,Pune,Delhi,2024-07-20,5,2310,78,11472,Credit Card,Delivered
+ORD100311,PRD4450,SEL825,Fashion,Delhi,Telangana,2024-05-30,5,2267,102,11233,UPI,Returned
+ORD100312,PRD6617,SEL646,Beauty,Jaipur,Rajasthan,2024-02-11,4,773,157,2935,Debit Card,Delivered
+ORD100313,PRD4335,SEL229,Home & Kitchen,Indore,Maharashtra,2024-11-24,5,1887,94,9341,UPI,In Transit
+ORD100314,PRD5325,SEL380,Home & Kitchen,Hyderabad,Tamil Nadu,2024-01-23,3,2101,238,6065,Net Banking,Delivered
+ORD100315,PRD9280,SEL146,Home & Kitchen,Kolkata,Madhya Pradesh,2024-03-18,1,651,342,309,Net Banking,Cancelled
+ORD100316,PRD9004,SEL155,Footwear,Indore,West Bengal,2024-10-10,1,1885,419,1466,Credit Card,Cancelled
+ORD100317,PRD5114,SEL666,Fashion,Kolkata,West Bengal,2024-08-31,3,623,202,1667,Net Banking,Cancelled
+ORD100318,PRD1832,SEL399,Electronics,Hyderabad,Telangana,2024-03-02,4,1008,485,3547,UPI,Delivered
+ORD100319,PRD2512,SEL814,Electronics,Chennai,Maharashtra,2024-08-04,1,2083,103,1980,COD,Delivered
+ORD100320,PRD7939,SEL229,Home & Kitchen,Chennai,West Bengal,2024-07-17,5,1927,282,9353,Credit Card,Delivered
+ORD100321,PRD5533,SEL753,Beauty,Mumbai,Madhya Pradesh,2024-12-24,5,2440,400,11800,UPI,Cancelled
+ORD100322,PRD1722,SEL989,Fashion,Mumbai,Tamil Nadu,2024-10-17,5,710,473,3077,Net Banking,Returned
+ORD100323,PRD1058,SEL870,Beauty,Jaipur,Delhi,2024-07-29,3,1868,335,5269,UPI,Returned
+ORD100324,PRD6464,SEL602,Beauty,Pune,Telangana,2024-07-25,2,1945,19,3871,COD,In Transit
+ORD100325,PRD3143,SEL205,Home & Kitchen,Chennai,Tamil Nadu,2024-05-17,3,382,172,974,Credit Card,Delivered
+ORD100326,PRD5291,SEL993,Beauty,Pune,Tamil Nadu,2024-04-26,2,1530,498,2562,Credit Card,Delivered
+ORD100327,PRD3647,SEL112,Beauty,Jaipur,West Bengal,2024-04-06,4,1165,467,4193,Debit Card,Delivered
+ORD100328,PRD8239,SEL687,Footwear,Indore,Karnataka,2024-09-20,2,568,159,977,Net Banking,Delivered
+ORD100329,PRD8007,SEL391,Fashion,Hyderabad,Delhi,2024-03-29,2,1122,428,1816,Credit Card,Delivered
+ORD100330,PRD1158,SEL580,Beauty,Kolkata,Madhya Pradesh,2024-07-03,2,1422,188,2656,COD,Delivered
+ORD100331,PRD2832,SEL590,Beauty,Bangalore,Rajasthan,2024-05-03,3,2302,304,6602,Net Banking,Returned
+ORD100332,PRD2232,SEL551,Fashion,Chennai,Delhi,2024-06-25,2,1359,383,2335,Credit Card,Delivered
+ORD100333,PRD3442,SEL448,Electronics,Hyderabad,Telangana,2024-03-24,5,1177,438,5447,Debit Card,In Transit
+ORD100334,PRD9938,SEL288,Electronics,Bangalore,Delhi,2024-09-19,1,336,242,94,UPI,Returned
+ORD100335,PRD1590,SEL152,Beauty,Pune,Rajasthan,2024-11-07,3,1427,216,4065,Debit Card,Cancelled
+ORD100336,PRD7049,SEL358,Footwear,Indore,Maharashtra,2024-08-26,3,2432,422,6874,COD,Returned
+ORD100337,PRD3426,SEL982,Fashion,Jaipur,Maharashtra,2024-10-14,5,1457,152,7133,Debit Card,Returned
+ORD100338,PRD8041,SEL589,Home & Kitchen,Hyderabad,Karnataka,2024-11-23,3,1434,133,4169,Net Banking,Cancelled
+ORD100339,PRD3088,SEL216,Home & Kitchen,Bangalore,Delhi,2024-01-30,5,1955,338,9437,Credit Card,Returned
+ORD100340,PRD1685,SEL941,Fashion,Hyderabad,Maharashtra,2024-05-12,4,1957,198,7630,UPI,In Transit
+ORD100341,PRD6050,SEL166,Electronics,Kolkata,Karnataka,2024-12-09,3,2377,153,6978,Debit Card,Delivered
+ORD100342,PRD6974,SEL510,Footwear,Bangalore,Maharashtra,2024-08-29,2,1359,371,2347,COD,Cancelled
+ORD100343,PRD1653,SEL603,Home & Kitchen,Pune,Tamil Nadu,2024-06-30,2,1557,215,2899,Net Banking,Returned
+ORD100344,PRD6862,SEL175,Footwear,Mumbai,Rajasthan,2024-08-25,1,2227,27,2200,UPI,Delivered
+ORD100345,PRD4441,SEL690,Beauty,Delhi,Karnataka,2024-12-14,4,2470,152,9728,UPI,Cancelled
+ORD100346,PRD5088,SEL744,Home & Kitchen,Bangalore,Maharashtra,2024-06-24,4,2174,73,8623,Credit Card,Returned
+ORD100347,PRD2684,SEL802,Fashion,Delhi,Rajasthan,2024-11-19,2,1583,324,2842,Debit Card,Cancelled
+ORD100348,PRD6794,SEL154,Fashion,Bangalore,Madhya Pradesh,2024-03-27,5,948,250,4490,Credit Card,In Transit
+ORD100349,PRD7658,SEL255,Fashion,Kolkata,Telangana,2024-08-07,4,1870,2,7478,Debit Card,Delivered
+ORD100350,PRD3532,SEL252,Fashion,Hyderabad,Telangana,2024-06-13,5,1080,9,5391,Debit Card,Returned
+ORD100351,PRD4878,SEL930,Footwear,Chennai,Karnataka,2024-03-07,1,1871,257,1614,COD,Delivered
+ORD100352,PRD3662,SEL676,Footwear,Kolkata,Maharashtra,2024-06-01,3,2167,372,6129,Credit Card,Cancelled
+ORD100353,PRD3900,SEL411,Electronics,Bangalore,Madhya Pradesh,2024-06-24,4,1771,384,6700,COD,Cancelled
+ORD100354,PRD7755,SEL187,Fashion,Kolkata,Karnataka,2024-04-24,2,1165,375,1955,COD,Returned
+ORD100355,PRD1406,SEL354,Home & Kitchen,Kolkata,Delhi,2024-12-30,1,1836,448,1388,Net Banking,Delivered
+ORD100356,PRD3938,SEL221,Fashion,Indore,Rajasthan,2024-12-04,1,380,24,356,Credit Card,Delivered
+ORD100357,PRD6442,SEL671,Electronics,Hyderabad,Delhi,2024-10-07,3,2243,359,6370,Debit Card,In Transit
+ORD100358,PRD7745,SEL882,Footwear,Bangalore,Madhya Pradesh,2024-12-04,1,2431,138,2293,COD,Delivered
+ORD100359,PRD5065,SEL526,Electronics,Hyderabad,Tamil Nadu,2024-05-24,1,735,254,481,Net Banking,Cancelled
+ORD100360,PRD5371,SEL720,Fashion,Kolkata,Rajasthan,2024-07-02,4,1509,82,5954,UPI,In Transit
+ORD100361,PRD3608,SEL710,Fashion,Mumbai,Rajasthan,2024-06-18,2,311,6,616,UPI,Delivered
+ORD100362,PRD2771,SEL909,Home & Kitchen,Hyderabad,Rajasthan,2024-09-18,1,714,463,251,Debit Card,Returned
+ORD100363,PRD7267,SEL733,Electronics,Delhi,Tamil Nadu,2024-08-25,1,708,416,292,Debit Card,Returned
+ORD100364,PRD1634,SEL331,Fashion,Delhi,Karnataka,2024-08-06,1,689,435,254,UPI,Returned
+ORD100365,PRD8711,SEL894,Fashion,Pune,Maharashtra,2024-07-02,4,1398,449,5143,UPI,Delivered
+ORD100366,PRD4644,SEL635,Beauty,Jaipur,Madhya Pradesh,2024-07-24,4,2169,139,8537,UPI,Delivered
+ORD100367,PRD4269,SEL489,Beauty,Jaipur,Rajasthan,2024-03-08,1,952,53,899,UPI,In Transit
+ORD100368,PRD8541,SEL561,Electronics,Jaipur,Rajasthan,2024-07-02,5,418,441,1649,COD,In Transit
+ORD100369,PRD6728,SEL553,Home & Kitchen,Delhi,West Bengal,2024-08-13,1,559,133,426,Net Banking,Cancelled
+ORD100370,PRD6000,SEL404,Footwear,Mumbai,Madhya Pradesh,2024-12-08,3,2426,267,7011,UPI,In Transit
+ORD100371,PRD4728,SEL980,Footwear,Delhi,Delhi,2024-06-26,4,908,429,3203,UPI,In Transit
+ORD100372,PRD4652,SEL702,Beauty,Pune,Telangana,2024-09-10,2,606,384,828,Debit Card,Returned
+ORD100373,PRD1387,SEL539,Beauty,Indore,Telangana,2024-01-26,5,1212,281,5779,COD,In Transit
+ORD100374,PRD4164,SEL412,Beauty,Jaipur,Maharashtra,2024-08-15,5,2135,45,10630,COD,In Transit
+ORD100375,PRD7528,SEL682,Beauty,Delhi,West Bengal,2024-11-30,1,720,206,514,Net Banking,Delivered
+ORD100376,PRD6378,SEL735,Footwear,Kolkata,Telangana,2024-02-16,5,1547,455,7280,Credit Card,Returned
+ORD100377,PRD5564,SEL161,Beauty,Pune,West Bengal,2024-07-05,1,1213,432,781,Net Banking,In Transit
+ORD100378,PRD2137,SEL724,Fashion,Hyderabad,Delhi,2024-12-02,3,2153,58,6401,Debit Card,Returned
+ORD100379,PRD5573,SEL857,Fashion,Delhi,Karnataka,2024-11-20,3,2438,191,7123,Credit Card,Cancelled
+ORD100380,PRD6753,SEL201,Electronics,Hyderabad,Maharashtra,2024-07-28,1,1341,312,1029,Credit Card,Cancelled
+ORD100381,PRD9346,SEL881,Beauty,Delhi,Maharashtra,2024-08-22,2,1684,55,3313,Credit Card,In Transit
+ORD100382,PRD7548,SEL312,Beauty,Delhi,West Bengal,2024-12-03,5,2365,68,11757,COD,In Transit
+ORD100383,PRD9785,SEL740,Electronics,Bangalore,Karnataka,2024-10-26,4,2382,399,9129,COD,In Transit
+ORD100384,PRD6425,SEL316,Beauty,Indore,Telangana,2024-12-02,5,1618,258,7832,Debit Card,In Transit
+ORD100385,PRD1452,SEL370,Electronics,Bangalore,Madhya Pradesh,2024-06-24,3,2154,412,6050,Net Banking,Returned
+ORD100386,PRD2889,SEL776,Footwear,Hyderabad,Telangana,2024-12-25,5,1585,364,7561,UPI,Returned
+ORD100387,PRD5279,SEL183,Electronics,Kolkata,West Bengal,2024-12-17,3,843,363,2166,Debit Card,Delivered
+ORD100388,PRD3925,SEL260,Footwear,Indore,West Bengal,2024-06-29,5,2267,298,11037,Debit Card,In Transit
+ORD100389,PRD5349,SEL345,Beauty,Bangalore,Delhi,2024-01-07,5,736,12,3668,COD,Cancelled
+ORD100390,PRD1626,SEL277,Home & Kitchen,Bangalore,Delhi,2024-05-16,2,1473,349,2597,Debit Card,Cancelled
+ORD100391,PRD2776,SEL665,Beauty,Mumbai,West Bengal,2024-10-04,1,1769,416,1353,UPI,In Transit
+ORD100392,PRD8119,SEL176,Fashion,Indore,Madhya Pradesh,2024-05-01,5,1478,354,7036,Credit Card,Returned
+ORD100393,PRD6663,SEL260,Home & Kitchen,Hyderabad,Rajasthan,2024-10-09,1,353,380,-27,UPI,Returned
+ORD100394,PRD6139,SEL102,Electronics,Chennai,Rajasthan,2024-10-28,5,1104,397,5123,UPI,Delivered
+ORD100395,PRD8149,SEL518,Beauty,Delhi,Madhya Pradesh,2024-04-05,2,2404,61,4747,Debit Card,Returned
+ORD100396,PRD9379,SEL561,Home & Kitchen,Jaipur,Karnataka,2024-03-07,2,1344,2,2686,COD,Cancelled
+ORD100397,PRD2894,SEL805,Footwear,Chennai,Rajasthan,2024-06-14,5,508,396,2144,Net Banking,Returned
+ORD100398,PRD7311,SEL708,Electronics,Kolkata,Maharashtra,2024-02-07,3,2452,112,7244,Net Banking,Cancelled
+ORD100399,PRD4114,SEL581,Fashion,Pune,Telangana,2024-07-31,5,2499,206,12289,UPI,Returned
+ORD100400,PRD5173,SEL398,Footwear,Kolkata,Rajasthan,2024-06-18,3,1502,111,4395,Net Banking,Delivered
+ORD100401,PRD1727,SEL133,Footwear,Hyderabad,Delhi,2024-02-28,3,2125,123,6252,Debit Card,In Transit
+ORD100402,PRD8144,SEL337,Home & Kitchen,Delhi,West Bengal,2024-02-28,4,1350,276,5124,Debit Card,In Transit
+ORD100403,PRD1027,SEL395,Electronics,Pune,West Bengal,2024-09-06,1,1514,459,1055,COD,Delivered
+ORD100404,PRD9518,SEL823,Fashion,Hyderabad,Telangana,2024-03-26,5,2484,3,12417,Credit Card,Delivered
+ORD100405,PRD9821,SEL389,Fashion,Bangalore,Delhi,2024-04-15,5,2082,331,10079,Credit Card,Returned
+ORD100406,PRD4228,SEL819,Electronics,Chennai,West Bengal,2024-01-20,1,600,27,573,COD,Cancelled
+ORD100407,PRD6967,SEL980,Beauty,Indore,Maharashtra,2024-05-12,4,1889,230,7326,COD,In Transit
+ORD100408,PRD8066,SEL564,Footwear,Mumbai,Delhi,2024-12-10,1,2490,3,2487,COD,Returned
+ORD100409,PRD2146,SEL172,Home & Kitchen,Mumbai,Tamil Nadu,2024-09-14,1,1487,402,1085,Credit Card,In Transit
+ORD100410,PRD6409,SEL803,Footwear,Hyderabad,Karnataka,2024-07-21,1,2241,80,2161,Credit Card,Returned
+ORD100411,PRD6143,SEL339,Home & Kitchen,Delhi,West Bengal,2024-11-20,2,1520,346,2694,Net Banking,Cancelled
+ORD100412,PRD3041,SEL370,Footwear,Indore,West Bengal,2024-03-04,1,320,293,27,Net Banking,Delivered
+ORD100413,PRD5920,SEL906,Beauty,Kolkata,Karnataka,2024-06-05,2,1708,108,3308,UPI,Cancelled
+ORD100414,PRD9308,SEL910,Fashion,Bangalore,Delhi,2024-04-23,5,1335,99,6576,Net Banking,In Transit
+ORD100415,PRD6067,SEL740,Fashion,Chennai,Maharashtra,2024-11-26,5,599,148,2847,UPI,In Transit
+ORD100416,PRD7691,SEL703,Electronics,Mumbai,Tamil Nadu,2024-06-18,3,825,343,2132,Net Banking,Delivered
+ORD100417,PRD6344,SEL777,Home & Kitchen,Chennai,Karnataka,2024-04-09,3,2290,230,6640,Net Banking,Returned
+ORD100418,PRD7592,SEL923,Home & Kitchen,Hyderabad,Telangana,2024-06-10,4,990,2,3958,Credit Card,Returned
+ORD100419,PRD5844,SEL302,Beauty,Jaipur,Rajasthan,2024-07-03,2,1658,449,2867,Debit Card,Returned
+ORD100420,PRD3085,SEL535,Footwear,Mumbai,Tamil Nadu,2024-09-06,5,745,89,3636,UPI,Cancelled
+ORD100421,PRD4143,SEL217,Fashion,Kolkata,Delhi,2024-05-14,1,608,456,152,Net Banking,In Transit
+ORD100422,PRD7888,SEL657,Home & Kitchen,Kolkata,West Bengal,2024-10-29,2,450,282,618,Credit Card,Cancelled
+ORD100423,PRD7211,SEL330,Footwear,Chennai,Karnataka,2024-07-06,4,1214,456,4400,Credit Card,Delivered
+ORD100424,PRD3851,SEL763,Electronics,Bangalore,West Bengal,2024-07-22,3,2356,5,7063,UPI,In Transit
+ORD100425,PRD5930,SEL252,Beauty,Pune,Delhi,2024-03-22,2,898,376,1420,UPI,In Transit
+ORD100426,PRD7653,SEL372,Electronics,Delhi,Telangana,2024-04-28,1,1382,189,1193,Net Banking,Returned
+ORD100427,PRD9977,SEL946,Fashion,Delhi,Maharashtra,2024-07-17,4,2162,451,8197,COD,Returned
+ORD100428,PRD1006,SEL245,Beauty,Pune,Maharashtra,2024-05-14,5,1012,192,4868,Net Banking,Returned
+ORD100429,PRD5978,SEL173,Home & Kitchen,Pune,Rajasthan,2024-07-11,2,2415,207,4623,Credit Card,Delivered
+ORD100430,PRD5700,SEL161,Electronics,Mumbai,West Bengal,2024-09-13,2,2101,84,4118,Debit Card,Cancelled
+ORD100431,PRD4443,SEL269,Footwear,Mumbai,Telangana,2024-03-17,2,944,185,1703,Credit Card,Returned
+ORD100432,PRD8043,SEL911,Electronics,Bangalore,Madhya Pradesh,2024-02-28,4,2261,245,8799,COD,Cancelled
+ORD100433,PRD6279,SEL414,Footwear,Delhi,Karnataka,2024-01-23,2,959,68,1850,COD,Cancelled
+ORD100434,PRD8618,SEL709,Beauty,Delhi,Tamil Nadu,2024-05-12,2,2416,490,4342,COD,Cancelled
+ORD100435,PRD8238,SEL866,Beauty,Bangalore,Telangana,2024-08-17,5,2230,444,10706,Credit Card,Cancelled
+ORD100436,PRD8244,SEL944,Electronics,Pune,Rajasthan,2024-10-25,2,2392,135,4649,Net Banking,Delivered
+ORD100437,PRD4501,SEL682,Fashion,Delhi,Telangana,2024-04-27,4,1878,67,7445,Net Banking,In Transit
+ORD100438,PRD9375,SEL395,Beauty,Delhi,West Bengal,2024-03-17,5,694,90,3380,Net Banking,Delivered
+ORD100439,PRD8752,SEL549,Footwear,Kolkata,Delhi,2024-02-17,4,833,461,2871,Credit Card,In Transit
+ORD100440,PRD3780,SEL227,Electronics,Jaipur,Madhya Pradesh,2024-07-08,1,2470,219,2251,Debit Card,Delivered
+ORD100441,PRD2389,SEL579,Electronics,Mumbai,Tamil Nadu,2024-08-05,2,1342,244,2440,Net Banking,In Transit
+ORD100442,PRD5649,SEL805,Fashion,Kolkata,Maharashtra,2024-05-11,2,322,363,281,Net Banking,Delivered
+ORD100443,PRD9445,SEL411,Home & Kitchen,Mumbai,Karnataka,2024-07-11,2,1593,209,2977,Credit Card,Returned
+ORD100444,PRD6491,SEL816,Home & Kitchen,Chennai,Madhya Pradesh,2024-05-13,5,2034,289,9881,UPI,In Transit
+ORD100445,PRD2530,SEL512,Home & Kitchen,Kolkata,West Bengal,2024-10-09,5,2276,91,11289,Credit Card,Returned
+ORD100446,PRD4848,SEL378,Beauty,Bangalore,Maharashtra,2024-06-06,5,1710,396,8154,UPI,In Transit
+ORD100447,PRD6085,SEL612,Footwear,Indore,Maharashtra,2024-12-24,2,710,109,1311,Net Banking,Delivered
+ORD100448,PRD4680,SEL652,Fashion,Bangalore,Rajasthan,2024-03-23,4,321,411,873,Net Banking,In Transit
+ORD100449,PRD4262,SEL605,Home & Kitchen,Mumbai,Delhi,2024-02-15,1,1377,113,1264,Credit Card,In Transit
+ORD100450,PRD3414,SEL548,Footwear,Delhi,Karnataka,2024-11-10,5,1473,364,7001,Credit Card,In Transit
+ORD100451,PRD1400,SEL182,Electronics,Delhi,West Bengal,2024-01-06,2,2422,146,4698,Net Banking,Cancelled
+ORD100452,PRD1757,SEL712,Electronics,Delhi,Karnataka,2024-11-10,2,447,184,710,COD,Returned
+ORD100453,PRD5011,SEL140,Footwear,Hyderabad,West Bengal,2024-07-23,3,1918,207,5547,COD,Delivered
+ORD100454,PRD8784,SEL542,Footwear,Pune,Maharashtra,2024-02-16,5,1465,371,6954,Debit Card,Cancelled
+ORD100455,PRD2193,SEL852,Beauty,Delhi,Tamil Nadu,2024-11-06,2,2162,476,3848,UPI,In Transit
+ORD100456,PRD8461,SEL430,Home & Kitchen,Pune,Maharashtra,2024-09-16,1,596,257,339,Net Banking,Returned
+ORD100457,PRD7790,SEL718,Beauty,Indore,Rajasthan,2024-10-02,5,1324,355,6265,UPI,Returned
+ORD100458,PRD4185,SEL356,Fashion,Chennai,Maharashtra,2024-08-22,4,412,246,1402,Credit Card,Cancelled
+ORD100459,PRD7291,SEL126,Home & Kitchen,Kolkata,West Bengal,2024-12-12,2,1593,211,2975,COD,Returned
+ORD100460,PRD9099,SEL193,Home & Kitchen,Mumbai,West Bengal,2024-05-07,3,680,204,1836,UPI,In Transit
+ORD100461,PRD7547,SEL334,Footwear,Chennai,Karnataka,2024-06-09,3,1195,457,3128,UPI,In Transit
+ORD100462,PRD4997,SEL790,Home & Kitchen,Hyderabad,Telangana,2024-04-12,2,1291,446,2136,UPI,Cancelled
+ORD100463,PRD3417,SEL956,Fashion,Mumbai,Maharashtra,2024-11-12,3,938,398,2416,Credit Card,Delivered
+ORD100464,PRD1090,SEL981,Footwear,Pune,Rajasthan,2024-10-04,1,2275,190,2085,Net Banking,Returned
+ORD100465,PRD2746,SEL689,Beauty,Hyderabad,Karnataka,2024-09-08,2,2393,143,4643,COD,In Transit
+ORD100466,PRD7965,SEL701,Home & Kitchen,Indore,Karnataka,2024-09-01,5,433,257,1908,Credit Card,Delivered
+ORD100467,PRD4585,SEL121,Fashion,Delhi,Telangana,2024-12-23,5,2184,161,10759,Credit Card,Delivered
+ORD100468,PRD3881,SEL883,Footwear,Chennai,Telangana,2024-06-15,3,1363,95,3994,Debit Card,In Transit
+ORD100469,PRD9486,SEL788,Beauty,Indore,Telangana,2024-11-09,3,1798,94,5300,Credit Card,Returned
+ORD100470,PRD8611,SEL941,Electronics,Bangalore,Telangana,2024-07-05,4,1445,230,5550,COD,Returned
+ORD100471,PRD1822,SEL375,Beauty,Hyderabad,Karnataka,2024-04-30,5,2070,438,9912,UPI,In Transit
+ORD100472,PRD5082,SEL690,Electronics,Kolkata,West Bengal,2024-01-05,2,2026,255,3797,Debit Card,In Transit
+ORD100473,PRD2988,SEL141,Fashion,Bangalore,Delhi,2024-06-02,3,495,203,1282,UPI,Returned
+ORD100474,PRD8478,SEL881,Home & Kitchen,Chennai,Maharashtra,2024-08-31,1,2142,381,1761,Debit Card,Returned
+ORD100475,PRD3184,SEL874,Home & Kitchen,Hyderabad,West Bengal,2024-06-25,1,1986,62,1924,UPI,Returned
+ORD100476,PRD8612,SEL279,Beauty,Mumbai,Madhya Pradesh,2024-06-30,3,2390,249,6921,Net Banking,Returned
+ORD100477,PRD9702,SEL581,Home & Kitchen,Indore,Madhya Pradesh,2024-08-25,2,986,327,1645,COD,Delivered
+ORD100478,PRD6198,SEL631,Home & Kitchen,Chennai,Tamil Nadu,2024-03-23,3,1234,160,3542,Net Banking,In Transit
+ORD100479,PRD8251,SEL767,Footwear,Kolkata,Rajasthan,2024-05-18,4,1787,382,6766,Credit Card,Cancelled
+ORD100480,PRD9270,SEL552,Electronics,Chennai,Maharashtra,2024-04-04,1,812,372,440,UPI,Cancelled
+ORD100481,PRD7991,SEL384,Beauty,Kolkata,Delhi,2024-07-22,1,691,32,659,COD,In Transit
+ORD100482,PRD9976,SEL285,Footwear,Bangalore,Maharashtra,2024-09-25,1,725,134,591,Credit Card,Returned
+ORD100483,PRD8305,SEL699,Electronics,Bangalore,West Bengal,2024-04-27,2,1463,226,2700,UPI,Delivered
+ORD100484,PRD3607,SEL546,Beauty,Jaipur,West Bengal,2024-01-18,3,1632,442,4454,Debit Card,In Transit
+ORD100485,PRD8777,SEL750,Footwear,Jaipur,Madhya Pradesh,2024-03-10,5,1025,302,4823,Net Banking,Returned
+ORD100486,PRD8373,SEL933,Fashion,Jaipur,Tamil Nadu,2024-06-26,4,1230,412,4508,Debit Card,In Transit
+ORD100487,PRD5246,SEL603,Fashion,Kolkata,Karnataka,2024-05-13,2,1543,5,3081,Debit Card,Returned
+ORD100488,PRD5050,SEL193,Beauty,Jaipur,Tamil Nadu,2024-08-28,5,334,352,1318,COD,In Transit
+ORD100489,PRD5543,SEL581,Fashion,Kolkata,Maharashtra,2024-05-29,5,1247,407,5828,UPI,In Transit
+ORD100490,PRD9540,SEL456,Electronics,Indore,Madhya Pradesh,2024-10-14,4,1916,127,7537,UPI,Returned
+ORD100491,PRD8939,SEL518,Footwear,Chennai,Tamil Nadu,2024-02-10,4,1281,264,4860,Net Banking,Returned
+ORD100492,PRD4919,SEL441,Electronics,Chennai,Maharashtra,2024-07-30,2,580,93,1067,Credit Card,In Transit
+ORD100493,PRD5499,SEL428,Home & Kitchen,Delhi,Karnataka,2024-05-19,5,2315,96,11479,COD,Delivered
+ORD100494,PRD8206,SEL786,Electronics,Jaipur,Delhi,2024-04-05,1,1455,137,1318,UPI,Delivered
+ORD100495,PRD2269,SEL207,Home & Kitchen,Indore,Tamil Nadu,2024-03-18,1,2321,111,2210,Credit Card,Returned
+ORD100496,PRD5681,SEL978,Electronics,Delhi,Tamil Nadu,2024-08-25,1,1652,41,1611,Credit Card,Delivered
+ORD100497,PRD4841,SEL264,Home & Kitchen,Indore,Delhi,2024-10-05,4,1043,98,4074,COD,Cancelled
+ORD100498,PRD5451,SEL437,Fashion,Hyderabad,Rajasthan,2024-07-16,4,1312,377,4871,COD,Cancelled
+ORD100499,PRD6502,SEL521,Home & Kitchen,Bangalore,Delhi,2024-08-30,4,1578,479,5833,Net Banking,Delivered
