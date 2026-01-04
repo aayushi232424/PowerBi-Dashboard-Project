@@ -1,0 +1,501 @@
+Order_ID,Order_Date,Customer_ID,Product_Category,Product_Name,Quantity,Price,Payment_Mode,Order_Status,City,Total_Amount
+ORD1000,2024-01-01,CUST202,Home & Kitchen,Watch,3,21695,COD,Cancelled,Mumbai,65085
+ORD1001,2024-01-02,CUST535,Electronics,Watch,2,12439,COD,Delivered,Mumbai,24878
+ORD1002,2024-01-03,CUST960,Fashion,Headphones,3,25838,UPI,Cancelled,Bangalore,77514
+ORD1003,2024-01-04,CUST370,Sports,T-shirt,4,22230,Debit Card,Pending,Pune,88920
+ORD1004,2024-01-05,CUST206,Fashion,Watch,2,21927,COD,Returned,Hyderabad,43854
+ORD1005,2024-01-06,CUST171,Fashion,Shoes,4,35696,Net Banking,Delivered,Delhi,142784
+ORD1006,2024-01-07,CUST800,Electronics,Watch,1,27583,COD,Cancelled,Pune,27583
+ORD1007,2024-01-08,CUST120,Beauty,Watch,1,22010,Net Banking,Cancelled,Pune,22010
+ORD1008,2024-01-09,CUST714,Fashion,Watch,1,44564,UPI,Cancelled,Delhi,44564
+ORD1009,2024-01-10,CUST221,Home & Kitchen,Headphones,3,8313,COD,Pending,Bangalore,24939
+ORD1010,2024-01-11,CUST566,Beauty,Headphones,2,32098,Net Banking,Pending,Pune,64196
+ORD1011,2024-01-12,CUST314,Sports,Mobile,1,47682,UPI,Delivered,Mumbai,47682
+ORD1012,2024-01-13,CUST430,Electronics,Headphones,1,28070,Debit Card,Delivered,Delhi,28070
+ORD1013,2024-01-14,CUST558,Sports,Shoes,2,27582,Net Banking,Pending,Hyderabad,55164
+ORD1014,2024-01-15,CUST187,Beauty,Shoes,1,29741,Debit Card,Delivered,Indore,29741
+ORD1015,2024-01-16,CUST472,Beauty,Headphones,4,31178,Debit Card,Returned,Bangalore,124712
+ORD1016,2024-01-17,CUST199,Beauty,Mixer,2,45069,Credit Card,Returned,Delhi,90138
+ORD1017,2024-01-18,CUST971,Sports,T-shirt,2,12245,COD,Pending,Indore,24490
+ORD1018,2024-01-19,CUST763,Beauty,Headphones,2,26529,Net Banking,Delivered,Indore,53058
+ORD1019,2024-01-20,CUST230,Sports,Watch,4,13525,Debit Card,Cancelled,Hyderabad,54100
+ORD1020,2024-01-21,CUST761,Beauty,Laptop,2,36624,Credit Card,Returned,Pune,73248
+ORD1021,2024-01-22,CUST408,Home & Kitchen,T-shirt,4,14788,UPI,Pending,Hyderabad,59152
+ORD1022,2024-01-23,CUST869,Beauty,T-shirt,2,24150,Net Banking,Delivered,Pune,48300
+ORD1023,2024-01-24,CUST443,Sports,Shoes,3,7040,Debit Card,Pending,Pune,21120
+ORD1024,2024-01-25,CUST591,Fashion,T-shirt,1,32732,COD,Cancelled,Delhi,32732
+ORD1025,2024-01-26,CUST513,Beauty,Headphones,3,16922,Credit Card,Returned,Delhi,50766
+ORD1026,2024-01-27,CUST905,Fashion,Watch,1,3842,Debit Card,Pending,Bangalore,3842
+ORD1027,2024-01-28,CUST485,Home & Kitchen,Watch,4,42346,COD,Pending,Pune,169384
+ORD1028,2024-01-29,CUST291,Electronics,Mobile,3,36112,Debit Card,Pending,Indore,108336
+ORD1029,2024-01-30,CUST376,Home & Kitchen,Watch,2,10896,Net Banking,Cancelled,Mumbai,21792
+ORD1030,2024-01-31,CUST260,Beauty,Watch,1,17982,Net Banking,Pending,Bangalore,17982
+ORD1031,2024-02-01,CUST559,Fashion,Shoes,1,23911,Net Banking,Cancelled,Delhi,23911
+ORD1032,2024-02-02,CUST413,Fashion,Watch,3,47266,Credit Card,Cancelled,Hyderabad,141798
+ORD1033,2024-02-03,CUST121,Sports,Mobile,4,13761,Net Banking,Cancelled,Bangalore,55044
+ORD1034,2024-02-04,CUST352,Fashion,Laptop,3,3593,COD,Returned,Bangalore,10779
+ORD1035,2024-02-05,CUST847,Sports,Headphones,4,12222,Debit Card,Returned,Bangalore,48888
+ORD1036,2024-02-06,CUST956,Electronics,Shoes,4,22542,UPI,Pending,Bangalore,90168
+ORD1037,2024-02-07,CUST660,Beauty,Laptop,1,44913,COD,Pending,Mumbai,44913
+ORD1038,2024-02-08,CUST574,Sports,Shoes,3,48351,COD,Returned,Hyderabad,145053
+ORD1039,2024-02-09,CUST158,Electronics,Mixer,3,28587,Net Banking,Delivered,Hyderabad,85761
+ORD1040,2024-02-10,CUST610,Fashion,T-shirt,4,32847,Credit Card,Returned,Hyderabad,131388
+ORD1041,2024-02-11,CUST781,Fashion,Mixer,3,34256,Debit Card,Cancelled,Pune,102768
+ORD1042,2024-02-12,CUST575,Electronics,Watch,2,39714,Credit Card,Returned,Indore,79428
+ORD1043,2024-02-13,CUST799,Fashion,Laptop,2,16835,Debit Card,Cancelled,Hyderabad,33670
+ORD1044,2024-02-14,CUST882,Electronics,Watch,3,29102,Debit Card,Pending,Bangalore,87306
+ORD1045,2024-02-15,CUST289,Sports,T-shirt,3,49401,Credit Card,Delivered,Bangalore,148203
+ORD1046,2024-02-16,CUST786,Sports,Shoes,4,34950,COD,Pending,Hyderabad,139800
+ORD1047,2024-02-17,CUST662,Electronics,T-shirt,2,32696,Debit Card,Cancelled,Hyderabad,65392
+ORD1048,2024-02-18,CUST975,Sports,Mobile,2,6126,Credit Card,Cancelled,Bangalore,12252
+ORD1049,2024-02-19,CUST666,Sports,T-shirt,1,7924,Debit Card,Cancelled,Pune,7924
+ORD1050,2024-02-20,CUST343,Sports,Mobile,4,13357,UPI,Delivered,Delhi,53428
+ORD1051,2024-02-21,CUST931,Home & Kitchen,T-shirt,1,45423,COD,Returned,Delhi,45423
+ORD1052,2024-02-22,CUST604,Beauty,Headphones,2,20482,Net Banking,Pending,Hyderabad,40964
+ORD1053,2024-02-23,CUST230,Fashion,Mobile,4,11925,Debit Card,Pending,Mumbai,47700
+ORD1054,2024-02-24,CUST584,Home & Kitchen,Laptop,3,2480,UPI,Returned,Hyderabad,7440
+ORD1055,2024-02-25,CUST918,Sports,Watch,4,48790,Net Banking,Pending,Hyderabad,195160
+ORD1056,2024-02-26,CUST746,Electronics,Watch,3,26931,Net Banking,Delivered,Delhi,80793
+ORD1057,2024-02-27,CUST120,Sports,Mixer,3,19940,Debit Card,Pending,Bangalore,59820
+ORD1058,2024-02-28,CUST940,Beauty,Watch,4,42252,Credit Card,Cancelled,Hyderabad,169008
+ORD1059,2024-02-29,CUST266,Sports,Shoes,3,17675,Debit Card,Returned,Bangalore,53025
+ORD1060,2024-03-01,CUST373,Electronics,Headphones,1,49151,UPI,Delivered,Bangalore,49151
+ORD1061,2024-03-02,CUST487,Beauty,T-shirt,2,26885,Net Banking,Returned,Mumbai,53770
+ORD1062,2024-03-03,CUST700,Sports,Mixer,3,38658,Debit Card,Delivered,Bangalore,115974
+ORD1063,2024-03-04,CUST415,Beauty,Shoes,1,23519,Credit Card,Cancelled,Delhi,23519
+ORD1064,2024-03-05,CUST113,Fashion,Shoes,3,19139,Debit Card,Returned,Pune,57417
+ORD1065,2024-03-06,CUST341,Fashion,Mobile,2,20494,COD,Pending,Pune,40988
+ORD1066,2024-03-07,CUST876,Sports,Watch,1,34875,Credit Card,Delivered,Indore,34875
+ORD1067,2024-03-08,CUST445,Beauty,Laptop,2,22063,UPI,Returned,Hyderabad,44126
+ORD1068,2024-03-09,CUST664,Electronics,Laptop,2,39841,Net Banking,Pending,Delhi,79682
+ORD1069,2024-03-10,CUST997,Sports,Mixer,1,6276,Debit Card,Returned,Bangalore,6276
+ORD1070,2024-03-11,CUST439,Fashion,Headphones,1,36944,Credit Card,Returned,Pune,36944
+ORD1071,2024-03-12,CUST191,Fashion,Laptop,1,3880,COD,Returned,Delhi,3880
+ORD1072,2024-03-13,CUST466,Sports,T-shirt,4,9211,Credit Card,Delivered,Pune,36844
+ORD1073,2024-03-14,CUST554,Beauty,Laptop,1,9282,COD,Pending,Bangalore,9282
+ORD1074,2024-03-15,CUST527,Fashion,Mixer,1,17934,UPI,Cancelled,Pune,17934
+ORD1075,2024-03-16,CUST608,Beauty,Laptop,1,47265,Net Banking,Delivered,Hyderabad,47265
+ORD1076,2024-03-17,CUST875,Fashion,T-shirt,1,20517,UPI,Delivered,Hyderabad,20517
+ORD1077,2024-03-18,CUST134,Fashion,Mobile,3,31207,Debit Card,Delivered,Indore,93621
+ORD1078,2024-03-19,CUST305,Home & Kitchen,Headphones,4,39610,Credit Card,Cancelled,Indore,158440
+ORD1079,2024-03-20,CUST180,Fashion,Mixer,2,17843,COD,Pending,Pune,35686
+ORD1080,2024-03-21,CUST661,Electronics,Mobile,1,39327,COD,Pending,Delhi,39327
+ORD1081,2024-03-22,CUST971,Sports,Mobile,3,42152,Credit Card,Pending,Hyderabad,126456
+ORD1082,2024-03-23,CUST487,Sports,Mobile,3,6155,Credit Card,Returned,Delhi,18465
+ORD1083,2024-03-24,CUST101,Beauty,Shoes,3,45359,Debit Card,Returned,Delhi,136077
+ORD1084,2024-03-25,CUST489,Fashion,Headphones,2,15751,UPI,Returned,Pune,31502
+ORD1085,2024-03-26,CUST665,Electronics,Watch,1,1026,COD,Cancelled,Delhi,1026
+ORD1086,2024-03-27,CUST205,Beauty,Headphones,4,3724,Debit Card,Returned,Hyderabad,14896
+ORD1087,2024-03-28,CUST871,Home & Kitchen,Shoes,4,48337,UPI,Cancelled,Bangalore,193348
+ORD1088,2024-03-29,CUST921,Beauty,Watch,3,12036,Debit Card,Pending,Indore,36108
+ORD1089,2024-03-30,CUST576,Beauty,Headphones,2,29041,COD,Returned,Bangalore,58082
+ORD1090,2024-03-31,CUST802,Fashion,Mobile,2,14047,Credit Card,Returned,Delhi,28094
+ORD1091,2024-04-01,CUST501,Home & Kitchen,Mixer,2,35031,Credit Card,Delivered,Bangalore,70062
+ORD1092,2024-04-02,CUST829,Beauty,Watch,4,9212,UPI,Cancelled,Hyderabad,36848
+ORD1093,2024-04-03,CUST655,Electronics,T-shirt,3,39065,Net Banking,Pending,Hyderabad,117195
+ORD1094,2024-04-04,CUST261,Electronics,T-shirt,1,9708,UPI,Delivered,Delhi,9708
+ORD1095,2024-04-05,CUST301,Sports,Laptop,4,5609,Net Banking,Delivered,Pune,22436
+ORD1096,2024-04-06,CUST369,Home & Kitchen,Watch,3,49768,Debit Card,Pending,Bangalore,149304
+ORD1097,2024-04-07,CUST962,Home & Kitchen,Mixer,3,35701,Debit Card,Delivered,Pune,107103
+ORD1098,2024-04-08,CUST915,Sports,Shoes,1,17467,COD,Cancelled,Pune,17467
+ORD1099,2024-04-09,CUST370,Beauty,Mobile,1,30259,Net Banking,Cancelled,Mumbai,30259
+ORD1100,2024-04-10,CUST555,Home & Kitchen,Laptop,1,20672,COD,Returned,Delhi,20672
+ORD1101,2024-04-11,CUST561,Electronics,T-shirt,2,37435,Credit Card,Delivered,Indore,74870
+ORD1102,2024-04-12,CUST826,Electronics,Shoes,1,27089,Net Banking,Returned,Hyderabad,27089
+ORD1103,2024-04-13,CUST351,Fashion,Shoes,3,30515,UPI,Delivered,Hyderabad,91545
+ORD1104,2024-04-14,CUST801,Home & Kitchen,Mobile,1,29509,Credit Card,Cancelled,Delhi,29509
+ORD1105,2024-04-15,CUST395,Beauty,Watch,3,18273,Credit Card,Cancelled,Indore,54819
+ORD1106,2024-04-16,CUST824,Sports,T-shirt,4,41625,UPI,Cancelled,Hyderabad,166500
+ORD1107,2024-04-17,CUST819,Sports,Mixer,2,26643,Credit Card,Delivered,Delhi,53286
+ORD1108,2024-04-18,CUST848,Beauty,Shoes,4,6654,Net Banking,Cancelled,Hyderabad,26616
+ORD1109,2024-04-19,CUST437,Fashion,Mobile,4,22304,COD,Delivered,Pune,89216
+ORD1110,2024-04-20,CUST978,Sports,Mixer,3,42188,Credit Card,Returned,Bangalore,126564
+ORD1111,2024-04-21,CUST152,Home & Kitchen,Watch,4,21081,Net Banking,Delivered,Bangalore,84324
+ORD1112,2024-04-22,CUST891,Fashion,T-shirt,3,30587,Debit Card,Returned,Hyderabad,91761
+ORD1113,2024-04-23,CUST316,Home & Kitchen,Watch,1,33481,Net Banking,Delivered,Mumbai,33481
+ORD1114,2024-04-24,CUST863,Electronics,Shoes,1,4262,COD,Returned,Indore,4262
+ORD1115,2024-04-25,CUST287,Fashion,Mixer,3,46667,Net Banking,Cancelled,Indore,140001
+ORD1116,2024-04-26,CUST479,Sports,Mixer,1,10268,UPI,Returned,Indore,10268
+ORD1117,2024-04-27,CUST592,Fashion,Mixer,2,43908,COD,Cancelled,Pune,87816
+ORD1118,2024-04-28,CUST140,Fashion,Shoes,4,39999,Debit Card,Cancelled,Indore,159996
+ORD1119,2024-04-29,CUST256,Fashion,Shoes,2,39059,UPI,Returned,Bangalore,78118
+ORD1120,2024-04-30,CUST114,Fashion,Watch,4,49090,Net Banking,Delivered,Pune,196360
+ORD1121,2024-05-01,CUST912,Home & Kitchen,Laptop,1,9283,COD,Delivered,Delhi,9283
+ORD1122,2024-05-02,CUST164,Electronics,Watch,2,46889,Debit Card,Pending,Indore,93778
+ORD1123,2024-05-03,CUST956,Beauty,T-shirt,1,30281,UPI,Delivered,Indore,30281
+ORD1124,2024-05-04,CUST938,Fashion,Mobile,4,31311,Debit Card,Pending,Delhi,125244
+ORD1125,2024-05-05,CUST620,Sports,Mixer,3,49287,Net Banking,Delivered,Indore,147861
+ORD1126,2024-05-06,CUST443,Fashion,Laptop,3,35988,Debit Card,Delivered,Delhi,107964
+ORD1127,2024-05-07,CUST228,Sports,Mobile,2,9405,Credit Card,Cancelled,Pune,18810
+ORD1128,2024-05-08,CUST747,Home & Kitchen,Laptop,1,9627,UPI,Pending,Bangalore,9627
+ORD1129,2024-05-09,CUST571,Sports,Headphones,1,22931,Debit Card,Delivered,Delhi,22931
+ORD1130,2024-05-10,CUST162,Beauty,Watch,2,49653,Net Banking,Pending,Mumbai,99306
+ORD1131,2024-05-11,CUST238,Electronics,Shoes,3,6868,Net Banking,Cancelled,Delhi,20604
+ORD1132,2024-05-12,CUST598,Sports,Mixer,4,27924,Debit Card,Cancelled,Indore,111696
+ORD1133,2024-05-13,CUST692,Sports,Watch,2,47324,Net Banking,Pending,Pune,94648
+ORD1134,2024-05-14,CUST491,Electronics,Mobile,4,45504,COD,Cancelled,Hyderabad,182016
+ORD1135,2024-05-15,CUST774,Beauty,Headphones,3,18833,COD,Returned,Pune,56499
+ORD1136,2024-05-16,CUST518,Fashion,Headphones,1,23616,COD,Returned,Hyderabad,23616
+ORD1137,2024-05-17,CUST388,Sports,Headphones,3,47719,Credit Card,Cancelled,Delhi,143157
+ORD1138,2024-05-18,CUST478,Electronics,Mobile,2,43701,Debit Card,Returned,Bangalore,87402
+ORD1139,2024-05-19,CUST872,Home & Kitchen,Mobile,1,16025,Credit Card,Delivered,Mumbai,16025
+ORD1140,2024-05-20,CUST589,Electronics,Mobile,2,23898,Net Banking,Pending,Pune,47796
+ORD1141,2024-05-21,CUST330,Home & Kitchen,Mobile,2,33357,Credit Card,Delivered,Indore,66714
+ORD1142,2024-05-22,CUST140,Beauty,Headphones,3,10861,Net Banking,Pending,Hyderabad,32583
+ORD1143,2024-05-23,CUST127,Fashion,Headphones,2,16869,Net Banking,Cancelled,Indore,33738
+ORD1144,2024-05-24,CUST234,Electronics,Laptop,3,3541,UPI,Delivered,Bangalore,10623
+ORD1145,2024-05-25,CUST300,Sports,Watch,1,605,COD,Cancelled,Hyderabad,605
+ORD1146,2024-05-26,CUST939,Beauty,Mixer,3,9578,Net Banking,Cancelled,Pune,28734
+ORD1147,2024-05-27,CUST879,Electronics,Shoes,1,25503,UPI,Pending,Delhi,25503
+ORD1148,2024-05-28,CUST132,Sports,Headphones,3,6590,COD,Pending,Indore,19770
+ORD1149,2024-05-29,CUST147,Electronics,Shoes,4,39350,Net Banking,Pending,Bangalore,157400
+ORD1150,2024-05-30,CUST602,Home & Kitchen,Watch,4,2425,Net Banking,Delivered,Pune,9700
+ORD1151,2024-05-31,CUST506,Electronics,Watch,2,18940,Credit Card,Returned,Pune,37880
+ORD1152,2024-06-01,CUST673,Electronics,Shoes,3,40185,Credit Card,Pending,Pune,120555
+ORD1153,2024-06-02,CUST827,Electronics,Headphones,3,26515,COD,Pending,Pune,79545
+ORD1154,2024-06-03,CUST904,Beauty,Shoes,1,33820,Net Banking,Delivered,Hyderabad,33820
+ORD1155,2024-06-04,CUST198,Electronics,Laptop,2,25791,Debit Card,Pending,Pune,51582
+ORD1156,2024-06-05,CUST783,Sports,T-shirt,3,37179,Credit Card,Delivered,Indore,111537
+ORD1157,2024-06-06,CUST971,Home & Kitchen,Headphones,2,26789,COD,Cancelled,Bangalore,53578
+ORD1158,2024-06-07,CUST825,Home & Kitchen,Headphones,4,3889,Net Banking,Pending,Hyderabad,15556
+ORD1159,2024-06-08,CUST646,Electronics,Mixer,3,26183,Net Banking,Pending,Pune,78549
+ORD1160,2024-06-09,CUST838,Beauty,Mobile,3,14129,Debit Card,Cancelled,Mumbai,42387
+ORD1161,2024-06-10,CUST712,Beauty,T-shirt,2,25326,COD,Cancelled,Mumbai,50652
+ORD1162,2024-06-11,CUST561,Sports,Watch,3,35698,Net Banking,Cancelled,Bangalore,107094
+ORD1163,2024-06-12,CUST742,Electronics,Headphones,2,27130,Credit Card,Pending,Delhi,54260
+ORD1164,2024-06-13,CUST868,Home & Kitchen,Shoes,3,33726,Debit Card,Returned,Delhi,101178
+ORD1165,2024-06-14,CUST104,Beauty,T-shirt,1,46663,COD,Returned,Hyderabad,46663
+ORD1166,2024-06-15,CUST317,Electronics,Mixer,2,33475,Debit Card,Returned,Hyderabad,66950
+ORD1167,2024-06-16,CUST602,Beauty,Watch,3,1399,Credit Card,Pending,Hyderabad,4197
+ORD1168,2024-06-17,CUST866,Beauty,Mobile,4,12153,COD,Cancelled,Delhi,48612
+ORD1169,2024-06-18,CUST497,Home & Kitchen,Mobile,3,28461,Debit Card,Pending,Mumbai,85383
+ORD1170,2024-06-19,CUST970,Fashion,Mixer,4,16905,UPI,Cancelled,Delhi,67620
+ORD1171,2024-06-20,CUST894,Sports,Mixer,4,9101,Credit Card,Pending,Indore,36404
+ORD1172,2024-06-21,CUST492,Sports,Shoes,1,34162,Credit Card,Pending,Pune,34162
+ORD1173,2024-06-22,CUST306,Home & Kitchen,Headphones,2,33782,Credit Card,Cancelled,Hyderabad,67564
+ORD1174,2024-06-23,CUST114,Beauty,Mobile,3,21788,UPI,Returned,Mumbai,65364
+ORD1175,2024-06-24,CUST957,Electronics,Watch,1,30045,UPI,Cancelled,Bangalore,30045
+ORD1176,2024-06-25,CUST653,Beauty,T-shirt,3,37377,Net Banking,Delivered,Bangalore,112131
+ORD1177,2024-06-26,CUST991,Home & Kitchen,Watch,4,46526,Debit Card,Delivered,Pune,186104
+ORD1178,2024-06-27,CUST560,Sports,Laptop,2,15813,Net Banking,Cancelled,Mumbai,31626
+ORD1179,2024-06-28,CUST790,Beauty,Laptop,3,15849,Debit Card,Pending,Delhi,47547
+ORD1180,2024-06-29,CUST674,Sports,Mixer,3,7679,UPI,Delivered,Delhi,23037
+ORD1181,2024-06-30,CUST963,Electronics,Shoes,4,10826,UPI,Delivered,Indore,43304
+ORD1182,2024-07-01,CUST842,Sports,Laptop,3,45055,Net Banking,Pending,Indore,135165
+ORD1183,2024-07-02,CUST340,Sports,Mobile,3,2060,COD,Pending,Delhi,6180
+ORD1184,2024-07-03,CUST663,Fashion,Watch,4,14112,Net Banking,Returned,Bangalore,56448
+ORD1185,2024-07-04,CUST195,Fashion,Watch,1,18150,Debit Card,Pending,Hyderabad,18150
+ORD1186,2024-07-05,CUST833,Fashion,Mixer,4,27245,Net Banking,Cancelled,Bangalore,108980
+ORD1187,2024-07-06,CUST584,Sports,Headphones,1,32390,Credit Card,Cancelled,Indore,32390
+ORD1188,2024-07-07,CUST506,Home & Kitchen,Headphones,2,20522,Debit Card,Returned,Pune,41044
+ORD1189,2024-07-08,CUST330,Sports,T-shirt,1,5280,Debit Card,Delivered,Delhi,5280
+ORD1190,2024-07-09,CUST848,Home & Kitchen,Mixer,1,18811,COD,Delivered,Indore,18811
+ORD1191,2024-07-10,CUST754,Home & Kitchen,T-shirt,2,28880,UPI,Pending,Indore,57760
+ORD1192,2024-07-11,CUST270,Fashion,Headphones,1,45162,Debit Card,Cancelled,Hyderabad,45162
+ORD1193,2024-07-12,CUST640,Beauty,Mixer,4,2856,UPI,Delivered,Delhi,11424
+ORD1194,2024-07-13,CUST135,Electronics,Mixer,1,5290,Net Banking,Returned,Hyderabad,5290
+ORD1195,2024-07-14,CUST624,Fashion,Mixer,2,27411,Credit Card,Returned,Delhi,54822
+ORD1196,2024-07-15,CUST259,Fashion,Headphones,4,49958,COD,Cancelled,Hyderabad,199832
+ORD1197,2024-07-16,CUST938,Beauty,T-shirt,2,24863,UPI,Returned,Bangalore,49726
+ORD1198,2024-07-17,CUST798,Electronics,T-shirt,2,20549,Debit Card,Returned,Pune,41098
+ORD1199,2024-07-18,CUST342,Sports,Mixer,3,10681,UPI,Cancelled,Pune,32043
+ORD1200,2024-07-19,CUST185,Sports,Laptop,3,40325,Debit Card,Pending,Delhi,120975
+ORD1201,2024-07-20,CUST895,Fashion,Shoes,2,16582,UPI,Pending,Mumbai,33164
+ORD1202,2024-07-21,CUST677,Electronics,Headphones,2,1161,Debit Card,Returned,Indore,2322
+ORD1203,2024-07-22,CUST781,Fashion,Shoes,2,37912,Net Banking,Pending,Indore,75824
+ORD1204,2024-07-23,CUST656,Home & Kitchen,Shoes,3,48979,Debit Card,Pending,Delhi,146937
+ORD1205,2024-07-24,CUST673,Fashion,T-shirt,3,3420,Debit Card,Returned,Hyderabad,10260
+ORD1206,2024-07-25,CUST745,Fashion,T-shirt,1,26158,Credit Card,Pending,Mumbai,26158
+ORD1207,2024-07-26,CUST895,Sports,Laptop,1,49270,Debit Card,Returned,Bangalore,49270
+ORD1208,2024-07-27,CUST127,Sports,Shoes,2,14525,Credit Card,Delivered,Hyderabad,29050
+ORD1209,2024-07-28,CUST719,Sports,Shoes,4,9446,COD,Cancelled,Hyderabad,37784
+ORD1210,2024-07-29,CUST655,Home & Kitchen,Mixer,4,29206,Credit Card,Cancelled,Delhi,116824
+ORD1211,2024-07-30,CUST439,Sports,T-shirt,3,46000,Net Banking,Pending,Delhi,138000
+ORD1212,2024-07-31,CUST897,Electronics,Shoes,3,39504,Credit Card,Pending,Indore,118512
+ORD1213,2024-08-01,CUST430,Beauty,Watch,3,16809,COD,Pending,Delhi,50427
+ORD1214,2024-08-02,CUST739,Electronics,Laptop,2,46786,Net Banking,Cancelled,Delhi,93572
+ORD1215,2024-08-03,CUST605,Electronics,Watch,4,33620,UPI,Delivered,Delhi,134480
+ORD1216,2024-08-04,CUST447,Sports,Watch,1,30527,UPI,Delivered,Indore,30527
+ORD1217,2024-08-05,CUST572,Beauty,Headphones,2,7505,Credit Card,Cancelled,Bangalore,15010
+ORD1218,2024-08-06,CUST330,Beauty,Headphones,1,47304,Credit Card,Delivered,Bangalore,47304
+ORD1219,2024-08-07,CUST289,Beauty,Laptop,1,49810,COD,Cancelled,Delhi,49810
+ORD1220,2024-08-08,CUST324,Home & Kitchen,Watch,2,1456,COD,Delivered,Indore,2912
+ORD1221,2024-08-09,CUST484,Sports,Shoes,1,35339,Debit Card,Returned,Bangalore,35339
+ORD1222,2024-08-10,CUST476,Beauty,T-shirt,4,9095,COD,Returned,Hyderabad,36380
+ORD1223,2024-08-11,CUST382,Home & Kitchen,Laptop,1,48408,Debit Card,Cancelled,Bangalore,48408
+ORD1224,2024-08-12,CUST732,Fashion,Mixer,4,13303,Net Banking,Delivered,Bangalore,53212
+ORD1225,2024-08-13,CUST727,Fashion,Watch,4,26463,Credit Card,Pending,Indore,105852
+ORD1226,2024-08-14,CUST844,Home & Kitchen,Laptop,4,36721,Net Banking,Delivered,Hyderabad,146884
+ORD1227,2024-08-15,CUST358,Home & Kitchen,Mobile,3,39943,COD,Returned,Indore,119829
+ORD1228,2024-08-16,CUST458,Sports,Mobile,1,34223,Net Banking,Returned,Delhi,34223
+ORD1229,2024-08-17,CUST809,Sports,Headphones,2,39563,Net Banking,Delivered,Pune,79126
+ORD1230,2024-08-18,CUST555,Fashion,T-shirt,2,49189,Net Banking,Delivered,Bangalore,98378
+ORD1231,2024-08-19,CUST510,Beauty,Shoes,1,15782,COD,Pending,Pune,15782
+ORD1232,2024-08-20,CUST748,Fashion,T-shirt,3,5203,Net Banking,Pending,Indore,15609
+ORD1233,2024-08-21,CUST417,Beauty,T-shirt,3,7063,Debit Card,Delivered,Indore,21189
+ORD1234,2024-08-22,CUST776,Beauty,T-shirt,4,26349,COD,Delivered,Indore,105396
+ORD1235,2024-08-23,CUST324,Sports,T-shirt,1,32360,Net Banking,Delivered,Pune,32360
+ORD1236,2024-08-24,CUST918,Electronics,Mixer,1,32085,COD,Delivered,Indore,32085
+ORD1237,2024-08-25,CUST333,Electronics,Mixer,2,22515,UPI,Cancelled,Delhi,45030
+ORD1238,2024-08-26,CUST783,Home & Kitchen,Headphones,1,12503,Debit Card,Delivered,Indore,12503
+ORD1239,2024-08-27,CUST763,Sports,Laptop,3,44085,Net Banking,Pending,Mumbai,132255
+ORD1240,2024-08-28,CUST926,Beauty,Mobile,1,27458,UPI,Returned,Pune,27458
+ORD1241,2024-08-29,CUST473,Electronics,T-shirt,2,26517,UPI,Cancelled,Mumbai,53034
+ORD1242,2024-08-30,CUST771,Beauty,Headphones,4,11671,COD,Delivered,Indore,46684
+ORD1243,2024-08-31,CUST707,Electronics,Laptop,2,45850,UPI,Returned,Delhi,91700
+ORD1244,2024-09-01,CUST571,Electronics,Mobile,2,12701,Debit Card,Cancelled,Bangalore,25402
+ORD1245,2024-09-02,CUST332,Electronics,Watch,4,29926,Debit Card,Returned,Hyderabad,119704
+ORD1246,2024-09-03,CUST791,Sports,Shoes,2,18278,Credit Card,Delivered,Hyderabad,36556
+ORD1247,2024-09-04,CUST212,Fashion,Mixer,2,45741,Debit Card,Delivered,Indore,91482
+ORD1248,2024-09-05,CUST929,Beauty,Watch,1,42729,UPI,Pending,Delhi,42729
+ORD1249,2024-09-06,CUST596,Sports,Mobile,1,21616,Debit Card,Delivered,Pune,21616
+ORD1250,2024-09-07,CUST541,Sports,Watch,4,48864,COD,Delivered,Mumbai,195456
+ORD1251,2024-09-08,CUST663,Sports,Shoes,1,33797,Credit Card,Cancelled,Mumbai,33797
+ORD1252,2024-09-09,CUST367,Sports,Headphones,1,19842,UPI,Pending,Mumbai,19842
+ORD1253,2024-09-10,CUST609,Sports,Mobile,2,27990,Credit Card,Cancelled,Pune,55980
+ORD1254,2024-09-11,CUST906,Home & Kitchen,Watch,3,20475,UPI,Returned,Hyderabad,61425
+ORD1255,2024-09-12,CUST485,Beauty,Mixer,1,27223,COD,Delivered,Delhi,27223
+ORD1256,2024-09-13,CUST486,Sports,Mixer,3,23779,Credit Card,Returned,Pune,71337
+ORD1257,2024-09-14,CUST212,Beauty,Laptop,1,13265,Net Banking,Cancelled,Mumbai,13265
+ORD1258,2024-09-15,CUST712,Home & Kitchen,Watch,1,47178,UPI,Delivered,Indore,47178
+ORD1259,2024-09-16,CUST724,Home & Kitchen,T-shirt,4,12061,Net Banking,Delivered,Bangalore,48244
+ORD1260,2024-09-17,CUST180,Beauty,Watch,4,42399,Credit Card,Cancelled,Pune,169596
+ORD1261,2024-09-18,CUST798,Electronics,Headphones,4,1025,Net Banking,Cancelled,Pune,4100
+ORD1262,2024-09-19,CUST212,Fashion,Mobile,3,23361,Net Banking,Cancelled,Delhi,70083
+ORD1263,2024-09-20,CUST101,Electronics,Mobile,2,49653,Credit Card,Cancelled,Delhi,99306
+ORD1264,2024-09-21,CUST741,Electronics,Headphones,1,33642,COD,Cancelled,Pune,33642
+ORD1265,2024-09-22,CUST319,Electronics,Watch,1,27416,Net Banking,Delivered,Mumbai,27416
+ORD1266,2024-09-23,CUST665,Sports,Headphones,1,45465,Net Banking,Cancelled,Bangalore,45465
+ORD1267,2024-09-24,CUST954,Home & Kitchen,Shoes,3,5148,COD,Delivered,Delhi,15444
+ORD1268,2024-09-25,CUST835,Electronics,Headphones,4,35633,Net Banking,Delivered,Mumbai,142532
+ORD1269,2024-09-26,CUST324,Home & Kitchen,Mixer,2,31023,Net Banking,Cancelled,Indore,62046
+ORD1270,2024-09-27,CUST484,Beauty,Headphones,3,29552,Net Banking,Cancelled,Delhi,88656
+ORD1271,2024-09-28,CUST502,Fashion,Mobile,4,34914,Debit Card,Pending,Mumbai,139656
+ORD1272,2024-09-29,CUST737,Beauty,Mixer,3,33281,COD,Delivered,Mumbai,99843
+ORD1273,2024-09-30,CUST229,Beauty,Mobile,2,5099,Net Banking,Cancelled,Bangalore,10198
+ORD1274,2024-10-01,CUST152,Sports,Laptop,4,35546,COD,Cancelled,Bangalore,142184
+ORD1275,2024-10-02,CUST783,Fashion,T-shirt,3,47564,UPI,Cancelled,Indore,142692
+ORD1276,2024-10-03,CUST829,Beauty,Mobile,2,36423,UPI,Pending,Mumbai,72846
+ORD1277,2024-10-04,CUST771,Beauty,Mixer,1,41589,Net Banking,Pending,Hyderabad,41589
+ORD1278,2024-10-05,CUST809,Fashion,Laptop,2,4314,COD,Returned,Mumbai,8628
+ORD1279,2024-10-06,CUST515,Fashion,Mobile,1,46393,COD,Delivered,Bangalore,46393
+ORD1280,2024-10-07,CUST346,Beauty,Shoes,3,36484,COD,Returned,Hyderabad,109452
+ORD1281,2024-10-08,CUST935,Fashion,Headphones,4,27116,Debit Card,Cancelled,Delhi,108464
+ORD1282,2024-10-09,CUST538,Beauty,T-shirt,4,2613,UPI,Pending,Delhi,10452
+ORD1283,2024-10-10,CUST302,Beauty,Mobile,3,43506,COD,Pending,Pune,130518
+ORD1284,2024-10-11,CUST283,Sports,Laptop,4,14260,COD,Returned,Bangalore,57040
+ORD1285,2024-10-12,CUST222,Electronics,Shoes,4,22427,Debit Card,Pending,Pune,89708
+ORD1286,2024-10-13,CUST500,Beauty,Watch,1,21439,Debit Card,Cancelled,Hyderabad,21439
+ORD1287,2024-10-14,CUST866,Home & Kitchen,Laptop,3,32919,COD,Pending,Bangalore,98757
+ORD1288,2024-10-15,CUST393,Electronics,Headphones,2,13088,Credit Card,Returned,Indore,26176
+ORD1289,2024-10-16,CUST379,Electronics,Laptop,1,36642,COD,Cancelled,Mumbai,36642
+ORD1290,2024-10-17,CUST936,Electronics,Shoes,3,39698,COD,Returned,Indore,119094
+ORD1291,2024-10-18,CUST983,Sports,Laptop,1,45238,Debit Card,Pending,Hyderabad,45238
+ORD1292,2024-10-19,CUST709,Beauty,Shoes,2,33897,Debit Card,Returned,Bangalore,67794
+ORD1293,2024-10-20,CUST297,Sports,Mobile,2,17153,COD,Returned,Hyderabad,34306
+ORD1294,2024-10-21,CUST610,Beauty,Shoes,3,11331,COD,Delivered,Mumbai,33993
+ORD1295,2024-10-22,CUST851,Sports,Shoes,2,6224,COD,Pending,Delhi,12448
+ORD1296,2024-10-23,CUST243,Sports,T-shirt,1,11583,Debit Card,Pending,Delhi,11583
+ORD1297,2024-10-24,CUST708,Home & Kitchen,Shoes,2,46417,COD,Returned,Hyderabad,92834
+ORD1298,2024-10-25,CUST300,Sports,Shoes,1,20316,COD,Delivered,Pune,20316
+ORD1299,2024-10-26,CUST223,Fashion,Watch,1,42740,Net Banking,Pending,Bangalore,42740
+ORD1300,2024-10-27,CUST286,Home & Kitchen,Mobile,2,6776,Credit Card,Cancelled,Bangalore,13552
+ORD1301,2024-10-28,CUST425,Sports,Headphones,3,48903,UPI,Returned,Delhi,146709
+ORD1302,2024-10-29,CUST563,Electronics,T-shirt,4,39163,Credit Card,Pending,Indore,156652
+ORD1303,2024-10-30,CUST448,Fashion,Watch,2,14494,Net Banking,Cancelled,Mumbai,28988
+ORD1304,2024-10-31,CUST870,Fashion,Mixer,1,23999,UPI,Pending,Indore,23999
+ORD1305,2024-11-01,CUST759,Fashion,Mobile,1,23540,COD,Cancelled,Indore,23540
+ORD1306,2024-11-02,CUST863,Home & Kitchen,Mobile,2,43820,Net Banking,Returned,Hyderabad,87640
+ORD1307,2024-11-03,CUST502,Sports,Mixer,3,17459,COD,Pending,Delhi,52377
+ORD1308,2024-11-04,CUST445,Sports,Headphones,3,6599,Debit Card,Pending,Delhi,19797
+ORD1309,2024-11-05,CUST610,Electronics,Shoes,1,42767,Net Banking,Delivered,Delhi,42767
+ORD1310,2024-11-06,CUST246,Electronics,Watch,1,20076,Debit Card,Returned,Hyderabad,20076
+ORD1311,2024-11-07,CUST247,Fashion,Laptop,3,36446,Net Banking,Cancelled,Pune,109338
+ORD1312,2024-11-08,CUST963,Electronics,T-shirt,4,6616,Net Banking,Pending,Indore,26464
+ORD1313,2024-11-09,CUST810,Home & Kitchen,Laptop,2,16063,Debit Card,Pending,Hyderabad,32126
+ORD1314,2024-11-10,CUST919,Sports,Mixer,1,27288,UPI,Cancelled,Bangalore,27288
+ORD1315,2024-11-11,CUST588,Fashion,Mobile,1,27428,Credit Card,Returned,Mumbai,27428
+ORD1316,2024-11-12,CUST739,Electronics,Headphones,3,36836,COD,Delivered,Pune,110508
+ORD1317,2024-11-13,CUST650,Home & Kitchen,Mobile,2,10347,Net Banking,Delivered,Bangalore,20694
+ORD1318,2024-11-14,CUST437,Home & Kitchen,T-shirt,3,26655,COD,Pending,Indore,79965
+ORD1319,2024-11-15,CUST971,Electronics,Mobile,2,14635,Debit Card,Cancelled,Delhi,29270
+ORD1320,2024-11-16,CUST740,Sports,Mobile,2,18274,COD,Pending,Indore,36548
+ORD1321,2024-11-17,CUST878,Electronics,T-shirt,2,2242,Debit Card,Cancelled,Hyderabad,4484
+ORD1322,2024-11-18,CUST572,Fashion,Watch,1,18809,COD,Delivered,Mumbai,18809
+ORD1323,2024-11-19,CUST250,Electronics,Watch,4,1119,Credit Card,Returned,Hyderabad,4476
+ORD1324,2024-11-20,CUST514,Home & Kitchen,T-shirt,3,18158,Credit Card,Cancelled,Pune,54474
+ORD1325,2024-11-21,CUST397,Electronics,Headphones,4,35207,Credit Card,Delivered,Pune,140828
+ORD1326,2024-11-22,CUST710,Sports,Mixer,3,20837,Credit Card,Pending,Mumbai,62511
+ORD1327,2024-11-23,CUST362,Beauty,Mobile,2,16501,Credit Card,Cancelled,Bangalore,33002
+ORD1328,2024-11-24,CUST863,Electronics,Headphones,1,1468,Credit Card,Returned,Bangalore,1468
+ORD1329,2024-11-25,CUST243,Sports,Mobile,4,48114,Debit Card,Pending,Pune,192456
+ORD1330,2024-11-26,CUST445,Sports,Mixer,1,26392,Net Banking,Pending,Pune,26392
+ORD1331,2024-11-27,CUST723,Home & Kitchen,Watch,3,26119,COD,Delivered,Delhi,78357
+ORD1332,2024-11-28,CUST671,Sports,Headphones,1,781,Credit Card,Cancelled,Bangalore,781
+ORD1333,2024-11-29,CUST980,Sports,Shoes,1,27920,Debit Card,Pending,Mumbai,27920
+ORD1334,2024-11-30,CUST101,Sports,Shoes,4,15860,Debit Card,Returned,Bangalore,63440
+ORD1335,2024-12-01,CUST996,Sports,Shoes,2,39530,Debit Card,Cancelled,Delhi,79060
+ORD1336,2024-12-02,CUST403,Fashion,Watch,1,1558,Net Banking,Returned,Hyderabad,1558
+ORD1337,2024-12-03,CUST353,Fashion,Watch,2,21177,COD,Pending,Pune,42354
+ORD1338,2024-12-04,CUST751,Home & Kitchen,Mixer,3,11224,Net Banking,Returned,Pune,33672
+ORD1339,2024-12-05,CUST552,Electronics,Mobile,1,28904,UPI,Delivered,Delhi,28904
+ORD1340,2024-12-06,CUST136,Sports,Mixer,4,38446,Debit Card,Returned,Mumbai,153784
+ORD1341,2024-12-07,CUST259,Electronics,Mixer,3,40248,UPI,Cancelled,Pune,120744
+ORD1342,2024-12-08,CUST108,Electronics,Watch,3,30356,Credit Card,Returned,Indore,91068
+ORD1343,2024-12-09,CUST332,Home & Kitchen,Shoes,4,9700,Credit Card,Returned,Pune,38800
+ORD1344,2024-12-10,CUST198,Sports,Laptop,1,34497,Net Banking,Delivered,Indore,34497
+ORD1345,2024-12-11,CUST758,Sports,Mobile,1,26111,COD,Returned,Delhi,26111
+ORD1346,2024-12-12,CUST915,Beauty,Watch,3,41735,UPI,Returned,Delhi,125205
+ORD1347,2024-12-13,CUST307,Electronics,Shoes,1,35557,COD,Pending,Pune,35557
+ORD1348,2024-12-14,CUST230,Electronics,Headphones,2,1739,Net Banking,Pending,Bangalore,3478
+ORD1349,2024-12-15,CUST503,Fashion,Laptop,4,38638,Credit Card,Cancelled,Indore,154552
+ORD1350,2024-12-16,CUST251,Beauty,Laptop,2,49438,COD,Pending,Mumbai,98876
+ORD1351,2024-12-17,CUST153,Fashion,Watch,1,625,COD,Pending,Pune,625
+ORD1352,2024-12-18,CUST219,Fashion,T-shirt,3,45772,Credit Card,Pending,Mumbai,137316
+ORD1353,2024-12-19,CUST772,Fashion,Mobile,4,24357,UPI,Pending,Pune,97428
+ORD1354,2024-12-20,CUST727,Home & Kitchen,Laptop,1,15898,Credit Card,Delivered,Bangalore,15898
+ORD1355,2024-12-21,CUST686,Home & Kitchen,Watch,1,7138,COD,Pending,Bangalore,7138
+ORD1356,2024-12-22,CUST724,Fashion,Watch,3,7070,UPI,Delivered,Bangalore,21210
+ORD1357,2024-12-23,CUST519,Beauty,Shoes,3,3749,UPI,Delivered,Hyderabad,11247
+ORD1358,2024-12-24,CUST521,Electronics,Headphones,2,9610,Credit Card,Pending,Bangalore,19220
+ORD1359,2024-12-25,CUST203,Beauty,T-shirt,4,40863,COD,Returned,Delhi,163452
+ORD1360,2024-12-26,CUST951,Sports,Mobile,4,14105,Net Banking,Delivered,Delhi,56420
+ORD1361,2024-12-27,CUST353,Home & Kitchen,Mixer,3,12615,COD,Returned,Hyderabad,37845
+ORD1362,2024-12-28,CUST326,Electronics,Headphones,2,39562,Debit Card,Returned,Indore,79124
+ORD1363,2024-12-29,CUST211,Electronics,Headphones,4,23411,Net Banking,Pending,Mumbai,93644
+ORD1364,2024-12-30,CUST609,Sports,Shoes,3,39025,UPI,Cancelled,Pune,117075
+ORD1365,2024-12-31,CUST572,Sports,Laptop,1,33056,Net Banking,Pending,Pune,33056
+ORD1366,2025-01-01,CUST198,Fashion,Laptop,4,13095,UPI,Cancelled,Hyderabad,52380
+ORD1367,2025-01-02,CUST252,Home & Kitchen,Shoes,2,2469,UPI,Cancelled,Delhi,4938
+ORD1368,2025-01-03,CUST960,Home & Kitchen,Watch,2,44253,Net Banking,Pending,Pune,88506
+ORD1369,2025-01-04,CUST995,Beauty,Laptop,2,17775,UPI,Pending,Delhi,35550
+ORD1370,2025-01-05,CUST977,Fashion,T-shirt,1,4970,UPI,Cancelled,Indore,4970
+ORD1371,2025-01-06,CUST437,Fashion,Mobile,4,10725,Debit Card,Pending,Mumbai,42900
+ORD1372,2025-01-07,CUST805,Fashion,Headphones,4,42824,COD,Cancelled,Indore,171296
+ORD1373,2025-01-08,CUST921,Fashion,Headphones,1,42474,COD,Returned,Hyderabad,42474
+ORD1374,2025-01-09,CUST262,Home & Kitchen,T-shirt,4,43259,Debit Card,Pending,Bangalore,173036
+ORD1375,2025-01-10,CUST819,Home & Kitchen,Laptop,1,23696,Net Banking,Returned,Bangalore,23696
+ORD1376,2025-01-11,CUST780,Fashion,Headphones,1,40787,Credit Card,Delivered,Bangalore,40787
+ORD1377,2025-01-12,CUST260,Beauty,Mixer,1,14169,Credit Card,Returned,Indore,14169
+ORD1378,2025-01-13,CUST679,Electronics,Mobile,2,37880,Credit Card,Returned,Pune,75760
+ORD1379,2025-01-14,CUST900,Electronics,Mobile,4,45641,Debit Card,Cancelled,Mumbai,182564
+ORD1380,2025-01-15,CUST497,Beauty,Headphones,1,48820,Debit Card,Returned,Bangalore,48820
+ORD1381,2025-01-16,CUST376,Fashion,Shoes,4,47914,UPI,Pending,Hyderabad,191656
+ORD1382,2025-01-17,CUST915,Home & Kitchen,Headphones,2,38506,Credit Card,Cancelled,Hyderabad,77012
+ORD1383,2025-01-18,CUST603,Electronics,Shoes,1,16077,Net Banking,Delivered,Bangalore,16077
+ORD1384,2025-01-19,CUST995,Sports,Headphones,3,22973,Net Banking,Pending,Bangalore,68919
+ORD1385,2025-01-20,CUST491,Sports,Mixer,2,29125,Credit Card,Delivered,Mumbai,58250
+ORD1386,2025-01-21,CUST234,Beauty,Watch,3,16004,Credit Card,Returned,Bangalore,48012
+ORD1387,2025-01-22,CUST294,Fashion,Mobile,4,24589,Credit Card,Pending,Mumbai,98356
+ORD1388,2025-01-23,CUST500,Electronics,Headphones,4,36987,Debit Card,Pending,Hyderabad,147948
+ORD1389,2025-01-24,CUST739,Fashion,Mixer,2,802,Debit Card,Delivered,Bangalore,1604
+ORD1390,2025-01-25,CUST132,Electronics,Shoes,4,31963,Debit Card,Pending,Indore,127852
+ORD1391,2025-01-26,CUST787,Beauty,Shoes,3,45412,COD,Pending,Indore,136236
+ORD1392,2025-01-27,CUST559,Beauty,Mobile,1,29759,Net Banking,Pending,Hyderabad,29759
+ORD1393,2025-01-28,CUST982,Sports,T-shirt,1,43323,Net Banking,Returned,Mumbai,43323
+ORD1394,2025-01-29,CUST569,Fashion,Headphones,1,37708,UPI,Delivered,Indore,37708
+ORD1395,2025-01-30,CUST474,Sports,Laptop,2,31159,Debit Card,Pending,Mumbai,62318
+ORD1396,2025-01-31,CUST121,Fashion,Shoes,4,36340,COD,Cancelled,Indore,145360
+ORD1397,2025-02-01,CUST849,Sports,Watch,3,32390,COD,Cancelled,Indore,97170
+ORD1398,2025-02-02,CUST769,Home & Kitchen,Watch,4,14098,Net Banking,Cancelled,Mumbai,56392
+ORD1399,2025-02-03,CUST137,Home & Kitchen,Shoes,4,47555,Debit Card,Cancelled,Pune,190220
+ORD1400,2025-02-04,CUST329,Home & Kitchen,T-shirt,4,47233,UPI,Returned,Indore,188932
+ORD1401,2025-02-05,CUST464,Home & Kitchen,T-shirt,1,20008,Debit Card,Pending,Bangalore,20008
+ORD1402,2025-02-06,CUST662,Electronics,Mixer,3,42787,Credit Card,Delivered,Hyderabad,128361
+ORD1403,2025-02-07,CUST537,Home & Kitchen,Watch,3,13880,Debit Card,Pending,Pune,41640
+ORD1404,2025-02-08,CUST875,Beauty,Mixer,4,27484,Credit Card,Returned,Mumbai,109936
+ORD1405,2025-02-09,CUST382,Beauty,Watch,1,45133,Credit Card,Cancelled,Pune,45133
+ORD1406,2025-02-10,CUST126,Electronics,Headphones,1,8625,UPI,Returned,Delhi,8625
+ORD1407,2025-02-11,CUST325,Home & Kitchen,Headphones,3,36559,Net Banking,Pending,Delhi,109677
+ORD1408,2025-02-12,CUST376,Home & Kitchen,Laptop,1,4533,Debit Card,Delivered,Indore,4533
+ORD1409,2025-02-13,CUST897,Home & Kitchen,Headphones,1,38373,Credit Card,Returned,Indore,38373
+ORD1410,2025-02-14,CUST708,Sports,Laptop,1,17587,Debit Card,Delivered,Bangalore,17587
+ORD1411,2025-02-15,CUST383,Fashion,Headphones,2,41401,Net Banking,Returned,Hyderabad,82802
+ORD1412,2025-02-16,CUST978,Sports,Mobile,4,6204,Net Banking,Delivered,Pune,24816
+ORD1413,2025-02-17,CUST580,Fashion,Headphones,3,8348,COD,Delivered,Delhi,25044
+ORD1414,2025-02-18,CUST552,Home & Kitchen,Mixer,3,22092,Net Banking,Cancelled,Indore,66276
+ORD1415,2025-02-19,CUST928,Home & Kitchen,Shoes,2,46243,UPI,Delivered,Hyderabad,92486
+ORD1416,2025-02-20,CUST915,Sports,Mixer,4,7424,Credit Card,Cancelled,Pune,29696
+ORD1417,2025-02-21,CUST758,Sports,Shoes,3,27708,COD,Pending,Indore,83124
+ORD1418,2025-02-22,CUST615,Fashion,T-shirt,1,20114,UPI,Pending,Indore,20114
+ORD1419,2025-02-23,CUST646,Beauty,Mixer,3,988,Debit Card,Cancelled,Delhi,2964
+ORD1420,2025-02-24,CUST291,Fashion,T-shirt,1,40382,Credit Card,Cancelled,Delhi,40382
+ORD1421,2025-02-25,CUST148,Sports,Laptop,2,26423,Net Banking,Returned,Indore,52846
+ORD1422,2025-02-26,CUST611,Sports,Laptop,1,49008,Credit Card,Returned,Mumbai,49008
+ORD1423,2025-02-27,CUST116,Electronics,Mobile,3,36441,Debit Card,Returned,Indore,109323
+ORD1424,2025-02-28,CUST271,Sports,Headphones,3,29665,COD,Pending,Hyderabad,88995
+ORD1425,2025-03-01,CUST319,Electronics,Mixer,3,2167,COD,Returned,Indore,6501
+ORD1426,2025-03-02,CUST257,Beauty,T-shirt,2,26713,COD,Delivered,Bangalore,53426
+ORD1427,2025-03-03,CUST576,Fashion,Shoes,2,4614,Net Banking,Delivered,Bangalore,9228
+ORD1428,2025-03-04,CUST145,Fashion,Laptop,4,36821,UPI,Returned,Bangalore,147284
+ORD1429,2025-03-05,CUST472,Electronics,Headphones,3,8261,UPI,Delivered,Mumbai,24783
+ORD1430,2025-03-06,CUST617,Fashion,Laptop,1,31616,Credit Card,Pending,Mumbai,31616
+ORD1431,2025-03-07,CUST198,Sports,Shoes,2,34268,Net Banking,Delivered,Indore,68536
+ORD1432,2025-03-08,CUST991,Home & Kitchen,Headphones,3,48906,COD,Pending,Bangalore,146718
+ORD1433,2025-03-09,CUST844,Electronics,Headphones,3,25926,COD,Cancelled,Mumbai,77778
+ORD1434,2025-03-10,CUST136,Fashion,T-shirt,2,18272,Debit Card,Cancelled,Delhi,36544
+ORD1435,2025-03-11,CUST379,Electronics,T-shirt,4,38718,Debit Card,Cancelled,Indore,154872
+ORD1436,2025-03-12,CUST448,Electronics,Mixer,2,4212,COD,Cancelled,Hyderabad,8424
+ORD1437,2025-03-13,CUST596,Home & Kitchen,Mixer,2,1867,COD,Delivered,Pune,3734
+ORD1438,2025-03-14,CUST401,Sports,Watch,1,41457,Net Banking,Returned,Indore,41457
+ORD1439,2025-03-15,CUST280,Electronics,Watch,1,42281,UPI,Delivered,Pune,42281
+ORD1440,2025-03-16,CUST706,Fashion,Mobile,4,26700,Debit Card,Pending,Bangalore,106800
+ORD1441,2025-03-17,CUST198,Beauty,Laptop,3,4226,UPI,Delivered,Pune,12678
+ORD1442,2025-03-18,CUST799,Electronics,Mixer,2,24116,Net Banking,Delivered,Bangalore,48232
+ORD1443,2025-03-19,CUST215,Electronics,T-shirt,4,28223,COD,Pending,Delhi,112892
+ORD1444,2025-03-20,CUST290,Home & Kitchen,Shoes,1,38074,UPI,Cancelled,Pune,38074
+ORD1445,2025-03-21,CUST352,Sports,T-shirt,2,35458,COD,Cancelled,Indore,70916
+ORD1446,2025-03-22,CUST260,Beauty,Laptop,3,9608,COD,Cancelled,Bangalore,28824
+ORD1447,2025-03-23,CUST355,Fashion,Watch,1,12678,Credit Card,Returned,Indore,12678
+ORD1448,2025-03-24,CUST422,Beauty,T-shirt,1,36143,UPI,Pending,Mumbai,36143
+ORD1449,2025-03-25,CUST227,Fashion,Mobile,1,31824,UPI,Pending,Bangalore,31824
+ORD1450,2025-03-26,CUST117,Sports,Laptop,4,38860,COD,Delivered,Pune,155440
+ORD1451,2025-03-27,CUST892,Fashion,Watch,3,18324,Net Banking,Returned,Bangalore,54972
+ORD1452,2025-03-28,CUST834,Home & Kitchen,Shoes,2,45860,Credit Card,Cancelled,Indore,91720
+ORD1453,2025-03-29,CUST665,Home & Kitchen,Watch,4,9427,COD,Returned,Delhi,37708
+ORD1454,2025-03-30,CUST669,Home & Kitchen,Headphones,4,28644,Debit Card,Pending,Bangalore,114576
+ORD1455,2025-03-31,CUST422,Home & Kitchen,Mobile,4,31510,Debit Card,Pending,Pune,126040
+ORD1456,2025-04-01,CUST971,Beauty,Laptop,1,22943,Credit Card,Delivered,Mumbai,22943
+ORD1457,2025-04-02,CUST785,Sports,Shoes,3,14937,Net Banking,Delivered,Hyderabad,44811
+ORD1458,2025-04-03,CUST891,Fashion,Mobile,4,44798,COD,Pending,Delhi,179192
+ORD1459,2025-04-04,CUST725,Fashion,Watch,2,40278,UPI,Cancelled,Mumbai,80556
+ORD1460,2025-04-05,CUST387,Home & Kitchen,Mobile,3,11707,Credit Card,Cancelled,Bangalore,35121
+ORD1461,2025-04-06,CUST953,Home & Kitchen,Laptop,2,26037,Net Banking,Returned,Indore,52074
+ORD1462,2025-04-07,CUST762,Electronics,Mixer,3,36257,UPI,Pending,Indore,108771
+ORD1463,2025-04-08,CUST738,Sports,Mobile,2,12540,Debit Card,Pending,Pune,25080
+ORD1464,2025-04-09,CUST254,Beauty,Headphones,1,42486,Debit Card,Cancelled,Indore,42486
+ORD1465,2025-04-10,CUST589,Fashion,Mobile,4,23112,UPI,Cancelled,Delhi,92448
+ORD1466,2025-04-11,CUST485,Electronics,Watch,2,28941,Credit Card,Pending,Indore,57882
+ORD1467,2025-04-12,CUST884,Electronics,Watch,3,6971,Debit Card,Delivered,Pune,20913
+ORD1468,2025-04-13,CUST203,Fashion,Shoes,4,36131,COD,Pending,Hyderabad,144524
+ORD1469,2025-04-14,CUST492,Beauty,Watch,4,43961,UPI,Pending,Bangalore,175844
+ORD1470,2025-04-15,CUST910,Electronics,T-shirt,3,27023,UPI,Cancelled,Bangalore,81069
+ORD1471,2025-04-16,CUST345,Electronics,Laptop,2,31848,Debit Card,Cancelled,Indore,63696
+ORD1472,2025-04-17,CUST275,Sports,Laptop,1,1677,Credit Card,Delivered,Mumbai,1677
+ORD1473,2025-04-18,CUST138,Beauty,Mixer,1,5260,COD,Delivered,Bangalore,5260
+ORD1474,2025-04-19,CUST576,Electronics,Mixer,2,33279,Credit Card,Returned,Hyderabad,66558
+ORD1475,2025-04-20,CUST781,Beauty,Laptop,4,22136,Net Banking,Pending,Indore,88544
+ORD1476,2025-04-21,CUST858,Fashion,Headphones,4,16853,Net Banking,Cancelled,Pune,67412
+ORD1477,2025-04-22,CUST637,Home & Kitchen,Mixer,4,12056,Debit Card,Delivered,Hyderabad,48224
+ORD1478,2025-04-23,CUST966,Electronics,Shoes,4,28098,Debit Card,Returned,Indore,112392
+ORD1479,2025-04-24,CUST917,Sports,Watch,2,12063,Debit Card,Returned,Hyderabad,24126
+ORD1480,2025-04-25,CUST507,Fashion,Laptop,4,47319,Net Banking,Cancelled,Bangalore,189276
+ORD1481,2025-04-26,CUST624,Beauty,Mixer,3,44290,Credit Card,Cancelled,Pune,132870
+ORD1482,2025-04-27,CUST927,Fashion,Laptop,4,8734,Credit Card,Returned,Indore,34936
+ORD1483,2025-04-28,CUST605,Electronics,T-shirt,1,26019,Debit Card,Delivered,Delhi,26019
+ORD1484,2025-04-29,CUST924,Beauty,Mobile,4,27466,COD,Returned,Pune,109864
+ORD1485,2025-04-30,CUST135,Home & Kitchen,Watch,2,16673,Credit Card,Pending,Delhi,33346
+ORD1486,2025-05-01,CUST784,Fashion,Laptop,1,27487,Net Banking,Pending,Hyderabad,27487
+ORD1487,2025-05-02,CUST119,Electronics,Mobile,2,13678,UPI,Cancelled,Mumbai,27356
+ORD1488,2025-05-03,CUST420,Sports,Mixer,2,39838,UPI,Delivered,Pune,79676
+ORD1489,2025-05-04,CUST875,Beauty,Mobile,1,25096,UPI,Delivered,Hyderabad,25096
+ORD1490,2025-05-05,CUST611,Fashion,Watch,2,33674,COD,Pending,Delhi,67348
+ORD1491,2025-05-06,CUST499,Fashion,Laptop,2,42474,Debit Card,Returned,Bangalore,84948
+ORD1492,2025-05-07,CUST753,Home & Kitchen,T-shirt,4,4931,Net Banking,Cancelled,Bangalore,19724
+ORD1493,2025-05-08,CUST982,Home & Kitchen,Headphones,3,28264,COD,Returned,Mumbai,84792
+ORD1494,2025-05-09,CUST570,Sports,Mixer,2,22127,Net Banking,Returned,Pune,44254
+ORD1495,2025-05-10,CUST242,Sports,Laptop,2,39810,Net Banking,Returned,Pune,79620
+ORD1496,2025-05-11,CUST191,Electronics,Watch,2,9406,Debit Card,Delivered,Pune,18812
+ORD1497,2025-05-12,CUST453,Electronics,Mixer,4,37414,UPI,Pending,Hyderabad,149656
+ORD1498,2025-05-13,CUST933,Sports,Shoes,3,45314,Debit Card,Delivered,Mumbai,135942
+ORD1499,2025-05-14,CUST899,Sports,Mobile,1,45879,COD,Pending,Pune,45879
