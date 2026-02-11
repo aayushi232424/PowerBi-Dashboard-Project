@@ -1,0 +1,501 @@
+customer_id,age,gender,city,membership,total_orders,avg_order_value,preferred_cuisine,payment_method,last_order_days_ago,customer_rating
+1001,56,Male,Hyderabad,None,184,290.49,Fast Food,UPI,33,2.5
+1002,46,Female,Delhi,Pro,171,589.51,Fast Food,UPI,58,2.9
+1003,32,Male,Hyderabad,Pro,178,979.85,Fast Food,UPI,40,4.7
+1004,25,Male,Mumbai,Gold,151,761.26,Italian,Wallet,28,3.1
+1005,38,Male,Bangalore,None,172,865.02,Fast Food,Wallet,8,3.4
+1006,56,Male,Delhi,None,38,349.18,Chinese,Wallet,12,2.8
+1007,36,Male,Pune,None,84,799.9,Italian,Debit Card,5,3.1
+1008,40,Male,Mumbai,Pro,151,489.68,North Indian,Wallet,5,3.8
+1009,28,Male,Kolkata,None,128,1026.02,Fast Food,Debit Card,19,4.0
+1010,28,Female,Hyderabad,Gold,126,810.76,Fast Food,UPI,51,3.1
+1011,41,Male,Kolkata,None,45,358.8,North Indian,UPI,52,2.6
+1012,53,Male,Chennai,Gold,52,217.85,Fast Food,UPI,2,3.5
+1013,57,Female,Mumbai,Gold,80,194.76,North Indian,Credit Card,16,3.1
+1014,41,Female,Kolkata,Pro,178,539.98,Italian,Credit Card,48,3.0
+1015,20,Female,Delhi,None,124,429.14,Chinese,Cash on Delivery,11,4.9
+1016,39,Male,Hyderabad,None,119,828.39,North Indian,Cash on Delivery,47,4.0
+1017,19,Female,Bangalore,None,8,674.3,South Indian,Cash on Delivery,46,3.9
+1018,41,Male,Mumbai,Pro,85,429.32,North Indian,Credit Card,44,3.5
+1019,47,Male,Delhi,Pro,129,306.7,Fast Food,Credit Card,54,3.6
+1020,55,Male,Pune,Gold,8,283.56,Italian,Cash on Delivery,0,3.9
+1021,19,Male,Chennai,Gold,157,1057.89,Desserts,Cash on Delivery,16,4.2
+1022,38,Female,Hyderabad,Gold,96,405.65,Italian,Wallet,2,4.3
+1023,50,Female,Mumbai,None,102,834.3,Desserts,Cash on Delivery,25,2.9
+1024,29,Male,Mumbai,Pro,5,1001.22,North Indian,Wallet,14,3.8
+1025,39,Male,Bangalore,None,86,794.79,Chinese,Debit Card,35,3.5
+1026,42,Male,Bangalore,None,175,1052.54,South Indian,Credit Card,31,4.7
+1027,44,Female,Pune,Gold,34,562.01,Italian,Cash on Delivery,31,4.1
+1028,59,Male,Chennai,None,193,1154.03,Fast Food,Credit Card,3,3.8
+1029,45,Male,Pune,None,55,289.8,Desserts,Credit Card,17,2.8
+1030,33,Female,Delhi,Gold,119,257.26,Fast Food,Credit Card,48,4.0
+1031,32,Female,Delhi,None,171,841.63,Chinese,Debit Card,18,2.8
+1032,20,Male,Pune,Gold,158,1139.97,Desserts,UPI,42,3.3
+1033,54,Female,Chennai,None,114,999.33,Italian,Cash on Delivery,51,2.9
+1034,24,Female,Pune,None,145,230.24,North Indian,UPI,34,4.2
+1035,38,Male,Chennai,None,26,443.34,Fast Food,UPI,39,3.0
+1036,26,Female,Chennai,None,136,1126.83,Chinese,UPI,13,3.5
+1037,56,Male,Kolkata,Gold,47,415.71,Italian,Credit Card,57,4.7
+1038,35,Female,Hyderabad,None,113,970.23,Italian,Wallet,32,3.0
+1039,21,Male,Chennai,Gold,76,1016.39,Italian,Credit Card,13,3.8
+1040,42,Male,Bangalore,None,72,670.22,Italian,Credit Card,33,3.5
+1041,31,Male,Chennai,Gold,89,555.67,Desserts,UPI,54,2.5
+1042,26,Female,Chennai,Pro,46,622.63,Italian,Credit Card,3,4.5
+1043,43,Male,Chennai,Gold,196,388.31,Fast Food,UPI,23,2.7
+1044,19,Female,Kolkata,None,33,1083.86,Chinese,Wallet,58,3.7
+1045,37,Male,Kolkata,None,1,623.15,Desserts,Cash on Delivery,28,3.9
+1046,45,Male,Delhi,None,147,1076.58,Italian,UPI,18,4.1
+1047,24,Female,Kolkata,Gold,31,260.98,South Indian,Wallet,5,4.2
+1048,25,Male,Bangalore,None,142,1187.69,South Indian,Cash on Delivery,56,3.1
+1049,52,Male,Bangalore,None,53,615.44,Chinese,Debit Card,32,2.5
+1050,31,Female,Kolkata,Gold,48,200.22,North Indian,UPI,48,4.3
+1051,34,Male,Pune,None,69,189.92,North Indian,UPI,39,3.8
+1052,53,Male,Hyderabad,Gold,105,933.52,Desserts,Debit Card,18,4.6
+1053,57,Male,Kolkata,None,90,841.99,Desserts,Debit Card,52,4.6
+1054,21,Male,Chennai,None,190,992.24,Desserts,UPI,0,4.6
+1055,19,Female,Mumbai,Gold,194,260.64,North Indian,Debit Card,4,3.7
+1056,23,Female,Hyderabad,None,192,187.35,South Indian,Credit Card,26,3.3
+1057,59,Male,Hyderabad,Gold,198,684.01,North Indian,Cash on Delivery,15,4.5
+1058,21,Female,Bangalore,None,63,556.97,Fast Food,Cash on Delivery,5,3.6
+1059,46,Male,Hyderabad,None,73,635.04,Italian,Cash on Delivery,39,3.0
+1060,35,Female,Kolkata,Pro,161,1191.17,Desserts,Credit Card,12,4.6
+1061,43,Male,Chennai,Gold,169,1169.29,South Indian,Debit Card,47,4.7
+1062,51,Male,Chennai,Gold,89,1139.43,Chinese,Wallet,34,3.7
+1063,27,Male,Delhi,None,176,973.03,Chinese,Debit Card,18,2.7
+1064,53,Male,Chennai,Gold,13,522.58,Italian,UPI,11,3.5
+1065,31,Male,Chennai,None,73,582.74,South Indian,Cash on Delivery,15,4.5
+1066,48,Male,Bangalore,None,77,727.1,North Indian,Debit Card,58,4.8
+1067,32,Female,Chennai,Pro,159,1022.06,North Indian,Wallet,42,3.0
+1068,25,Male,Delhi,None,68,222.15,Fast Food,UPI,9,2.7
+1069,31,Female,Mumbai,Pro,98,595.51,Fast Food,Credit Card,24,4.7
+1070,40,Male,Kolkata,None,125,236.75,North Indian,Credit Card,19,3.5
+1071,57,Female,Bangalore,None,102,690.39,Chinese,Wallet,30,3.9
+1072,38,Female,Mumbai,Gold,132,1093.85,Desserts,UPI,3,4.9
+1073,33,Female,Bangalore,Pro,102,971.61,Chinese,Cash on Delivery,43,2.7
+1074,35,Male,Pune,Gold,19,389.23,Fast Food,Debit Card,22,4.1
+1075,41,Male,Hyderabad,Pro,198,1174.79,Italian,UPI,1,2.7
+1076,43,Female,Pune,Gold,82,850.72,North Indian,Credit Card,55,3.4
+1077,42,Male,Chennai,Gold,141,160.95,Fast Food,Wallet,21,4.5
+1078,58,Female,Mumbai,Pro,23,418.18,Fast Food,Wallet,50,3.6
+1079,46,Male,Chennai,None,83,423.75,Desserts,Debit Card,56,5.0
+1080,32,Female,Hyderabad,None,109,222.72,North Indian,Wallet,36,3.9
+1081,18,Female,Bangalore,None,75,1157.82,Desserts,Wallet,7,3.3
+1082,42,Male,Hyderabad,Pro,129,652.17,North Indian,UPI,6,3.1
+1083,24,Female,Delhi,Pro,88,1090.61,Desserts,Cash on Delivery,13,3.4
+1084,26,Male,Hyderabad,None,54,488.33,Chinese,Debit Card,55,3.4
+1085,41,Female,Delhi,Gold,199,281.5,Italian,UPI,54,2.7
+1086,18,Female,Hyderabad,Pro,89,648.05,Italian,Cash on Delivery,2,3.4
+1087,25,Male,Kolkata,None,143,269.65,North Indian,UPI,49,3.7
+1088,41,Male,Delhi,Gold,65,660.32,South Indian,UPI,15,4.3
+1089,28,Male,Mumbai,Pro,76,1116.31,Fast Food,Wallet,54,4.1
+1090,34,Female,Chennai,None,199,696.81,Fast Food,Cash on Delivery,18,4.3
+1091,25,Male,Chennai,Gold,143,797.32,North Indian,Debit Card,50,2.5
+1092,52,Female,Pune,None,149,314.47,Desserts,Debit Card,17,3.0
+1093,52,Female,Chennai,Pro,147,195.92,South Indian,Cash on Delivery,51,4.2
+1094,50,Male,Bangalore,Pro,60,266.35,Chinese,Wallet,15,3.7
+1095,22,Male,Kolkata,Pro,93,778.46,Desserts,Credit Card,7,2.5
+1096,59,Female,Hyderabad,None,161,249.76,Desserts,UPI,59,4.5
+1097,56,Female,Pune,Pro,49,544.79,North Indian,Wallet,32,4.4
+1098,58,Male,Bangalore,Pro,35,727.6,North Indian,Cash on Delivery,48,3.9
+1099,45,Male,Bangalore,None,172,558.09,Fast Food,UPI,11,2.7
+1100,24,Male,Delhi,Pro,102,321.87,North Indian,Debit Card,52,4.4
+1101,26,Male,Chennai,None,11,437.48,North Indian,Credit Card,10,4.0
+1102,25,Male,Mumbai,Gold,99,1124.73,North Indian,Debit Card,4,4.5
+1103,29,Female,Mumbai,None,110,859.78,Fast Food,Cash on Delivery,26,4.4
+1104,51,Female,Pune,None,74,670.85,Chinese,UPI,11,4.5
+1105,50,Female,Kolkata,None,194,163.35,Chinese,Cash on Delivery,16,3.8
+1106,40,Female,Mumbai,Gold,174,1192.04,North Indian,UPI,5,2.9
+1107,41,Male,Hyderabad,None,9,855.03,Fast Food,Wallet,32,4.2
+1108,54,Male,Mumbai,Gold,3,482.77,Chinese,Credit Card,4,4.1
+1109,52,Male,Pune,None,85,1073.23,Desserts,Wallet,56,4.4
+1110,57,Female,Mumbai,None,26,421.35,Chinese,Wallet,27,2.9
+1111,39,Female,Hyderabad,Gold,72,721.22,Chinese,Cash on Delivery,13,3.0
+1112,44,Male,Delhi,Gold,48,817.87,Fast Food,Credit Card,4,4.7
+1113,52,Male,Kolkata,None,194,382.12,Desserts,UPI,53,4.4
+1114,18,Female,Pune,Gold,198,1177.32,Fast Food,UPI,55,4.8
+1115,52,Female,Delhi,Pro,156,935.6,North Indian,Debit Card,58,4.4
+1116,54,Male,Delhi,Gold,117,735.7,Italian,UPI,32,4.0
+1117,31,Male,Delhi,None,154,339.62,Chinese,Cash on Delivery,49,4.1
+1118,20,Female,Bangalore,None,153,206.55,Italian,Wallet,47,4.7
+1119,18,Male,Kolkata,Pro,12,486.06,Fast Food,Wallet,40,3.9
+1120,22,Male,Chennai,None,133,940.85,Fast Food,Wallet,18,4.1
+1121,43,Male,Kolkata,Pro,48,432.8,Fast Food,Credit Card,21,2.9
+1122,31,Female,Bangalore,Gold,37,716.53,Italian,UPI,4,3.7
+1123,56,Female,Chennai,Pro,44,914.34,Fast Food,Cash on Delivery,58,4.3
+1124,44,Female,Kolkata,Gold,15,263.34,North Indian,Credit Card,1,3.2
+1125,26,Female,Delhi,Pro,43,869.56,Fast Food,Debit Card,29,3.0
+1126,32,Female,Pune,None,176,246.46,South Indian,Cash on Delivery,46,3.3
+1127,32,Female,Chennai,Gold,87,1163.39,Italian,Cash on Delivery,38,3.1
+1128,43,Female,Hyderabad,None,70,662.81,South Indian,Cash on Delivery,3,3.0
+1129,59,Male,Hyderabad,None,46,308.21,Fast Food,Wallet,32,3.6
+1130,30,Male,Mumbai,Gold,108,509.5,North Indian,Cash on Delivery,12,4.8
+1131,49,Male,Chennai,Pro,123,584.09,Chinese,UPI,19,3.8
+1132,56,Male,Pune,Pro,171,946.09,Desserts,Cash on Delivery,53,3.0
+1133,49,Male,Bangalore,Gold,21,930.59,Desserts,Wallet,6,2.7
+1134,21,Male,Delhi,None,151,792.54,Fast Food,Cash on Delivery,14,4.2
+1135,47,Male,Mumbai,None,107,261.23,North Indian,Debit Card,22,3.5
+1136,54,Female,Hyderabad,Gold,80,309.15,Italian,Debit Card,13,4.6
+1137,40,Female,Bangalore,None,47,248.44,South Indian,Wallet,22,4.1
+1138,56,Male,Bangalore,None,117,756.03,South Indian,UPI,18,4.5
+1139,32,Male,Delhi,None,124,1071.0,South Indian,UPI,53,3.2
+1140,46,Female,Chennai,None,143,605.49,Italian,Credit Card,28,4.2
+1141,53,Male,Hyderabad,None,25,318.89,Desserts,Wallet,55,3.2
+1142,30,Male,Pune,None,36,735.94,North Indian,Cash on Delivery,19,4.8
+1143,49,Female,Bangalore,None,51,1002.34,Italian,Wallet,28,4.1
+1144,24,Male,Delhi,None,15,928.8,South Indian,Credit Card,23,3.3
+1145,39,Female,Pune,Pro,68,1075.52,Fast Food,Wallet,17,3.2
+1146,45,Male,Chennai,None,21,441.8,Chinese,Wallet,9,3.0
+1147,19,Female,Hyderabad,None,141,353.65,Italian,Credit Card,40,4.2
+1148,59,Female,Chennai,Gold,19,1073.81,Italian,UPI,56,3.0
+1149,23,Female,Bangalore,None,34,840.44,North Indian,Cash on Delivery,7,4.0
+1150,45,Male,Pune,Pro,78,476.48,North Indian,Credit Card,25,3.2
+1151,45,Female,Pune,Gold,125,929.47,Italian,Debit Card,28,4.2
+1152,37,Male,Pune,None,196,1005.87,South Indian,UPI,9,4.5
+1153,47,Male,Bangalore,None,117,795.73,Chinese,Debit Card,16,4.4
+1154,28,Male,Bangalore,Pro,52,872.28,North Indian,UPI,1,4.4
+1155,45,Male,Chennai,Pro,27,544.02,South Indian,Cash on Delivery,5,3.0
+1156,42,Female,Mumbai,None,157,715.63,Fast Food,Cash on Delivery,57,2.7
+1157,56,Female,Chennai,Gold,156,700.37,North Indian,Wallet,4,4.2
+1158,50,Male,Hyderabad,None,35,1040.45,South Indian,Debit Card,27,3.4
+1159,18,Male,Delhi,Pro,136,1031.96,South Indian,UPI,40,3.6
+1160,44,Female,Pune,None,144,1024.31,Chinese,Cash on Delivery,4,2.6
+1161,30,Male,Mumbai,Pro,106,161.58,Chinese,Credit Card,17,3.1
+1162,58,Female,Delhi,Gold,164,937.02,Fast Food,Cash on Delivery,25,2.6
+1163,20,Male,Mumbai,Gold,158,946.61,South Indian,Credit Card,19,4.7
+1164,56,Male,Kolkata,Gold,146,862.3,Desserts,UPI,40,3.1
+1165,23,Female,Chennai,None,2,944.08,South Indian,Cash on Delivery,48,3.9
+1166,25,Male,Bangalore,None,177,1034.07,Chinese,Cash on Delivery,26,2.6
+1167,44,Female,Pune,None,77,643.84,Desserts,UPI,48,4.2
+1168,26,Male,Chennai,None,132,677.15,North Indian,Cash on Delivery,11,3.3
+1169,54,Male,Delhi,Gold,90,280.95,North Indian,Credit Card,6,4.7
+1170,50,Male,Kolkata,None,89,554.64,Italian,Cash on Delivery,58,4.7
+1171,59,Female,Kolkata,None,94,825.53,Chinese,Debit Card,2,3.3
+1172,41,Male,Kolkata,Pro,7,969.42,Italian,Wallet,9,4.8
+1173,32,Male,Delhi,Pro,95,378.07,Desserts,Credit Card,33,5.0
+1174,49,Male,Delhi,Pro,108,294.71,Chinese,Debit Card,24,4.6
+1175,49,Male,Delhi,Pro,74,846.19,Fast Food,UPI,34,4.6
+1176,41,Female,Delhi,None,39,151.97,South Indian,Credit Card,15,3.1
+1177,58,Female,Kolkata,None,141,337.29,Fast Food,Wallet,1,3.9
+1178,29,Male,Kolkata,Gold,159,180.52,Desserts,Wallet,59,2.7
+1179,56,Female,Mumbai,Gold,71,325.23,Chinese,UPI,23,2.7
+1180,19,Male,Chennai,None,191,340.39,Desserts,UPI,9,5.0
+1181,20,Male,Pune,Pro,56,557.06,South Indian,Credit Card,37,3.3
+1182,54,Male,Bangalore,None,170,572.44,North Indian,Cash on Delivery,21,4.4
+1183,34,Female,Kolkata,None,189,1067.98,North Indian,UPI,25,4.5
+1184,19,Female,Bangalore,Gold,42,685.62,Desserts,Cash on Delivery,42,4.6
+1185,19,Female,Chennai,Gold,184,909.58,Italian,Debit Card,54,5.0
+1186,45,Female,Chennai,Gold,36,259.34,Chinese,Wallet,38,3.1
+1187,40,Female,Bangalore,None,84,386.71,Chinese,Cash on Delivery,26,2.6
+1188,54,Female,Kolkata,Pro,196,888.09,North Indian,Wallet,28,3.5
+1189,49,Female,Bangalore,None,118,205.44,Fast Food,Cash on Delivery,46,2.8
+1190,50,Female,Mumbai,None,7,660.93,South Indian,Debit Card,37,2.6
+1191,18,Female,Hyderabad,Pro,54,779.34,Fast Food,UPI,19,3.4
+1192,36,Male,Kolkata,Pro,129,782.25,Fast Food,Debit Card,26,4.5
+1193,19,Female,Kolkata,Pro,172,174.08,Desserts,UPI,40,3.9
+1194,43,Female,Pune,Pro,120,488.21,North Indian,UPI,53,3.3
+1195,49,Female,Delhi,Gold,173,818.32,North Indian,Wallet,19,4.1
+1196,23,Female,Hyderabad,Gold,106,306.45,North Indian,Debit Card,43,3.1
+1197,49,Female,Chennai,None,47,880.19,Desserts,Cash on Delivery,18,2.5
+1198,21,Female,Kolkata,None,123,933.22,Italian,Debit Card,19,4.4
+1199,28,Female,Bangalore,None,141,1181.07,Fast Food,Wallet,34,4.1
+1200,34,Female,Hyderabad,None,119,370.33,Desserts,UPI,46,4.4
+1201,55,Female,Pune,Gold,150,1016.39,Chinese,Wallet,1,2.6
+1202,41,Female,Chennai,None,118,696.31,South Indian,Credit Card,29,4.6
+1203,22,Female,Delhi,None,21,542.14,Italian,Credit Card,52,4.0
+1204,51,Male,Delhi,None,137,278.5,Chinese,Cash on Delivery,33,3.9
+1205,23,Male,Pune,Gold,26,922.28,Fast Food,Wallet,21,4.1
+1206,39,Female,Pune,None,9,397.65,North Indian,Cash on Delivery,2,4.7
+1207,28,Female,Bangalore,Pro,15,539.99,Fast Food,Cash on Delivery,5,4.0
+1208,33,Male,Kolkata,None,10,215.67,Desserts,Credit Card,14,4.0
+1209,50,Female,Delhi,None,122,991.44,South Indian,Cash on Delivery,26,5.0
+1210,26,Male,Chennai,Gold,121,954.92,Desserts,Credit Card,9,4.4
+1211,23,Male,Hyderabad,Pro,125,920.3,Italian,UPI,8,3.6
+1212,33,Male,Chennai,None,170,464.42,Italian,Wallet,32,4.3
+1213,46,Male,Mumbai,Gold,72,332.15,South Indian,Cash on Delivery,31,3.5
+1214,20,Male,Mumbai,Gold,152,819.43,Chinese,Credit Card,47,3.1
+1215,37,Female,Pune,None,49,670.97,Chinese,Debit Card,5,4.0
+1216,53,Male,Bangalore,Pro,154,337.17,Italian,Cash on Delivery,40,4.8
+1217,36,Female,Mumbai,Gold,91,870.21,Italian,UPI,58,4.8
+1218,43,Female,Delhi,Gold,37,1190.68,North Indian,UPI,35,3.4
+1219,20,Male,Chennai,Pro,68,934.58,Chinese,Debit Card,58,3.8
+1220,36,Male,Chennai,Pro,50,926.99,South Indian,Credit Card,59,3.0
+1221,37,Female,Pune,Gold,152,1147.83,Chinese,Cash on Delivery,1,5.0
+1222,49,Male,Kolkata,Pro,19,363.08,North Indian,Credit Card,28,5.0
+1223,24,Male,Kolkata,Gold,100,743.83,Desserts,UPI,3,4.1
+1224,58,Female,Hyderabad,Gold,60,1178.63,Italian,Credit Card,0,4.5
+1225,50,Female,Pune,Gold,167,323.56,Italian,UPI,18,4.3
+1226,57,Male,Hyderabad,Gold,89,885.26,North Indian,Credit Card,25,4.0
+1227,56,Female,Kolkata,None,146,765.1,South Indian,Debit Card,24,2.6
+1228,35,Male,Pune,Pro,147,765.8,Italian,Wallet,9,3.6
+1229,57,Male,Pune,Pro,164,882.55,Fast Food,Debit Card,52,4.2
+1230,18,Male,Pune,None,183,1126.1,Italian,Debit Card,14,4.2
+1231,28,Female,Kolkata,Pro,69,971.71,Fast Food,Wallet,58,3.4
+1232,45,Female,Hyderabad,None,175,208.94,North Indian,Wallet,21,4.9
+1233,42,Female,Hyderabad,None,49,1045.36,North Indian,Cash on Delivery,50,2.9
+1234,40,Female,Pune,Gold,108,386.82,Italian,Cash on Delivery,47,3.8
+1235,48,Female,Mumbai,None,161,545.76,Chinese,Debit Card,20,4.2
+1236,47,Male,Bangalore,Pro,119,634.82,Fast Food,Debit Card,58,4.2
+1237,59,Male,Kolkata,Pro,149,654.95,South Indian,UPI,55,4.1
+1238,52,Male,Bangalore,Gold,150,606.94,Italian,UPI,21,3.2
+1239,24,Male,Bangalore,None,176,1134.22,South Indian,Cash on Delivery,35,2.9
+1240,33,Female,Hyderabad,None,37,891.32,Italian,Cash on Delivery,33,4.1
+1241,43,Male,Hyderabad,Gold,143,812.73,Chinese,UPI,29,4.0
+1242,19,Female,Mumbai,Pro,163,202.33,Chinese,UPI,24,2.9
+1243,18,Male,Bangalore,Gold,199,1099.11,Chinese,Credit Card,44,4.3
+1244,29,Female,Bangalore,None,160,1104.86,Desserts,Credit Card,27,3.6
+1245,22,Female,Pune,Gold,11,969.22,Chinese,UPI,0,4.2
+1246,54,Male,Hyderabad,Gold,138,157.38,North Indian,Credit Card,48,4.6
+1247,49,Male,Bangalore,Gold,78,210.14,North Indian,Wallet,44,2.9
+1248,26,Male,Chennai,None,77,386.48,Desserts,Cash on Delivery,3,2.5
+1249,58,Male,Mumbai,Gold,185,287.92,Fast Food,Cash on Delivery,6,4.4
+1250,52,Female,Chennai,Gold,153,568.78,South Indian,UPI,48,4.0
+1251,36,Male,Chennai,Pro,2,1118.75,Italian,Debit Card,8,4.2
+1252,33,Male,Kolkata,None,64,645.66,Italian,UPI,35,4.6
+1253,20,Female,Kolkata,Gold,35,164.07,Desserts,Credit Card,18,4.5
+1254,37,Male,Mumbai,Pro,7,446.88,North Indian,Debit Card,0,4.9
+1255,41,Male,Chennai,None,85,196.82,Italian,Credit Card,9,3.8
+1256,50,Male,Bangalore,Pro,146,188.1,North Indian,Wallet,35,3.7
+1257,41,Male,Hyderabad,Gold,67,439.51,Fast Food,Credit Card,8,3.5
+1258,28,Male,Mumbai,None,42,439.39,South Indian,Wallet,44,2.9
+1259,25,Female,Pune,None,118,976.48,Fast Food,Wallet,45,3.9
+1260,53,Male,Chennai,Gold,125,1173.58,Desserts,Credit Card,41,3.2
+1261,55,Male,Mumbai,None,167,539.77,Chinese,Credit Card,31,4.8
+1262,57,Male,Delhi,Gold,169,600.33,Chinese,Wallet,31,4.0
+1263,37,Male,Delhi,None,24,1037.03,Chinese,Debit Card,5,4.0
+1264,52,Male,Kolkata,Gold,188,431.55,Fast Food,Wallet,47,3.4
+1265,42,Female,Hyderabad,None,46,314.2,Italian,Cash on Delivery,37,2.6
+1266,52,Male,Bangalore,Pro,19,1045.74,South Indian,Wallet,16,2.6
+1267,42,Female,Hyderabad,Pro,68,198.83,Chinese,Debit Card,9,3.6
+1268,46,Female,Hyderabad,Pro,102,800.68,Desserts,Cash on Delivery,49,2.7
+1269,35,Male,Hyderabad,Gold,42,740.09,Desserts,UPI,26,4.0
+1270,35,Male,Hyderabad,None,32,513.22,Chinese,UPI,53,4.7
+1271,19,Male,Pune,Gold,167,480.95,Chinese,Debit Card,49,4.7
+1272,52,Male,Pune,None,109,960.45,South Indian,Wallet,34,4.1
+1273,33,Female,Kolkata,None,36,240.75,Chinese,Credit Card,51,3.0
+1274,58,Male,Mumbai,None,97,398.62,South Indian,Debit Card,58,4.7
+1275,53,Male,Delhi,None,164,919.07,Desserts,Cash on Delivery,20,4.7
+1276,50,Male,Hyderabad,Gold,131,725.74,Chinese,Cash on Delivery,24,3.0
+1277,21,Male,Kolkata,Gold,73,284.39,Fast Food,UPI,27,4.3
+1278,50,Male,Mumbai,None,136,1076.24,Fast Food,Cash on Delivery,46,3.2
+1279,31,Male,Delhi,None,97,563.12,Desserts,Debit Card,14,4.5
+1280,38,Female,Chennai,Pro,123,1019.26,South Indian,Cash on Delivery,3,5.0
+1281,37,Female,Bangalore,None,70,977.1,Fast Food,Debit Card,28,2.6
+1282,25,Male,Pune,None,169,805.65,South Indian,Credit Card,58,4.7
+1283,24,Male,Chennai,None,196,669.21,Fast Food,UPI,8,4.1
+1284,20,Male,Delhi,Gold,13,1178.53,Fast Food,Cash on Delivery,26,4.9
+1285,34,Female,Chennai,Gold,49,302.21,South Indian,Debit Card,25,3.7
+1286,50,Male,Bangalore,None,60,911.41,Italian,Wallet,18,4.6
+1287,29,Female,Kolkata,None,130,350.75,Fast Food,UPI,55,2.7
+1288,39,Male,Delhi,Gold,188,505.18,Chinese,Credit Card,27,3.3
+1289,39,Male,Chennai,Gold,5,474.13,Desserts,Debit Card,16,2.7
+1290,47,Male,Pune,None,172,1144.39,Italian,Credit Card,42,4.9
+1291,55,Male,Pune,Pro,27,1165.72,South Indian,Credit Card,56,4.5
+1292,55,Female,Mumbai,None,160,342.17,Italian,Cash on Delivery,40,4.6
+1293,25,Female,Chennai,None,149,173.14,North Indian,Cash on Delivery,41,4.8
+1294,44,Male,Hyderabad,Pro,8,906.01,North Indian,Debit Card,49,2.7
+1295,44,Male,Chennai,None,50,588.89,Fast Food,Wallet,19,3.5
+1296,51,Female,Kolkata,Gold,67,243.28,Fast Food,Debit Card,44,2.7
+1297,38,Female,Delhi,None,44,867.94,Chinese,Wallet,39,3.0
+1298,47,Female,Delhi,None,125,722.36,Desserts,Credit Card,38,3.1
+1299,50,Female,Kolkata,Pro,58,1179.54,Italian,UPI,48,3.7
+1300,45,Male,Chennai,None,3,388.78,North Indian,Debit Card,52,3.2
+1301,50,Female,Kolkata,Pro,86,574.18,Fast Food,Debit Card,22,2.8
+1302,22,Male,Bangalore,None,70,719.67,Desserts,Wallet,46,2.9
+1303,36,Female,Kolkata,None,130,981.28,Italian,Credit Card,31,2.9
+1304,21,Female,Pune,None,172,726.28,Fast Food,Credit Card,51,4.9
+1305,52,Female,Kolkata,Gold,2,793.55,Fast Food,Wallet,46,4.4
+1306,34,Female,Delhi,None,102,387.45,North Indian,Credit Card,32,4.9
+1307,45,Female,Pune,Pro,35,1039.26,North Indian,Cash on Delivery,56,3.6
+1308,47,Male,Delhi,None,98,600.06,Fast Food,UPI,45,3.2
+1309,46,Male,Mumbai,Pro,30,298.01,South Indian,Debit Card,4,4.5
+1310,23,Female,Hyderabad,None,116,847.4,Fast Food,UPI,42,3.3
+1311,52,Female,Delhi,Pro,8,376.89,Desserts,Debit Card,47,3.2
+1312,58,Male,Pune,Gold,150,252.44,Fast Food,Cash on Delivery,33,3.1
+1313,54,Female,Mumbai,Gold,44,1055.09,Chinese,Credit Card,39,2.8
+1314,41,Female,Delhi,Pro,186,633.17,Chinese,Wallet,10,3.1
+1315,46,Male,Bangalore,Gold,36,936.75,Chinese,Cash on Delivery,49,3.4
+1316,48,Female,Kolkata,Gold,197,455.12,South Indian,UPI,2,4.2
+1317,52,Female,Hyderabad,None,77,976.32,South Indian,Wallet,57,2.7
+1318,50,Male,Delhi,None,31,267.53,Fast Food,Credit Card,32,3.0
+1319,38,Male,Mumbai,Pro,47,523.77,Chinese,Cash on Delivery,10,4.5
+1320,49,Male,Bangalore,Gold,55,1176.96,South Indian,Wallet,15,2.9
+1321,40,Female,Chennai,Gold,106,983.69,North Indian,Cash on Delivery,17,3.4
+1322,50,Male,Mumbai,None,190,672.12,Fast Food,Cash on Delivery,29,4.7
+1323,20,Male,Kolkata,None,158,506.77,Desserts,Credit Card,47,2.9
+1324,35,Male,Mumbai,None,121,1065.74,Italian,Debit Card,54,2.7
+1325,42,Male,Bangalore,Gold,55,722.09,Fast Food,Wallet,9,3.7
+1326,59,Male,Mumbai,None,144,946.35,Italian,Credit Card,17,3.3
+1327,48,Male,Bangalore,None,12,941.81,Chinese,Cash on Delivery,37,3.9
+1328,20,Female,Delhi,None,145,168.84,Italian,Credit Card,18,4.5
+1329,57,Female,Bangalore,None,144,282.57,Chinese,Debit Card,35,2.8
+1330,41,Male,Bangalore,Gold,140,842.61,North Indian,Wallet,58,4.0
+1331,49,Male,Hyderabad,None,136,319.7,Italian,Debit Card,12,3.8
+1332,39,Male,Bangalore,Gold,3,418.27,Fast Food,UPI,55,2.9
+1333,40,Female,Bangalore,None,144,1143.97,Chinese,Wallet,45,4.1
+1334,19,Female,Chennai,None,30,738.19,Fast Food,Debit Card,2,3.2
+1335,44,Female,Delhi,None,23,938.27,South Indian,Cash on Delivery,9,3.7
+1336,59,Female,Kolkata,None,92,735.88,Chinese,Wallet,37,2.7
+1337,19,Female,Hyderabad,None,115,730.14,Italian,Wallet,0,3.6
+1338,43,Female,Chennai,None,104,248.86,Chinese,Credit Card,54,3.3
+1339,34,Female,Pune,Gold,118,510.85,Fast Food,Cash on Delivery,55,4.6
+1340,57,Female,Delhi,None,5,446.55,North Indian,UPI,26,2.6
+1341,50,Female,Delhi,Gold,104,560.26,Chinese,Debit Card,45,3.5
+1342,26,Male,Pune,Pro,108,988.26,Italian,Credit Card,7,3.6
+1343,56,Male,Kolkata,Gold,65,540.53,South Indian,Debit Card,50,4.3
+1344,46,Male,Bangalore,None,121,624.28,Desserts,UPI,45,3.9
+1345,59,Male,Chennai,None,30,567.25,North Indian,UPI,41,4.2
+1346,43,Female,Mumbai,None,149,248.08,South Indian,Wallet,16,4.4
+1347,52,Female,Hyderabad,None,84,613.13,Chinese,UPI,8,4.7
+1348,42,Male,Mumbai,Pro,198,355.39,Fast Food,Debit Card,5,3.3
+1349,41,Female,Pune,None,150,346.06,Fast Food,Cash on Delivery,42,3.8
+1350,30,Male,Delhi,None,32,248.74,Italian,Cash on Delivery,24,4.6
+1351,24,Female,Kolkata,Gold,161,524.5,Fast Food,Wallet,38,5.0
+1352,53,Male,Delhi,Gold,16,945.36,North Indian,Debit Card,48,4.7
+1353,37,Female,Hyderabad,Gold,38,440.26,Fast Food,Debit Card,59,3.4
+1354,18,Female,Delhi,None,142,477.97,Italian,UPI,27,3.0
+1355,25,Male,Delhi,None,36,824.81,Desserts,Debit Card,32,3.7
+1356,33,Female,Hyderabad,Gold,151,355.63,Chinese,Credit Card,53,4.4
+1357,31,Male,Chennai,None,114,1091.81,Chinese,UPI,36,3.7
+1358,29,Male,Chennai,None,66,696.2,Fast Food,Credit Card,8,3.7
+1359,40,Male,Hyderabad,None,105,619.98,South Indian,Wallet,17,4.6
+1360,32,Male,Kolkata,None,85,735.71,Chinese,Cash on Delivery,55,3.4
+1361,45,Female,Pune,None,2,324.34,Desserts,Wallet,58,4.6
+1362,51,Female,Delhi,None,193,794.15,Fast Food,Cash on Delivery,20,3.5
+1363,19,Female,Kolkata,Gold,75,531.26,Italian,Wallet,1,3.3
+1364,49,Male,Delhi,Gold,67,1092.05,Desserts,Debit Card,57,3.6
+1365,40,Female,Pune,Pro,180,327.3,Fast Food,Credit Card,42,4.4
+1366,39,Male,Chennai,None,190,682.4,Desserts,Cash on Delivery,58,2.8
+1367,42,Female,Kolkata,None,151,778.02,Chinese,UPI,59,3.0
+1368,39,Female,Bangalore,None,154,185.05,Italian,Credit Card,37,4.9
+1369,39,Female,Bangalore,Gold,196,531.88,Fast Food,UPI,57,2.9
+1370,59,Male,Bangalore,Gold,55,919.27,North Indian,Credit Card,39,3.9
+1371,23,Female,Chennai,None,6,1011.4,Italian,Credit Card,35,3.9
+1372,32,Female,Chennai,Pro,163,478.82,North Indian,Wallet,49,3.7
+1373,54,Male,Pune,None,150,988.52,Desserts,Cash on Delivery,59,4.1
+1374,50,Female,Delhi,Gold,171,1166.14,South Indian,Cash on Delivery,42,3.1
+1375,25,Male,Pune,Gold,143,1049.72,Italian,Credit Card,36,3.9
+1376,22,Female,Pune,Pro,86,273.53,Desserts,Debit Card,14,3.4
+1377,56,Male,Chennai,Gold,60,926.72,North Indian,Debit Card,27,4.2
+1378,21,Male,Bangalore,Pro,101,485.65,Chinese,UPI,17,2.9
+1379,23,Female,Mumbai,None,12,1187.84,Chinese,UPI,33,3.9
+1380,49,Male,Delhi,Pro,49,659.63,South Indian,Wallet,21,3.0
+1381,47,Male,Chennai,None,42,278.56,Italian,Credit Card,10,3.2
+1382,52,Male,Bangalore,Pro,166,911.44,Italian,UPI,57,3.0
+1383,57,Male,Kolkata,Gold,82,489.16,Italian,UPI,56,3.0
+1384,33,Male,Mumbai,Pro,173,1196.93,Desserts,Credit Card,12,4.6
+1385,30,Male,Mumbai,None,35,1178.77,South Indian,Wallet,3,3.2
+1386,59,Female,Chennai,Gold,158,838.94,Italian,UPI,21,4.8
+1387,47,Male,Hyderabad,Gold,158,286.32,Desserts,Wallet,6,4.9
+1388,36,Male,Delhi,Gold,134,871.2,Chinese,Cash on Delivery,42,3.9
+1389,34,Female,Mumbai,None,67,247.68,North Indian,Wallet,53,2.9
+1390,36,Female,Chennai,None,80,180.83,Desserts,Debit Card,23,3.4
+1391,45,Female,Chennai,None,7,1014.11,Chinese,Debit Card,3,4.5
+1392,43,Female,Bangalore,None,180,370.24,Chinese,Wallet,27,3.4
+1393,54,Female,Kolkata,Pro,14,547.98,North Indian,Debit Card,14,2.7
+1394,43,Female,Hyderabad,None,73,1172.13,Chinese,Cash on Delivery,0,3.9
+1395,40,Female,Delhi,Pro,143,503.68,South Indian,Credit Card,54,4.6
+1396,26,Male,Pune,None,149,461.31,North Indian,Debit Card,2,4.5
+1397,29,Male,Kolkata,None,163,1114.12,Chinese,Debit Card,13,2.9
+1398,18,Female,Kolkata,Gold,66,266.29,Fast Food,Wallet,37,4.2
+1399,18,Male,Bangalore,Gold,91,947.56,Desserts,Cash on Delivery,49,3.1
+1400,51,Male,Mumbai,None,130,1187.47,Chinese,Credit Card,56,3.0
+1401,49,Male,Mumbai,Gold,163,1096.36,South Indian,Wallet,0,4.7
+1402,42,Female,Bangalore,Gold,20,834.25,Italian,Wallet,37,3.1
+1403,57,Female,Chennai,None,10,479.76,Chinese,Cash on Delivery,37,3.2
+1404,18,Male,Mumbai,Pro,25,417.04,Italian,Credit Card,20,2.5
+1405,33,Female,Hyderabad,Pro,194,1010.22,Fast Food,Cash on Delivery,47,4.7
+1406,56,Male,Delhi,Gold,25,1073.81,Chinese,Credit Card,28,4.5
+1407,22,Male,Kolkata,None,54,701.71,North Indian,Cash on Delivery,4,4.1
+1408,39,Male,Kolkata,Gold,33,406.56,Italian,Wallet,48,4.4
+1409,46,Male,Hyderabad,None,164,268.59,Fast Food,Wallet,9,2.9
+1410,20,Female,Mumbai,None,95,241.54,North Indian,UPI,27,3.6
+1411,29,Female,Kolkata,None,14,905.03,North Indian,Debit Card,20,3.4
+1412,43,Female,Pune,None,65,591.12,North Indian,Cash on Delivery,49,2.7
+1413,33,Male,Delhi,Pro,110,1100.63,North Indian,UPI,6,3.7
+1414,54,Female,Delhi,Gold,80,926.65,Chinese,Debit Card,2,4.8
+1415,39,Male,Kolkata,Gold,54,350.82,Desserts,Cash on Delivery,44,2.6
+1416,46,Female,Bangalore,None,125,794.47,Chinese,Credit Card,46,3.2
+1417,31,Male,Kolkata,None,180,607.28,Chinese,Debit Card,19,3.0
+1418,45,Male,Bangalore,None,131,756.11,Fast Food,Wallet,18,3.1
+1419,22,Male,Kolkata,Pro,169,924.97,Fast Food,UPI,34,4.8
+1420,47,Female,Pune,None,134,996.51,Desserts,Debit Card,3,3.7
+1421,22,Female,Chennai,Pro,25,1035.92,Fast Food,Debit Card,4,3.7
+1422,29,Female,Delhi,Gold,141,416.67,South Indian,Wallet,0,4.4
+1423,33,Female,Kolkata,None,117,182.67,Desserts,Cash on Delivery,3,2.9
+1424,43,Male,Pune,Gold,136,926.26,Fast Food,Credit Card,11,3.7
+1425,43,Female,Bangalore,None,149,261.66,Desserts,Wallet,59,3.6
+1426,38,Female,Bangalore,Pro,196,480.67,Chinese,Credit Card,26,4.0
+1427,56,Male,Delhi,Pro,25,154.01,Chinese,Cash on Delivery,55,5.0
+1428,53,Male,Hyderabad,None,79,865.75,Desserts,Debit Card,41,4.4
+1429,50,Male,Kolkata,None,68,325.49,South Indian,Credit Card,22,3.5
+1430,47,Female,Mumbai,Gold,173,838.05,South Indian,UPI,24,4.6
+1431,54,Male,Bangalore,Pro,188,1191.33,Desserts,UPI,20,2.9
+1432,40,Male,Chennai,None,12,226.3,Fast Food,Wallet,57,2.6
+1433,27,Male,Chennai,Gold,32,230.93,Italian,Cash on Delivery,51,3.0
+1434,22,Female,Bangalore,Gold,128,507.4,South Indian,Wallet,23,3.4
+1435,53,Male,Hyderabad,Gold,96,1059.71,North Indian,Wallet,24,3.8
+1436,51,Female,Hyderabad,None,92,376.31,Chinese,Wallet,44,4.0
+1437,48,Female,Pune,Gold,141,528.4,Desserts,UPI,54,4.8
+1438,27,Male,Chennai,Pro,31,221.93,North Indian,UPI,45,3.8
+1439,36,Male,Pune,None,78,951.31,Desserts,Wallet,31,3.8
+1440,49,Female,Chennai,None,20,578.72,Chinese,UPI,54,2.6
+1441,18,Male,Kolkata,Pro,146,947.21,Chinese,Cash on Delivery,31,2.6
+1442,22,Male,Kolkata,None,60,1098.79,South Indian,Wallet,4,3.9
+1443,21,Female,Mumbai,Pro,191,394.4,South Indian,UPI,35,3.6
+1444,33,Female,Kolkata,None,134,997.77,North Indian,Credit Card,45,4.6
+1445,41,Male,Mumbai,None,160,212.05,Desserts,Wallet,41,2.9
+1446,33,Female,Kolkata,Pro,93,1093.79,Chinese,Wallet,48,2.6
+1447,19,Male,Delhi,None,43,833.31,North Indian,Cash on Delivery,41,3.6
+1448,45,Male,Kolkata,Gold,130,1067.94,Italian,Debit Card,57,3.1
+1449,49,Male,Pune,None,60,150.2,North Indian,Debit Card,38,2.6
+1450,44,Female,Bangalore,Gold,151,327.54,Fast Food,Cash on Delivery,15,4.3
+1451,37,Male,Pune,None,31,559.25,North Indian,Cash on Delivery,32,2.8
+1452,41,Male,Bangalore,None,5,548.48,Fast Food,Cash on Delivery,48,4.0
+1453,29,Male,Hyderabad,Pro,162,388.07,Fast Food,Debit Card,20,3.2
+1454,52,Female,Pune,None,10,550.69,Fast Food,Cash on Delivery,8,2.9
+1455,50,Female,Hyderabad,Gold,89,285.29,Italian,UPI,5,3.4
+1456,50,Female,Mumbai,None,130,583.4,North Indian,Wallet,50,4.5
+1457,54,Female,Mumbai,Gold,126,992.47,North Indian,Wallet,44,3.5
+1458,29,Female,Delhi,None,11,653.02,Italian,Credit Card,34,4.4
+1459,20,Male,Kolkata,Pro,178,168.9,Chinese,Credit Card,38,2.8
+1460,18,Female,Pune,None,159,592.52,South Indian,Wallet,21,4.4
+1461,50,Female,Hyderabad,None,56,178.53,North Indian,UPI,40,3.1
+1462,57,Female,Bangalore,None,83,1164.56,South Indian,Debit Card,53,4.2
+1463,27,Male,Mumbai,None,137,283.83,Desserts,Debit Card,4,3.9
+1464,46,Female,Kolkata,Gold,99,893.07,Desserts,UPI,41,4.8
+1465,30,Female,Mumbai,None,149,1171.42,Italian,Debit Card,22,3.5
+1466,29,Male,Bangalore,Pro,73,1017.34,Desserts,Cash on Delivery,16,2.7
+1467,48,Female,Kolkata,None,156,884.28,Desserts,Wallet,11,2.5
+1468,19,Male,Kolkata,None,190,1031.43,Chinese,Wallet,22,4.6
+1469,52,Male,Hyderabad,Gold,115,1180.89,Chinese,UPI,15,3.8
+1470,40,Male,Hyderabad,Gold,7,802.41,Chinese,Debit Card,2,4.4
+1471,34,Male,Pune,None,80,737.14,Desserts,Credit Card,29,3.1
+1472,43,Male,Pune,None,144,809.65,Italian,Credit Card,56,3.4
+1473,25,Female,Chennai,None,97,709.31,Fast Food,Debit Card,21,2.6
+1474,46,Male,Chennai,Gold,4,816.84,Fast Food,Credit Card,8,4.9
+1475,43,Male,Delhi,Gold,4,622.33,South Indian,UPI,28,4.2
+1476,27,Female,Mumbai,None,103,379.37,Fast Food,UPI,46,4.8
+1477,43,Male,Pune,Pro,40,276.26,Fast Food,Debit Card,36,3.2
+1478,51,Female,Hyderabad,Pro,17,221.76,Chinese,Credit Card,22,4.0
+1479,58,Female,Bangalore,Gold,101,426.48,Chinese,UPI,12,4.2
+1480,24,Female,Hyderabad,Pro,103,198.43,Desserts,UPI,31,3.3
+1481,21,Male,Mumbai,None,124,745.53,South Indian,Cash on Delivery,45,4.6
+1482,28,Male,Chennai,None,52,448.02,North Indian,Cash on Delivery,51,4.9
+1483,46,Male,Hyderabad,None,52,1015.76,South Indian,UPI,46,4.7
+1484,53,Female,Delhi,None,164,227.95,South Indian,Debit Card,47,4.3
+1485,42,Male,Mumbai,Gold,124,387.67,Italian,Wallet,22,3.2
+1486,38,Male,Chennai,Pro,166,916.76,Desserts,Wallet,44,3.2
+1487,53,Male,Bangalore,None,178,778.75,Italian,UPI,16,4.9
+1488,27,Female,Chennai,None,63,217.72,South Indian,UPI,54,2.5
+1489,54,Female,Kolkata,None,116,1071.1,South Indian,UPI,39,4.3
+1490,26,Male,Delhi,Pro,191,1071.12,South Indian,Debit Card,20,4.3
+1491,41,Male,Mumbai,None,62,496.93,Fast Food,Cash on Delivery,1,4.1
+1492,52,Male,Bangalore,Gold,7,507.43,Italian,UPI,36,5.0
+1493,52,Male,Delhi,None,155,1188.48,South Indian,UPI,5,3.3
+1494,53,Female,Chennai,None,92,807.48,Chinese,Credit Card,43,3.3
+1495,35,Female,Delhi,Pro,14,707.88,Desserts,Debit Card,17,2.7
+1496,56,Female,Mumbai,Pro,199,1030.06,Desserts,UPI,29,3.6
+1497,49,Female,Pune,None,86,449.55,Chinese,Credit Card,21,3.2
+1498,41,Male,Delhi,Pro,133,600.64,Desserts,Wallet,53,3.4
+1499,40,Male,Kolkata,Gold,183,431.17,Fast Food,UPI,32,4.6
+1500,49,Male,Delhi,Pro,130,978.62,Fast Food,UPI,29,4.8
